@@ -1,0 +1,123 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: NewApp, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000005.rsp" with contents
+[
+/O2 /I "../../CML/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\ZUpdate.cpp"
+".\ZFileTransfer.cpp"
+".\CSound.cpp"
+".\CDDBDialog.cpp"
+".\CDDBButton.cpp"
+".\CDDBAniBmp.cpp"
+".\CDDB.cpp"
+".\NewAppPopupDlg.cpp"
+".\NewAppMainDlg.cpp"
+".\NewApp.cpp"
+".\explorer.cpp"
+".\CGLEncription.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000005.rsp" /nologo"
+Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000006.rsp" with contents
+[
+/O2 /I "../../CML/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /EHsc /MT /Yc"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\StdAfx.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000006.rsp" /nologo"
+Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000007.rsp" with contents
+[
+/O2 /I "../../CML/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /EHsc /MT /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\Log.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000007.rsp" /nologo"
+Creating command line "rc.exe /d "NDEBUG" /l 0x412 /fo".\Release/NewApp.res" ".\NewApp.rc""
+Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000008.rsp" with contents
+[
+/OUT:"runtime/GunzLauncher.exe" /INCREMENTAL:NO /NOLOGO /NODEFAULTLIB:"comsuppwd.lib" /DELAYLOAD:"OleAcc.dll" /PDB:"runtime/gunzlauncher.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 msimg32.lib winmm.lib Version.lib DelayImp.lib DelayImp.lib
+".\release\CGLEncription.obj"
+".\release\explorer.obj"
+".\release\Log.obj"
+".\release\NewApp.obj"
+".\release\NewAppMainDlg.obj"
+".\release\NewAppPopupDlg.obj"
+".\release\StdAfx.obj"
+".\release\CDDB.obj"
+".\release\CDDBAniBmp.obj"
+".\release\CDDBButton.obj"
+".\release\CDDBDialog.obj"
+".\release\CSound.obj"
+".\release\NewApp.res"
+".\release\ZFileTransfer.obj"
+".\release\ZUpdate.obj"
+]
+Creating command line "link.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\RSP000008.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+StdAfx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+ZUpdate.cpp
+ZUpdate.cpp(405) : warning C4101: 'tmWrite' : unreferenced local variable
+ZFileTransfer.cpp
+CSound.cpp
+CDDBDialog.cpp
+CDDBButton.cpp
+CDDBAniBmp.cpp
+CDDB.cpp
+NewAppPopupDlg.cpp
+NewAppMainDlg.cpp
+NewApp.cpp
+explorer.cpp
+CGLEncription.cpp
+Generating Code...
+Compiling...
+Log.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling resources...
+Linking...
+CGLEncription.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall MSeed::~MSeed(void)" (??1MSeed@@UAE@XZ) referenced in function "public: bool __thiscall CGLEncription::CreateSerialKey(void)" (?CreateSerialKey@CGLEncription@@QAE_NXZ)
+CGLEncription.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MSeed::Encrypt(unsigned char *,unsigned long,unsigned char *,unsigned long *)" (?Encrypt@MSeed@@QAE_NPAEK0PAK@Z) referenced in function "public: bool __thiscall CGLEncription::CreateSerialKey(void)" (?CreateSerialKey@CGLEncription@@QAE_NXZ)
+CGLEncription.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MSeed::InitKey(unsigned char * const,unsigned char * const)" (?InitKey@MSeed@@QAE_NQAE0@Z) referenced in function "public: bool __thiscall CGLEncription::CreateSerialKey(void)" (?CreateSerialKey@CGLEncription@@QAE_NXZ)
+CGLEncription.obj : error LNK2019: unresolved external symbol "public: __thiscall MSeed::MSeed(void)" (??0MSeed@@QAE@XZ) referenced in function "public: bool __thiscall CGLEncription::CreateSerialKey(void)" (?CreateSerialKey@CGLEncription@@QAE_NXZ)
+NewAppMainDlg.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall FFileList::~FFileList(void)" (??1FFileList@@UAE@XZ) referenced in function "protected: virtual int __thiscall CNewAppMainDlg::OnInitDialog(void)" (?OnInitDialog@CNewAppMainDlg@@MAEHXZ)
+NewAppMainDlg.obj : error LNK2019: unresolved external symbol "public: void __thiscall FFileList::UpgradeMrs(void)" (?UpgradeMrs@FFileList@@QAEXXZ) referenced in function "protected: virtual int __thiscall CNewAppMainDlg::OnInitDialog(void)" (?OnInitDialog@CNewAppMainDlg@@MAEHXZ)
+NewAppMainDlg.obj : error LNK2019: unresolved external symbol "bool __cdecl GetFindFileListWin(char *,char *,class FFileList &)" (?GetFindFileListWin@@YA_NPAD0AAVFFileList@@@Z) referenced in function "protected: virtual int __thiscall CNewAppMainDlg::OnInitDialog(void)" (?OnInitDialog@CNewAppMainDlg@@MAEHXZ)
+NewAppMainDlg.obj : error LNK2019: unresolved external symbol "public: __thiscall FFileList::FFileList(void)" (??0FFileList@@QAE@XZ) referenced in function "protected: virtual int __thiscall CNewAppMainDlg::OnInitDialog(void)" (?OnInitDialog@CNewAppMainDlg@@MAEHXZ)
+ZFileTransfer.obj : error LNK2019: unresolved external symbol "bool __cdecl MakePath(char const *)" (?MakePath@@YA_NPBD@Z) referenced in function "public: bool __thiscall ZFileTransfer::DownloadFile(char const *,char const *)" (?DownloadFile@ZFileTransfer@@QAE_NPBD0@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: void __thiscall MXmlNode::GetNodeName(char *)" (?GetNodeName@MXmlNode@@QAEXPAD@Z) referenced in function "public: void __thiscall MXmlElement::GetTagName(char *)" (?GetTagName@MXmlElement@@QAEXPAD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: void __thiscall MXmlNode::GetText(char *,int)" (?GetText@MXmlNode@@QAEXPADH@Z) referenced in function "public: void __thiscall MXmlElement::GetContents(char *)" (?GetContents@MXmlElement@@QAEXPAD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "unsigned long __cdecl GetFileCheckSum(char *)" (?GetFileCheckSum@@YAKPAD@Z) referenced in function "public: bool __thiscall ZUpdatePatchNode::CheckValid(void)" (?CheckValid@ZUpdatePatchNode@@QAE_NXZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall MZip::~MZip(void)" (??1MZip@@UAE@XZ) referenced in function "public: bool __thiscall ZUpdatePatchNode::CheckValid(void)" (?CheckValid@ZUpdatePatchNode@@QAE_NXZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: unsigned int __thiscall MZip::GetFileCRC32(int)" (?GetFileCRC32@MZip@@QAEIH@Z) referenced in function "public: bool __thiscall ZUpdatePatchNode::CheckValid(void)" (?CheckValid@ZUpdatePatchNode@@QAE_NXZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: int __thiscall MZip::GetFileCount(void)const " (?GetFileCount@MZip@@QBEHXZ) referenced in function "public: bool __thiscall ZUpdatePatchNode::CheckValid(void)" (?CheckValid@ZUpdatePatchNode@@QAE_NXZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MZip::Initialize(struct _iobuf *,unsigned long)" (?Initialize@MZip@@QAE_NPAU_iobuf@@K@Z) referenced in function "public: bool __thiscall ZUpdatePatchNode::CheckValid(void)" (?CheckValid@ZUpdatePatchNode@@QAE_NXZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: __thiscall MZip::MZip(void)" (??0MZip@@QAE@XZ) referenced in function "public: bool __thiscall ZUpdatePatchNode::CheckValid(void)" (?CheckValid@ZUpdatePatchNode@@QAE_NXZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: class _com_ptr_t<class _com_IIID<struct MSXML::IXMLDOMElement,&struct __s_GUID const _GUID_2933bf86_7b36_11d2_b20e_00c04f983e60> > __thiscall MSXML::IXMLDOMDocument::GetdocumentElement(void)" (?GetdocumentElement@IXMLDOMDocument@MSXML@@QAE?AV?$_com_ptr_t@V?$_com_IIID@UIXMLDOMElement@MSXML@@$1?_GUID_2933bf86_7b36_11d2_b20e_00c04f983e60@@3U__s_GUID@@B@@@@XZ) referenced in function "public: class MXmlElement __thiscall MXmlDocument::GetDocumentElement(void)" (?GetDocumentElement@MXmlDocument@@QAE?AVMXmlElement@@XZ)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MXmlElement::GetChildContents(int *,char const *)" (?GetChildContents@MXmlElement@@QAE_NPAHPBD@Z) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MXmlElement::GetAttribute(char *,char const *,char *)" (?GetAttribute@MXmlElement@@QAE_NPADPBD0@Z) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: class MXmlNode __thiscall MXmlNode::GetChildNode(int)" (?GetChildNode@MXmlNode@@QAE?AV1@H@Z) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: int __thiscall MXmlNode::GetChildNodeCount(void)" (?GetChildNodeCount@MXmlNode@@QAEHXZ) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall MXmlDocument::~MXmlDocument(void)" (??1MXmlDocument@@UAE@XZ) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MXmlDocument::Destroy(void)" (?Destroy@MXmlDocument@@QAE_NXZ) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MXmlNode::FindChildNode(char const *,class MXmlNode *)" (?FindChildNode@MXmlNode@@QAE_NPBDPAV1@@Z) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MXmlDocument::LoadFromFile(char const *)" (?LoadFromFile@MXmlDocument@@QAE_NPBD@Z) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: bool __thiscall MXmlDocument::Create(void)" (?Create@MXmlDocument@@QAE_NXZ) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+ZUpdate.obj : error LNK2019: unresolved external symbol "public: __thiscall MXmlDocument::MXmlDocument(void)" (??0MXmlDocument@@QAE@XZ) referenced in function "protected: bool __thiscall ZUpdate::GetUpdateInfo(char const *)" (?GetUpdateInfo@ZUpdate@@IAE_NPBD@Z)
+runtime/GunzLauncher.exe : fatal error LNK1120: 28 unresolved externals
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher1\Release\BuildLog.htm"
+NewApp - 29 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

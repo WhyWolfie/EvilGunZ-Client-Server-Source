@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="zquestitem">
+
+<!-- Page -->
+	<ITEM id="200001" name="Torn Page 13" level="0" type="page" desc="STR:QITEM_DESC_200001"
+		unique="0" price="100" secrifice="1" param="0" />
+	<ITEM id="200002" name="Torn Page 25" level="0" type="page" desc="STR:QITEM_DESC_200002"
+		unique="0" price="500" secrifice="1" param="0" />
+	<ITEM id="200003" name="Torn Page 41" level="0" type="page" desc="STR:QITEM_DESC_200003"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200004" name="Torn Page 65" level="0" type="page" desc="STR:QITEM_DESC_200004"
+		unique="0" price="2000" secrifice="1" param="0" />
+
+<!-- Skull -->
+	<ITEM id="200005" name="Small Skull" level="0" type="skull" desc="STR:QITEM_DESC_200005"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200006" name="Large Skull" level="0" type="skull" desc="STR:QITEM_DESC_200006"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200007" name="Mysterious Skull" level="0" type="skull" desc="STR:QITEM_DESC_200007"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200008" name="Goblin's Skull" level="0" type="skull" desc="STR:QITEM_DESC_200008"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200009" name="Goblin King's Skull" level="0" type="skull" desc="STR:QITEM_DESC_200009"
+		unique="0" price="2000" secrifice="1" param="0" />
+	<ITEM id="200010" name="Enormously Huge Skull" level="0" type="skull" desc="STR:QITEM_DESC_200010"
+		unique="0" price="200" secrifice="1" param="0" />
+
+<!-- Fresh -->
+	<ITEM id="200011" name="Raw Meat" level="0" type="fresh" desc="STR:QITEM_DESC_200011"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200012" name="Seasoned Meat" level="0" type="fresh" desc="STR:QITEM_DESC_200012"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200013" name="Steak" level="0" type="fresh" desc="STR:QITEM_DESC_200013"
+		unique="0" price="200" secrifice="1" param="0" />
+
+<!-- Ring -->
+	<ITEM id="200014" name="Iron Earring" level="0" type="ring" desc="STR:QITEM_DESC_200014"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200015" name="Silver Earring" level="0" type="ring" desc="STR:QITEM_DESC_200015"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200016" name="Gold Earring" level="0" type="ring" desc="STR:QITEM_DESC_200016"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200017" name="Platinum Earring" level="0" type="ring" desc="STR:QITEM_DESC_200017"
+		unique="0" price="800" secrifice="1" param="0" />
+
+<!-- Necklace -->
+	<ITEM id="200018" name="Crimson's Necklace" level="0" type="necklace" desc="STR:QITEM_DESC_200018"
+		unique="1" price="200" secrifice="1" param="0" />
+
+<!-- Doll -->
+	<ITEM id="200019" name="Skeleton Doll" level="0" type="doll" desc="STR:QITEM_DESC_200019"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200020" name="Kobold Doll" level="0" type="doll" desc="STR:QITEM_DESC_200020"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200021" name="Goblin Doll" level="0" type="doll" desc="STR:QITEM_DESC_200021"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200022" name="Palmpow Doll" level="0" type="doll" desc="STR:QITEM_DESC_200022"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200023" name="Rabbit Doll" level="0" type="doll" desc="STR:QITEM_DESC_200023"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200024" name="Stuffed Bear" level="0" type="doll" desc="STR:QITEM_DESC_200024"
+		unique="1" price="400" secrifice="1" param="0" />
+	<ITEM id="200025" name="Cursed Bear" level="0" type="doll" desc="STR:QITEM_DESC_200025"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200026" name="Palmpow Idol" level="0" type="doll" desc="STR:QITEM_DESC_200026"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200027" name="Cursed Palmpow Idol" level="0" type="doll" desc="STR:QITEM_DESC_200027"
+		unique="0" price="400" secrifice="1" param="0" />
+<!-- Book -->
+	<ITEM id="200028" name="Devil's Dictionary" level="0" type="book" desc="STR:QITEM_DESC_200028"
+		unique="0" price="80000" secrifice="1" param="0" />
+	<ITEM id="200029" name="Scrider's Register Volume I" level="0" type="book" desc="STR:QITEM_DESC_200029"
+		unique="0" price="40000" secrifice="1" param="0" />
+	<ITEM id="200030" name="Scrider's Register Volume II" level="0" type="book" desc="STR:QITEM_DESC_200030"
+		unique="0" price="40000" secrifice="1" param="0" />
+
+<!-- monbible -->
+	<ITEM id="200031" name="Blessed Cross" level="0" type="monbible" desc="STR:QITEM_DESC_200031"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200032" name="Cursed Cross" level="0" type="monbible" desc="STR:QITEM_DESC_200032"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200033" name="Pickaxe" level="0" type="monbible" desc="STR:QITEM_DESC_200033"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200034" name="Speaking Stone" level="0" type="monbible" desc="STR:QITEM_DESC_200034"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200035" name="Ice Crystal" level="0" type="monbible" desc="STR:QITEM_DESC_200035"
+		unique="0" price="1600" secrifice="1" param="0" />
+	<ITEM id="200036" name="Broken Gear" level="0" type="monbible" desc="STR:QITEM_DESC_200036"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200037" name="High-class Gear" level="0" type="monbible" desc="STR:QITEM_DESC_200037"
+		unique="0" price="800" secrifice="1" param="0" />
+
+<!-- Sword -->
+	<ITEM id="200038" name="Goblin King's Axe" level="0" type="sword" desc="STR:QITEM_DESC_200038"
+		unique="0" price="800" secrifice="1" param="0" />
+	<ITEM id="200039" name="Giant Lizardman's Axe" level="0" type="sword" desc="STR:QITEM_DESC_200039"
+		unique="0" price="800" secrifice="1" param="0" />
+	<ITEM id="200040" name="Superion's Sword" level="0" type="sword" desc="STR:QITEM_DESC_200040"
+		unique="0" price="800" secrifice="1" param="0" />
+	<ITEM id="200041" name="Aneramon's Sword" level="0" type="sword" desc="STR:QITEM_DESC_200041"
+		unique="0" price="800" secrifice="1" param="0" />
+	<ITEM id="200042" name="Lich's Tail" level="0" type="sword" desc="STR:QITEM_DESC_200042"
+		unique="0" price="800" secrifice="1" param="0" />
+	<ITEM id="200043" name="Pamlpow's Ice Sword" level="0" type="sword" desc="STR:QITEM_DESC_200043"
+		unique="0" price="800" secrifice="1" param="0" />
+	<ITEM id="200044" name="Golem's Sword" level="0" type="sword" desc="STR:QITEM_DESC_200044"
+		unique="0" price="800" secrifice="1" param="0" />
+
+<!-- Monster bible -->
+	<ITEM id="210001" name="Monster Bible" level="0" type="monbible" desc="STR:QITEM_DESC_210001"
+		unique="0" price="0" secrifice="0" param="0" />
+
+<!-- Prisoner Items -->
+<ITEM id="2000202" name="Shank" level="0" type="sword" desc="The Prisoners Quest Combination"
+      unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Project 17 -->
+   <ITEM id="2000203" name="Project 17" level="0" type="sword" desc="The Project 17 Quest Combination"
+      unique="0" price="0" secrifice="1" param="0" />
+
+<!-- Zombies and Training -->
+	<ITEM id="200048" name="Zombie Skull" level="0" type="skull" desc="Skull of a Zombie, go figure."
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200053" name="Zombie Corpse" level="0" type="skull" desc="Some zombie's Corpse."
+		unique="0" price="0" secrifice="1" param="0" />
+
+<!-- DARK GOBLIN ITEMS -->
+	<ITEM id="200064" name="Volcano Rock" level="0" type="sword" desc="STR:QITEM_DESC_200044"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200045" name="Volcano Crystal" level="0" type="sword" desc="STR:QITEM_DESC_200045"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200046" name="Cooled Lava" level="0" type="sword" desc="STR:QITEM_DESC_200046"
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200047" name="Volcano Diamond" level="0" type="sword" desc="STR:QITEM_DESC_200047"
+		unique="0" price="0" secrifice="1" param="0" />
+		
+<!-- ICE QUEST ITEMS -->
+	<ITEM id="200049" name="Icicle" level="0" type="monbible" desc="Ice Element Stalagmite."
+		unique="0" price="0" secrifice="1" param="0" />
+	<ITEM id="200051" name="Ice Stone" level="0" type="monbible" desc="Ice Element Stone."
+		unique="0" price="4000" secrifice="1" param="0" />
+
+<!-- JOES CUSTOM QUESTS ITEMS -->
+	<ITEM id="223323" name="Rum" level="0" type="monbible" desc="ARRGGGHHHH PIRATE"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223324" name="Knife" level="0" type="monbible" desc="A knife that can be used for a quest"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223325" name="Rifle" level="0" type="monbible" desc="A rifle that can be used for a quest"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223326" name="Ball of Magic" level="0" type="monbible" desc="A Ball of Magic that can be used for a quest"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223327" name="Assassins Blade" level="0" type="sword" desc="This could be handy"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223328" name="Chargers Battery" level="0" type="monbible" desc="Charge the energy"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223329" name="Gun Bot Leg" level="0" type="monbible" desc="Someone needs a leg to walk on"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223330" name="Robot Parts" level="0" type="monbible" desc="A lot of Robot Parts"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223331" name="God Bot Part 1" level="0" type="monbible" desc="HOLY CRAP"
+		unique="0" price="0" secrifice="1" param="0" />
+
+	<ITEM id="223332" name="God Bot Part 2" level="0" type="monbible" desc="HOLY CRAP the II"
+		unique="0" price="0" secrifice="1" param="0" />
+		
+<!-- Scrider Quest -->
+	<ITEM id="223345" name="Key To Scrider" level="0" type="monbible" desc="You are no match for Scrider"
+		unique="0" price="0" secrifice="1" param="0" />
+		
+<!-- NIGHTFALL WEEK 1 -->
+	<ITEM id="223346" name="NightFall W1 Token" level="90" type="monbible" desc="A Token to activate the NightFall Week 1"
+		unique="0" price="100000" secrifice="1" param="0" />
+		
+<!-- NIGHTFALL WEEK 2 -->
+	<ITEM id="223347" name="NightFall W2 Token" level="90" type="monbible" desc="A Token to activate the NightFall Week 2"
+		unique="0" price="100000" secrifice="1" param="0" />
+</XML>

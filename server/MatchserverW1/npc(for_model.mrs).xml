@@ -1,0 +1,2 @@
+/NPC$
+AddXml name="" filename="model/npc/npcname.xml" autoload = "false"$ /AddXml$

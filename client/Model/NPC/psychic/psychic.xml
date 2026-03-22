@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="psychic" filename="g_psychic.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="guerilla_psychic_idle.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attacked1"	filename="guerilla_psychic_suffer1.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="range_attacked1"	filename="guerilla_psychic_suffer1.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="guerilla_psychic_storm.elu.ani" gm="1" motion_type="0" motion_loop_type="loop" > 
+	</AddAnimation>	
+	<AddAnimation name="special_attack1" 	filename="guerilla_psychic_storm.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" > 
+	</AddAnimation>
+
+	<AddAnimation name="drop"		filename="guerilla_psychic_suffer3.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="standup"		filename="guerilla_psychic_suffer3_r.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+
+	<AddAnimation name="run"		filename="guerilla_psychic_run.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="die"		filename="guerilla_psychic_die.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>	
+
+	<AddAnimation name="stunned" 		filename="guerilla_psychic_suffer1.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>

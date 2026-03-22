@@ -1,0 +1,2 @@
+You must edit the BAT files for them to work.
+Specify the location of your server.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="darkgoblin_chief" filename="darkgoblin_chief.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="darkgoblinC_idle.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="neglect1"		filename="darkgoblinC_neglect.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attacked1"	filename="darkgoblinC_damage_melee.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="melee_attacked2"	filename="darkgoblinC_damage_melee2.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="range_attacked1"	filename="darkgoblinC_damage_range.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="lightning"		filename="darkgoblinC_damage_lightning.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="darkgoblinC_standshot.elu.ani" 	gm="1" motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="run"		filename="darkgoblinC_run.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="die"		filename="darkgoblinC_die.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="jump_up"		filename="darkgoblinC_jump_up.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="jump_down" 		filename="darkgoblinC_jump_down.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="stunned" 		filename="darkgoblinC_damage_down.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="special_attack1" 	filename="darkgoblinC_cast.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="special_attack2" 	filename="darkgoblinC_cast2.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>

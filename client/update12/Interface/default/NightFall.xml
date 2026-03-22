@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="NightFall">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+	<FRAME item="NightFall">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+
+<PICTURE item="CharSel_BG" parent="NightFall">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>Nightfall.png</BITMAP>
+<VISIBLE>true</VISIBLE>
+</PICTURE>
+
+
+<BMBUTTON item="CC_Cancel" parent="NightFall">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>750</X>
+<Y>20</Y>
+<W>17</W>
+<H>20</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">exitnightfall.png</BITMAP>
+<BITMAP type="over">exitnightfall_hover.png</BITMAP>
+<BITMAP type="down">exitnightfall_hover.png</BITMAP>
+</BMBUTTON>
+
+</XML>

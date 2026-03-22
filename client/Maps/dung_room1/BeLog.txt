@@ -1,0 +1,25 @@
+Starting BSP Export...
+object pass_base00 : pass_base00: 107 ver / 41 face 
+object pass_base01 : pass_base01: 4 ver / 1 face 
+object pass_base02 : pass_base02: 261 ver / 199 face 
+object pass_base03 : pass_base03: 16 ver / 8 face 
+object pass_base04 : pass_base04: 324 ver / 160 face 
+object pass_base05 : pass_base05: 48 ver / 30 face 
+object pass_base06 : pass_base06: 330 ver / 220 face 
+object pass_base07 : pass_base07: 246 ver / 98 face 
+object pass_base08 : pass_base08: 1102 ver / 1026 face 
+object pass_base09 : pass_base09: 24 ver / 6 face 
+object pass_base10 : pass_base10: 176 ver / 120 face 
+object pass_base11 : pass_base11: 313 ver / 191 face 
+object pass_base12 : pass_base12: 24 ver / 6 face 
+object pass_base13 : pass_base13: 360 ver / 100 face 
+object hide_0 : hide_0: 204 ver / 205 face 
+object pass_base14 : pass_base14: 4 ver / 1 face 
+object pass_black : pass_black: 16 ver / 10 face 
+object hnav_00 : hnav_00: 102 ver / 55 face 
+NaviMesh: 102 ver / 104 face 
+RSBsp Info : 2340 faces
+Scene Dimension ( 3481.1 6925.8 1104.7 )
+Export description.. 
+Exporting takes 0 minutes and      0 seconds.
+Done.

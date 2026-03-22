@@ -1,0 +1,2681 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="BitmapAlias">
+<BITMAPALIAS name="page1_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page1_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>32</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page2_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>64</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page2_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>96</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page3_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>128</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page3_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>160</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page4_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>192</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page4_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>224</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page5_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>256</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page5_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>288</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page6_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>320</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page6_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>352</X>
+<Y>0</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_red_ready.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>0</X>
+<Y>32</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_red_equip.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>64</X>
+<Y>32</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_red.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>128</X>
+<Y>32</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_red_ready.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>192</X>
+<Y>32</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_red_equip.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>256</X>
+<Y>32</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_red.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>320</X>
+<Y>32</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_normal_ready.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>0</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_normal_equip.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>64</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_normal.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>128</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_normal_ready.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>192</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_normal_equip.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>256</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_normal.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>320</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_blue_ready.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>0</X>
+<Y>160</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_blue_equip.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>64</X>
+<Y>160</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_blue.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>128</X>
+<Y>160</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_blue_ready.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>192</X>
+<Y>160</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_blue_equip.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>256</X>
+<Y>160</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_blue.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>320</X>
+<Y>160</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_member_observer.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>128</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="stg_status_master_observer.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>320</X>
+<Y>96</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_cursor_t_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>0</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_cursor_t_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>64</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_cursor_b_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>128</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_cursor_b_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>192</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page_cursor_r_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>256</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page_cursor_r_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>320</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page_cursor_l_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>384</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="page_cursor_l_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>448</X>
+<Y>224</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_status_stage.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>384</X>
+<Y>0</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_status_player.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>448</X>
+<Y>0</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_status_lobby.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>384</X>
+<Y>64</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="player_status_game.tga">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>448</X>
+<Y>64</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_up_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>384</X>
+<Y>160</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_up_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>406</X>
+<Y>160</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_dn_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>428</X>
+<Y>160</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_dn_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>450</X>
+<Y>160</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_rt_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>472</X>
+<Y>160</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_rt_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>384</X>
+<Y>182</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_lt_off.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>406</X>
+<Y>182</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_lt_on.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>428</X>
+<Y>182</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="scrollbtn_thumb.png">
+<SOURCE>interface.tga</SOURCE>
+<BOUNDS>
+<X>450</X>
+<Y>182</Y>
+<W>22</W>
+<H>22</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="ext.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="ext_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>60</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="create.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>0</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="create_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>60</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="delete.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>0</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="delete_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>60</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="select.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>120</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="select_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>180</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="okay.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>120</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="okay_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>180</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="cancel.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>120</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="cancel_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>180</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="armour.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>204</X>
+	<Y>240</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="armour_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>204</X>
+	<Y>300</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="channel.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>240</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="channel_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>300</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="clanwar.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>240</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="clanwar_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>300</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="enter.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>360</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="enter_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>420</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="playnow.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>204</X>
+	<Y>360</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="playnow_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>204</X>
+	<Y>420</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+
+<BITMAPALIAS name="start.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>360</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="start_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>420</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+
+<BITMAPALIAS name="buy.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>360</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="buy_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>420</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="sell.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>360</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="sell_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>420</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="lobby.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>480</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="lobby_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>540</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="default.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>204</X>
+	<Y>480</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="default_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>204</X>
+	<Y>540</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="show.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>480</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="show_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>408</X>
+	<Y>540</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="hide.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>480</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="hide_hover.png">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>612</X>
+	<Y>540</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>480</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="">
+<SOURCE>buttons.tga</SOURCE>
+<BOUNDS>
+	<X>816</X>
+	<Y>540</Y>
+	<W>204</W>
+	<H>61</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame001.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame002.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame003.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame004.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame005.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame006.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame007.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame008.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame009.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame010.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame011.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame012.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame013.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame014.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame015.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="flame016.tga">
+<SOURCE>fire.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringG.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringS.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringM.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ring.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_doll.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_page.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_neck.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_book.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_object.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_skull.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_gamble1.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_qsword.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ticket.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_unknown.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_repairkit.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_medikit.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_grenade.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_magazine.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_candy.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_samgak.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_food.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_rocket.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_shotgun.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_machinegun.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_sword.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_katana.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_rifle.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_smg.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_pistol.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_flashbang.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_smokegrenade.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_dagger.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_blade.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_head.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_hands.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_feet.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_chest.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_legs.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_finger.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_fire.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_lightning.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_poison.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_cold.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_smg.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_pistol.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_dagger.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+
+<!-- RARES -->
+
+<BITMAPALIAS name="slot_icon_ringG_rare.tga">
+<SOURCE>slot_icon_ringG_rare.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringS_rare.tga">
+<SOURCE>slot_icon_ringS_rare.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringM_rare.tga">
+<SOURCE>slot_icon_ringM_rare.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ring_rare.tga">
+<SOURCE>slot_icon_ring_rare.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_doll_rare.tga">
+<SOURCE>slot_icon_doll_rare.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_page_rare.tga">
+<SOURCE>slot_icon_page_rare.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_neck_rare.tga">
+<SOURCE>slot_icon_neck_rare.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_book_rare.tga">
+<SOURCE>slot_icon_book_rare.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_object_rare.tga">
+<SOURCE>slot_icon_object_rare.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_skull_rare.tga">
+<SOURCE>slot_icon_skull_rare.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_gamble1_rare.tga">
+<SOURCE>slot_icon_gamble1_rare.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_qsword_rare.tga">
+<SOURCE>slot_icon_qsword_rare.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ticket_rare.tga">
+<SOURCE>slot_icon_ticket_rare.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_unknown_rare.tga">
+<SOURCE>slot_icon_unknown_rare.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_repairkit_rare.tga">
+<SOURCE>slot_icon_repairkit_rare.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_medikit_rare.tga">
+<SOURCE>slot_icon_medikit_rare.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_grenade_rare.tga">
+<SOURCE>slot_icon_grenade_rare.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_magazine_rare.tga">
+<SOURCE>slot_icon_magazine_rare.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_candy_rare.tga">
+<SOURCE>slot_icon_candy_rare.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_samgak_rare.tga">
+<SOURCE>slot_icon_samgak_rare.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_food_rare.tga">
+<SOURCE>slot_icon_food_rare.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_rocket_rare.tga">
+<SOURCE>slot_icon_rocket_rare.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_shotgun_rare.tga">
+<SOURCE>slot_icon_shotgun_rare.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_machinegun_rare.tga">
+<SOURCE>slot_icon_machinegun_rare.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_sword_rare.tga">
+<SOURCE>slot_icon_sword_rare.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_katana_rare.tga">
+<SOURCE>slot_icon_katana_rare.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_rifle_rare.tga">
+<SOURCE>slot_icon_rifle_rare.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_smg_rare.tga">
+<SOURCE>slot_icon_smg_rare.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_pistol_rare.tga">
+<SOURCE>slot_icon_D_pistol_rare.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_flashbang_rare.tga">
+<SOURCE>slot_icon_flashbang_rare.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_smokegrenade_rare.tga">
+<SOURCE>slot_icon_smokegrenade_rare.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_dagger_rare.tga">
+<SOURCE>slot_icon_dagger_rare.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_blade_rare.tga">
+<SOURCE>slot_icon_blade_rare.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_head_rare.tga">
+<SOURCE>slot_icon_head_rare.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_hands_rare.tga">
+<SOURCE>slot_icon_hands_rare.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_feet_rare.tga">
+<SOURCE>slot_icon_feet_rare.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_chest_rare.tga">
+<SOURCE>slot_icon_chest_rare.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_legs_rare.tga">
+<SOURCE>slot_icon_legs_rare.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_finger_rare.tga">
+<SOURCE>slot_icon_finger_rare.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_fire_rare.tga">
+<SOURCE>slot_icon_en_fire_rare.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_lightning_rare.tga">
+<SOURCE>slot_icon_en_lightning_rare.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_poison_rare.tga">
+<SOURCE>slot_icon_en_poison_rare.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_cold_rare.tga">
+<SOURCE>slot_icon_en_cold_rare.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_smg_rare.tga">
+<SOURCE>slot_icon_D_smg_rare.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_pistol_rare.tga">
+<SOURCE>slot_icon_pistol_rare.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_dagger_rare.tga">
+<SOURCE>slot_icon_D_dagger_rare.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+
+<!-- EXOTICS -->
+
+<BITMAPALIAS name="slot_icon_ringG_exotic.tga">
+<SOURCE>slot_icon_ringG_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringS_exotic.tga">
+<SOURCE>slot_icon_ringS_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ringM_exotic.tga">
+<SOURCE>slot_icon_ringM_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ring_exotic.tga">
+<SOURCE>slot_icon_ring_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_doll_exotic.tga">
+<SOURCE>slot_icon_doll_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_page_exotic.tga">
+<SOURCE>slot_icon_page_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_neck_exotic.tga">
+<SOURCE>slot_icon_neck_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_book_exotic.tga">
+<SOURCE>slot_icon_book_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>0</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_object_exotic.tga">
+<SOURCE>slot_icon_object_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_skull_exotic.tga">
+<SOURCE>slot_icon_skull_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_gamble1_exotic.tga">
+<SOURCE>slot_icon_gamble1_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_qsword_exotic.tga">
+<SOURCE>slot_icon_qsword_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_ticket_exotic.tga">
+<SOURCE>slot_icon_ticket_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_unknown_exotic.tga">
+<SOURCE>slot_icon_unknown_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_repairkit_exotic.tga">
+<SOURCE>slot_icon_repairkit_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_medikit_exotic.tga">
+<SOURCE>slot_icon_medikit_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>128</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_grenade_exotic.tga">
+<SOURCE>slot_icon_grenade_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_magazine_exotic.tga">
+<SOURCE>slot_icon_magazine_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_candy_exotic.tga">
+<SOURCE>slot_icon_candy_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_samgak_exotic.tga">
+<SOURCE>slot_icon_samgak_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_food_exotic.tga">
+<SOURCE>slot_icon_food_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_rocket_exotic.tga">
+<SOURCE>slot_icon_rocket_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_shotgun_exotic.tga">
+<SOURCE>slot_icon_shotgun_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_machinegun_exotic.tga">
+<SOURCE>slot_icon_machinegun_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>256</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_sword_exotic.tga">
+<SOURCE>slot_icon_sword_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_katana_exotic.tga">
+<SOURCE>slot_icon_katana_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_rifle_exotic.tga">
+<SOURCE>slot_icon_rifle_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_smg_exotic.tga">
+<SOURCE>slot_icon_smg_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_pistol_exotic.tga">
+<SOURCE>slot_icon_D_pistol_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_flashbang_exotic.tga">
+<SOURCE>slot_icon_flashbang_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_smokegrenade_exotic.tga">
+<SOURCE>slot_icon_smokegrenade_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_dagger_exotic.tga">
+<SOURCE>slot_icon_dagger_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>384</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_blade_exotic.tga">
+<SOURCE>slot_icon_blade_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_head_exotic.tga">
+<SOURCE>slot_icon_head_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_hands_exotic.tga">
+<SOURCE>slot_icon_hands_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_feet_exotic.tga">
+<SOURCE>slot_icon_feet_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_chest_exotic.tga">
+<SOURCE>slot_icon_chest_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_legs_exotic.tga">
+<SOURCE>slot_icon_legs_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_finger_exotic.tga">
+<SOURCE>slot_icon_finger_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_fire_exotic.tga">
+<SOURCE>slot_icon_en_fire_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>512</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_lightning_exotic.tga">
+<SOURCE>slot_icon_en_lightning_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_poison_exotic.tga">
+<SOURCE>slot_icon_en_poison_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_cold_exotic.tga">
+<SOURCE>slot_icon_en_cold_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>256</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_smg_exotic.tga">
+<SOURCE>slot_icon_D_smg_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>384</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_pistol_exotic.tga">
+<SOURCE>slot_icon_pistol_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>512</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_D_dagger_exotic.tga">
+<SOURCE>slot_icon_D_dagger_exotic.tga</SOURCE>
+<BOUNDS>
+	<X>640</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+
+<!-- END ITEMS -->
+
+
+
+<BITMAPALIAS name="slot_icon_empty.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>768</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="slot_icon_en_fresh.tga">
+<SOURCE>icon_00.tga</SOURCE>
+<BOUNDS>
+	<X>896</X>
+	<Y>640</Y>
+	<W>128</W>
+	<H>128</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_deathmatch.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_teamdm.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>64</X>
+	<Y>0</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_gladiator.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>0</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_teamglad.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>192</X>
+	<Y>0</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_unlimitdm.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>64</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_duel.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>64</X>
+	<Y>64</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_assassin.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>64</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_train.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>192</X>
+	<Y>64</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_quest.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>128</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_survival.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>64</X>
+	<Y>128</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_cquest.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>128</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_berserk.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>192</X>
+	<Y>128</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_quest.tga">
+<SOURCE>icon_koth.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>192</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_infection.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>64</X>
+	<Y>192</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="icon_ctf.tga">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>128</X>
+	<Y>192</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="in_key.png">
+<SOURCE>icon_gamemode.tga</SOURCE>
+<BOUNDS>
+	<X>192</X>
+	<Y>192</Y>
+	<W>64</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Area_D-911.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>0</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Battle Arena.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>64</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Castle.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>128</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Catacomb.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>192</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_CastleCTF.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>256</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Civilized.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>320</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_CTFCastle.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>384</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Dungeon.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>448</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Factory.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>512</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Complex.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>576</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Garden.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>640</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_High_Haven.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>704</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_IndustrialFactory.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>768</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Island.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>832</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Hall.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>896</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Jail.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>0</X>
+	<Y>960</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_mansion.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>0</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Port.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>64</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Prison.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>128</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Prison II.tga">
+<SOURCE>map_banner II.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>128</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Ruin.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>192</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_SkillMap.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>256</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_SkillMapV2.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>320</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_SkillMapV3.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>384</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Snow_Town.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>448</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Solitude.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>512</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Stairway.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>576</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_station.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>640</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Superflip.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>704</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_SuperMario3.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>768</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Town.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>832</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_Warehouse.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>896</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+<BITMAPALIAS name="banner_WeaponShop.tga">
+<SOURCE>map_banner.tga</SOURCE>
+<BOUNDS>
+	<X>720</X>
+	<Y>960</Y>
+	<W>720</W>
+	<H>64</H>
+</BOUNDS>
+</BITMAPALIAS>
+
+</XML>

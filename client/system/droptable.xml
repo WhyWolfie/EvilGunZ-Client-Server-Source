@@ -1,0 +1,980 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="droptable">
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ ORIGINAL QUEST DROPTABLE START!!!
+ 
+ Exotics - 0.10
+ Rares - 0.20
+ Common - 0.50
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<!-- COMMON DROPS WITH NO RARES -->
+<DROPSET id="1" name="C01">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="504001"		rate="0.01"      rent_period="164" />
+		<ITEM id="504002"		rate="0.01"      rent_period="164" />
+		<ITEM id="5014"		rate="0.01"      rent_period="164" />
+		<ITEM id="21007"		rate="0.01"      rent_period="164" />
+		<ITEM id="500003"		rate="0.01"      rent_period="164" />
+		<ITEM id="500004"		rate="0.01"      rent_period="164" />
+		<ITEM id="500005"		rate="0.01"      rent_period="164" />
+		<ITEM id="21505"		rate="0.01"      rent_period="164" />
+		<ITEM id="520011"		rate="0.01"      rent_period="164" />
+		<ITEM id="6005"		rate="0.01"      rent_period="164" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="504001"		rate="0.01"      rent_period="164" />
+		<ITEM id="504002"		rate="0.01"      rent_period="164" />
+		<ITEM id="5014"		rate="0.01"      rent_period="164" />
+		<ITEM id="21007"		rate="0.01"      rent_period="164" />
+		<ITEM id="500003"		rate="0.01"      rent_period="164" />
+		<ITEM id="500004"		rate="0.01"      rent_period="164" />
+		<ITEM id="500005"		rate="0.01"      rent_period="164" />
+		<ITEM id="21505"		rate="0.01"      rent_period="164" />
+		<ITEM id="520011"		rate="0.01"      rent_period="164" />
+		<ITEM id="6005"		rate="0.01"      rent_period="164" />
+		</ITEMSET>
+</DROPSET>
+<!-- COMMON DROPS WITH SOME RARES (GOBLIN WIZARDS DROP THIS STUFF) -->
+<DROPSET id="2" name="C02">
+	<ITEMSET QL="0">
+		<ITEM id="30203"		rate="0.30" />
+		<ITEM id="4018"		rate="0.30" />
+		<ITEM id="6"		rate="0.30" />
+		<ITEM id="520030"		rate="0.01"      rent_period="164" />
+		<ITEM id="520012"		rate="0.01"      rent_period="164" />
+		<ITEM id="5014"		rate="0.01"      rent_period="164" />
+		<ITEM id="41338"		rate="0.01"      rent_period="164" />
+		<ITEM id="500003"		rate="0.01"      rent_period="164" />
+		<ITEM id="88181"		rate="0.01"      rent_period="164" /><!-- START RARES -->
+		<ITEM id="42325"		rate="0.01"      rent_period="164" />
+		<ITEM id="88780"		rate="0.01"      rent_period="164" />
+		<ITEM id="88774"		rate="0.01"      rent_period="164" />
+		<ITEM id="9242"		rate="0.01"      rent_period="164" /><!-- END RARES -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="30203"		rate="0.30" />
+		<ITEM id="4018"		rate="0.30" />
+		<ITEM id="6"		rate="0.30" />
+		<ITEM id="520030"		rate="0.01"      rent_period="164" />
+		<ITEM id="520012"		rate="0.01"      rent_period="164" />
+		<ITEM id="5014"		rate="0.01"      rent_period="164" />
+		<ITEM id="41338"		rate="0.01"      rent_period="164" />
+		<ITEM id="500003"		rate="0.01"      rent_period="164" />
+		<ITEM id="88181"		rate="0.01"      rent_period="164" /><!-- START RARES -->
+		<ITEM id="42325"		rate="0.01"      rent_period="164" />
+		<ITEM id="88780"		rate="0.01"      rent_period="164" />
+		<ITEM id="88774"		rate="0.01"      rent_period="164" />
+		<ITEM id="9242"		rate="0.01"      rent_period="164" /><!-- END RARES -->
+		</ITEMSET>
+</DROPSET>
+<!-- RARE DROPS(GOBLIN CAPTAINS DROP THIS STUFF) -->
+<DROPSET id="3" name="C03">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="400557"		rate="0.01"      rent_period="164" /><!-- START RARES -->
+		<ITEM id="9306"		rate="0.01"      rent_period="164" />
+		<ITEM id="9307"		rate="0.01"      rent_period="164" />
+		<ITEM id="9241"		rate="0.01"      rent_period="164" />
+		<ITEM id="9252"		rate="0.01"      rent_period="164" />
+		<ITEM id="9243"		rate="0.01"      rent_period="164" />
+		<ITEM id="88775"		rate="0.01"      rent_period="164" />
+		<ITEM id="88776"		rate="0.01"      rent_period="164" />
+		<ITEM id="88778"		rate="0.01"      rent_period="164" />
+		<ITEM id="9248"		rate="0.01"      rent_period="164" /><!-- END RARES -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="400557"		rate="0.01"      rent_period="164" /><!-- START RARES -->
+		<ITEM id="9306"		rate="0.01"      rent_period="164" />
+		<ITEM id="9307"		rate="0.01"      rent_period="164" />
+		<ITEM id="9241"		rate="0.01"      rent_period="164" />
+		<ITEM id="9252"		rate="0.01"      rent_period="164" />
+		<ITEM id="9243"		rate="0.01"      rent_period="164" />
+		<ITEM id="88775"		rate="0.01"      rent_period="164" />
+		<ITEM id="88776"		rate="0.01"      rent_period="164" />
+		<ITEM id="88778"		rate="0.01"      rent_period="164" />
+		<ITEM id="9248"		rate="0.01"      rent_period="164" /><!-- END RARES -->
+		</ITEMSET>
+</DROPSET>
+<!-- EXOTIC DROPS WITH SOME RARES (GOBLIN KING DROP THIS STUFF) -->
+<DROPSET id="4" name="C04">
+	<ITEMSET QL="0">
+		<ITEM id="88778"		rate="0.30" />
+		<ITEM id="88780"		rate="0.30" />
+		<ITEM id="9246"		rate="0.30" />
+		<ITEM id="88825"		rate="0.01"      rent_period="164" /><!-- START EXOTICS -->
+		<ITEM id="88826"		rate="0.01"      rent_period="164" />
+		<ITEM id="88827"		rate="0.01"      rent_period="164" />
+		<ITEM id="88828"		rate="0.01"      rent_period="164" />
+		<ITEM id="88829"		rate="0.01"      rent_period="164" />
+		<ITEM id="88830"		rate="0.01"      rent_period="164" />
+		<ITEM id="88831"		rate="0.01"      rent_period="164" />
+		<ITEM id="88832"		rate="0.01"      rent_period="164" />
+		<ITEM id="88833"		rate="0.01"      rent_period="164" />
+		<ITEM id="88834"		rate="0.01"      rent_period="164" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="88778"		rate="0.30" />
+		<ITEM id="88780"		rate="0.30" />
+		<ITEM id="9246"		rate="0.30" />
+		<ITEM id="88825"		rate="0.01"      rent_period="164" /><!-- START EXOTICS -->
+		<ITEM id="88826"		rate="0.01"      rent_period="164" />
+		<ITEM id="88827"		rate="0.01"      rent_period="164" />
+		<ITEM id="88828"		rate="0.01"      rent_period="164" />
+		<ITEM id="88829"		rate="0.01"      rent_period="164" />
+		<ITEM id="88830"		rate="0.01"      rent_period="164" />
+		<ITEM id="88831"		rate="0.01"      rent_period="164" />
+		<ITEM id="88832"		rate="0.01"      rent_period="164" />
+		<ITEM id="88833"		rate="0.01"      rent_period="164" />
+		<ITEM id="88834"		rate="0.01"      rent_period="164" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- Goblin NPC DROPS Finished! -->
+
+
+
+
+
+
+
+
+
+
+
+
+<DROPSET id="2" name="RARES">
+	<ITEMSET QL="0">
+		<ITEM id="500001"		rate="0.10"      rent_period="164" />
+		<ITEM id="500002"		rate="0.10"      rent_period="164" />
+		<ITEM id="500003"		rate="0.10"      rent_period="164" />
+		<ITEM id="500004"		rate="0.10"      rent_period="164" />
+		<ITEM id="500005"		rate="0.10"      rent_period="164" />
+		<ITEM id="500006"		rate="0.10"      rent_period="164" />
+		<ITEM id="500007"		rate="0.10"      rent_period="164" />
+		<ITEM id="504001"		rate="0.10"      rent_period="164" />
+		<ITEM id="504002"		rate="0.10"      rent_period="164" />
+		<ITEM id="504003"		rate="0.10"      rent_period="164" />
+		<ITEM id="504004"		rate="0.10"      rent_period="164" />
+		<ITEM id="504005"		rate="0.10"      rent_period="164" />
+		<ITEM id="504006"		rate="0.10"      rent_period="164" />
+		<ITEM id="504007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506001"		rate="0.10"      rent_period="164" />
+		<ITEM id="506002"		rate="0.10"      rent_period="164" />
+		<ITEM id="506003"		rate="0.10"      rent_period="164" />
+		<ITEM id="506004"		rate="0.10"      rent_period="164" />
+		<ITEM id="506005"		rate="0.10"      rent_period="164" />
+		<ITEM id="506006"		rate="0.10"      rent_period="164" />
+		<ITEM id="506007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520001"		rate="0.10"      rent_period="164" />
+		<ITEM id="520002"		rate="0.10"      rent_period="164" />
+		<ITEM id="520003"		rate="0.10"      rent_period="164" />
+		<ITEM id="520004"		rate="0.10"      rent_period="164" />
+		<ITEM id="520005"		rate="0.10"      rent_period="164" />
+		<ITEM id="520006"		rate="0.10"      rent_period="164" />
+		<ITEM id="520007"		rate="0.10"      rent_period="164" />
+		<ITEM id="520008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520009"		rate="0.10"      rent_period="164" />
+		<ITEM id="520010"		rate="0.10"      rent_period="164" />
+		<ITEM id="520011"		rate="0.10"      rent_period="164" />
+		<ITEM id="520012"		rate="0.10"      rent_period="164" />
+		<ITEM id="520013"		rate="0.10"      rent_period="164" />
+		<ITEM id="520014"		rate="0.10"      rent_period="164" />
+		<ITEM id="520015"		rate="0.10"      rent_period="164" />
+		<ITEM id="520016"		rate="0.10"      rent_period="164" />
+		<ITEM id="520017"		rate="0.10"      rent_period="164" />
+		<ITEM id="520018"		rate="0.10"      rent_period="164" />
+		<ITEM id="520019"		rate="0.10"      rent_period="164" />
+		<ITEM id="520020"		rate="0.10"      rent_period="164" />
+		<ITEM id="520021"		rate="0.10"      rent_period="164" />
+		<ITEM id="520022"		rate="0.10"      rent_period="164" />
+		<ITEM id="520023"		rate="0.10"      rent_period="164" />
+		<ITEM id="5001"		rate="0.10"      rent_period="164" />
+		<ITEM id="5002"		rate="0.10"      rent_period="164" />
+		<ITEM id="5003"		rate="0.10"      rent_period="164" />
+		<ITEM id="5004"		rate="0.10"      rent_period="164" />
+		<ITEM id="5005"		rate="0.10"      rent_period="164" />
+		<ITEM id="5006"		rate="0.10"      rent_period="164" />
+		<ITEM id="5007"		rate="0.10"      rent_period="164" />
+		<ITEM id="5008"		rate="0.10"      rent_period="164" />
+		<ITEM id="5009"		rate="0.10"      rent_period="164" />
+		<ITEM id="5010"		rate="0.10"      rent_period="164" />
+		<ITEM id="5011"		rate="0.10"      rent_period="164" />
+		<ITEM id="5012"		rate="0.10"      rent_period="164" />
+		<ITEM id="5013"		rate="0.10"      rent_period="164" />
+		<ITEM id="5014"		rate="0.10"      rent_period="164" />
+		<ITEM id="5015"		rate="0.10"      rent_period="164" />
+		<ITEM id="5016"		rate="0.10"      rent_period="164" />
+		<ITEM id="5017"		rate="0.10"      rent_period="164" />
+		<ITEM id="5018"		rate="0.10"      rent_period="164" />
+		<ITEM id="5019"		rate="0.10"      rent_period="164" />
+		<ITEM id="5020"		rate="0.10"      rent_period="164" />
+		<ITEM id="6001"		rate="0.10"      rent_period="164" />
+		<ITEM id="6002"		rate="0.10"      rent_period="164" />
+		<ITEM id="6003"		rate="0.10"      rent_period="164" />
+		<ITEM id="6004"		rate="0.10"      rent_period="164" />
+		<ITEM id="6005"		rate="0.10"      rent_period="164" />
+		<ITEM id="6006"		rate="0.10"      rent_period="164" />
+		<ITEM id="6007"		rate="0.10"      rent_period="164" />
+		<ITEM id="6008"		rate="0.10"      rent_period="164" />
+		<ITEM id="6009"		rate="0.10"      rent_period="164" />
+		<ITEM id="6010"		rate="0.10"      rent_period="164" />
+		<ITEM id="40030"		rate="0.10"      rent_period="164" />
+		<ITEM id="40031"		rate="0.10"      rent_period="164" />
+		<ITEM id="40032"		rate="0.10"      rent_period="164" />
+		<ITEM id="40033"		rate="0.10"      rent_period="164" />
+		<ITEM id="7001"		rate="0.10"      rent_period="164" />
+		<ITEM id="7002"		rate="0.10"      rent_period="164" />
+		<ITEM id="7003"		rate="0.10"      rent_period="164" />
+		<ITEM id="7004"		rate="0.10"      rent_period="164" />
+		<ITEM id="7005"		rate="0.10"      rent_period="164" />
+		<ITEM id="7006"		rate="0.10"      rent_period="164" />
+		<ITEM id="7007"		rate="0.10"      rent_period="164" />
+		<ITEM id="7008"		rate="0.10"      rent_period="164" />
+		<ITEM id="7009"		rate="0.10"      rent_period="164" />
+		<ITEM id="9001"		rate="0.10"      rent_period="164" />
+		<ITEM id="9002"		rate="0.10"      rent_period="164" />
+		<ITEM id="9003"		rate="0.10"      rent_period="164" />
+		<ITEM id="9004"		rate="0.10"      rent_period="164" />
+		<ITEM id="30333"		rate="0.10"      rent_period="164" />
+		<ITEM id="30302"		rate="0.10"      rent_period="164" />
+		<ITEM id="30303"		rate="0.10"      rent_period="164" />
+		<ITEM id="30304"		rate="0.10"      rent_period="164" />
+		<ITEM id="30305"		rate="0.10"      rent_period="164" />
+		<ITEM id="30201"		rate="0.10"      rent_period="164" />
+		<ITEM id="30202"		rate="0.10"      rent_period="164" />
+		<ITEM id="30203"		rate="0.10"      rent_period="164" />
+		<ITEM id="30204"		rate="0.10"      rent_period="164" />
+		<ITEM id="30205"		rate="0.10"      rent_period="164" />
+		<ITEM id="30401"		rate="0.10"      rent_period="164" />
+		<ITEM id="30402"		rate="0.10"      rent_period="164" />
+		<ITEM id="30403"		rate="0.10"      rent_period="164" />
+		<ITEM id="30404"		rate="0.10"      rent_period="164" />
+		<ITEM id="30405"		rate="0.10"      rent_period="164" />
+		<!-- RARES START -->
+		<ITEM id="41338"		rate="0.03"      rent_period="164" />
+		<ITEM id="41339"		rate="0.03"      rent_period="164" />
+		<ITEM id="41340"		rate="0.03"      rent_period="164" />
+		<ITEM id="41341"		rate="0.03"      rent_period="164" />
+		<ITEM id="250032"		rate="0.03"      rent_period="164" />
+		<ITEM id="9219"		rate="0.03"      rent_period="164" />
+		<ITEM id="9220"		rate="0.03"      rent_period="164" />
+		<ITEM id="9221"		rate="0.03"      rent_period="164" />
+		<ITEM id="9222"		rate="0.03"      rent_period="164" />
+		<ITEM id="9223"		rate="0.03"      rent_period="164" />
+		<ITEM id="400557"		rate="0.03"      rent_period="164" />
+		<ITEM id="42325"		rate="0.03"      rent_period="164" />
+		<ITEM id="9306"		rate="0.03"      rent_period="164" />
+		<ITEM id="9307"		rate="0.03"      rent_period="164" />
+		<ITEM id="1871"		rate="0.03"      rent_period="164" />
+		<ITEM id="1872"		rate="0.03"      rent_period="164" />
+		<ITEM id="4433"		rate="0.03"      rent_period="164" />
+		<ITEM id="9309"		rate="0.03"      rent_period="164" />
+		<ITEM id="9310"		rate="0.03"      rent_period="164" />
+		<ITEM id="9308"		rate="0.03"      rent_period="164" />
+		<ITEM id="1944"		rate="0.03"      rent_period="164" />
+		<ITEM id="41342"		rate="0.03"      rent_period="164" />
+		<ITEM id="3433"		rate="0.03"      rent_period="164" />
+		<ITEM id="3434"		rate="0.03"      rent_period="164" />
+		<ITEM id="3435"		rate="0.03"      rent_period="164" />
+		<ITEM id="3436"		rate="0.03"      rent_period="164" />
+		<ITEM id="250028"		rate="0.03"      rent_period="164" />
+		<ITEM id="250030"		rate="0.03"      rent_period="164" />
+		<ITEM id="88181"		rate="0.03"      rent_period="164" />
+		<ITEM id="88769"		rate="0.03"      rent_period="164" />
+		<ITEM id="88770"		rate="0.03"      rent_period="164" />
+		<ITEM id="88771"		rate="0.03"      rent_period="164" />
+		<ITEM id="88772"		rate="0.03"      rent_period="164" />
+		<ITEM id="88773"		rate="0.03"      rent_period="164" />
+		<ITEM id="88774"		rate="0.03"      rent_period="164" />
+		<ITEM id="88775"		rate="0.03"      rent_period="164" />
+		<ITEM id="88776"		rate="0.03"      rent_period="164" />
+		<ITEM id="88777"		rate="0.03"      rent_period="164" />
+		<ITEM id="88778"		rate="0.03"      rent_period="164" />
+		<ITEM id="88779"		rate="0.03"      rent_period="164" />
+		<ITEM id="88780"		rate="0.03"      rent_period="164" />
+		<ITEM id="88781"		rate="0.03"      rent_period="164" />
+		<ITEM id="9241"		rate="0.03"      rent_period="164" />
+		<ITEM id="9242"		rate="0.03"      rent_period="164" />
+		<ITEM id="9243"		rate="0.03"      rent_period="164" />
+		<ITEM id="9245"		rate="0.03"      rent_period="164" />
+		<ITEM id="9246"		rate="0.03"      rent_period="164" />
+		<ITEM id="9249"		rate="0.03"      rent_period="164" />
+		<ITEM id="9247"		rate="0.03"      rent_period="164" />
+		<ITEM id="9248"		rate="0.03"      rent_period="164" />
+		<ITEM id="9250"		rate="0.03"      rent_period="164" />
+		<ITEM id="9251"		rate="0.03"      rent_period="164" />
+		<ITEM id="9252"		rate="0.03"      rent_period="164" />
+		<ITEM id="401120"		rate="0.03"      rent_period="164" />
+		<ITEM id="401121"		rate="0.03"      rent_period="164" />
+		<ITEM id="401122"		rate="0.03"      rent_period="164" />
+		<ITEM id="401123"		rate="0.03"      rent_period="164" />
+		<ITEM id="401124"		rate="0.03"      rent_period="164" />
+		<ITEM id="401125"		rate="0.03"      rent_period="164" />
+		<ITEM id="401126"		rate="0.03"      rent_period="164" />
+		<ITEM id="401127"		rate="0.03"      rent_period="164" />
+		<ITEM id="401128"		rate="0.03"      rent_period="164" />
+		<ITEM id="88816"		rate="0.03"      rent_period="164" />
+		<ITEM id="88817"		rate="0.03"      rent_period="164" />
+		<ITEM id="88818"		rate="0.03"      rent_period="164" />
+		<ITEM id="88819"		rate="0.03"      rent_period="164" />
+		<ITEM id="88820"		rate="0.03"      rent_period="164" />
+		<ITEM id="88821"		rate="0.03"      rent_period="164" />
+		<ITEM id="88822"		rate="0.03"      rent_period="164" />
+		<ITEM id="88823"		rate="0.03"      rent_period="164" />
+		<ITEM id="88824"		rate="0.03"      rent_period="164" />
+		<ITEM id="3437"		rate="0.03"      rent_period="164" />
+		<ITEM id="3438"		rate="0.03"      rent_period="164" />
+		<ITEM id="3439"		rate="0.03"      rent_period="164" />
+		<ITEM id="3441"		rate="0.03"      rent_period="164" />
+		<ITEM id="3442"		rate="0.03"      rent_period="164" />
+		<ITEM id="90071"		rate="0.03"      rent_period="164" />
+		<ITEM id="90073"		rate="0.03"      rent_period="164" />
+		<ITEM id="90074"		rate="0.03"      rent_period="164" />
+		<ITEM id="90075"		rate="0.03"      rent_period="164" />
+		<ITEM id="90076"		rate="0.03"      rent_period="164" />
+		<ITEM id="34487"		rate="0.03"      rent_period="164" />
+		<ITEM id="34488"		rate="0.03"      rent_period="164" />
+		<ITEM id="34489"		rate="0.03"      rent_period="164" />
+		<ITEM id="34490"		rate="0.03"      rent_period="164" />
+		<ITEM id="34491"		rate="0.03"      rent_period="164" />
+		<ITEM id="34492"		rate="0.03"      rent_period="164" />
+		<ITEM id="34493"		rate="0.03"      rent_period="164" />
+		<ITEM id="34494"		rate="0.03"      rent_period="164" />
+		<!-- RARES END -->
+	</ITEMSET>
+		<ITEMSET QL="1">
+		<ITEM id="500001"		rate="0.10"      rent_period="164" />
+		<ITEM id="500002"		rate="0.10"      rent_period="164" />
+		<ITEM id="500003"		rate="0.10"      rent_period="164" />
+		<ITEM id="500004"		rate="0.10"      rent_period="164" />
+		<ITEM id="500005"		rate="0.10"      rent_period="164" />
+		<ITEM id="500006"		rate="0.10"      rent_period="164" />
+		<ITEM id="500007"		rate="0.10"      rent_period="164" />
+		<ITEM id="504001"		rate="0.10"      rent_period="164" />
+		<ITEM id="504002"		rate="0.10"      rent_period="164" />
+		<ITEM id="504003"		rate="0.10"      rent_period="164" />
+		<ITEM id="504004"		rate="0.10"      rent_period="164" />
+		<ITEM id="504005"		rate="0.10"      rent_period="164" />
+		<ITEM id="504006"		rate="0.10"      rent_period="164" />
+		<ITEM id="504007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506001"		rate="0.10"      rent_period="164" />
+		<ITEM id="506002"		rate="0.10"      rent_period="164" />
+		<ITEM id="506003"		rate="0.10"      rent_period="164" />
+		<ITEM id="506004"		rate="0.10"      rent_period="164" />
+		<ITEM id="506005"		rate="0.10"      rent_period="164" />
+		<ITEM id="506006"		rate="0.10"      rent_period="164" />
+		<ITEM id="506007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520001"		rate="0.10"      rent_period="164" />
+		<ITEM id="520002"		rate="0.10"      rent_period="164" />
+		<ITEM id="520003"		rate="0.10"      rent_period="164" />
+		<ITEM id="520004"		rate="0.10"      rent_period="164" />
+		<ITEM id="520005"		rate="0.10"      rent_period="164" />
+		<ITEM id="520006"		rate="0.10"      rent_period="164" />
+		<ITEM id="520007"		rate="0.10"      rent_period="164" />
+		<ITEM id="520008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520009"		rate="0.10"      rent_period="164" />
+		<ITEM id="520010"		rate="0.10"      rent_period="164" />
+		<ITEM id="520011"		rate="0.10"      rent_period="164" />
+		<ITEM id="520012"		rate="0.10"      rent_period="164" />
+		<ITEM id="520013"		rate="0.10"      rent_period="164" />
+		<ITEM id="520014"		rate="0.10"      rent_period="164" />
+		<ITEM id="520015"		rate="0.10"      rent_period="164" />
+		<ITEM id="520016"		rate="0.10"      rent_period="164" />
+		<ITEM id="520017"		rate="0.10"      rent_period="164" />
+		<ITEM id="520018"		rate="0.10"      rent_period="164" />
+		<ITEM id="520019"		rate="0.10"      rent_period="164" />
+		<ITEM id="520020"		rate="0.10"      rent_period="164" />
+		<ITEM id="520021"		rate="0.10"      rent_period="164" />
+		<ITEM id="520022"		rate="0.10"      rent_period="164" />
+		<ITEM id="520023"		rate="0.10"      rent_period="164" />
+		<ITEM id="5001"		rate="0.10"      rent_period="164" />
+		<ITEM id="5002"		rate="0.10"      rent_period="164" />
+		<ITEM id="5003"		rate="0.10"      rent_period="164" />
+		<ITEM id="5004"		rate="0.10"      rent_period="164" />
+		<ITEM id="5005"		rate="0.10"      rent_period="164" />
+		<ITEM id="5006"		rate="0.10"      rent_period="164" />
+		<ITEM id="5007"		rate="0.10"      rent_period="164" />
+		<ITEM id="5008"		rate="0.10"      rent_period="164" />
+		<ITEM id="5009"		rate="0.10"      rent_period="164" />
+		<ITEM id="5010"		rate="0.10"      rent_period="164" />
+		<ITEM id="5011"		rate="0.10"      rent_period="164" />
+		<ITEM id="5012"		rate="0.10"      rent_period="164" />
+		<ITEM id="5013"		rate="0.10"      rent_period="164" />
+		<ITEM id="5014"		rate="0.10"      rent_period="164" />
+		<ITEM id="5015"		rate="0.10"      rent_period="164" />
+		<ITEM id="5016"		rate="0.10"      rent_period="164" />
+		<ITEM id="5017"		rate="0.10"      rent_period="164" />
+		<ITEM id="5018"		rate="0.10"      rent_period="164" />
+		<ITEM id="5019"		rate="0.10"      rent_period="164" />
+		<ITEM id="5020"		rate="0.10"      rent_period="164" />
+		<ITEM id="6001"		rate="0.10"      rent_period="164" />
+		<ITEM id="6002"		rate="0.10"      rent_period="164" />
+		<ITEM id="6003"		rate="0.10"      rent_period="164" />
+		<ITEM id="6004"		rate="0.10"      rent_period="164" />
+		<ITEM id="6005"		rate="0.10"      rent_period="164" />
+		<ITEM id="6006"		rate="0.10"      rent_period="164" />
+		<ITEM id="6007"		rate="0.10"      rent_period="164" />
+		<ITEM id="6008"		rate="0.10"      rent_period="164" />
+		<ITEM id="6009"		rate="0.10"      rent_period="164" />
+		<ITEM id="6010"		rate="0.10"      rent_period="164" />
+		<ITEM id="40030"		rate="0.10"      rent_period="164" />
+		<ITEM id="40031"		rate="0.10"      rent_period="164" />
+		<ITEM id="40032"		rate="0.10"      rent_period="164" />
+		<ITEM id="40033"		rate="0.10"      rent_period="164" />
+		<ITEM id="7001"		rate="0.10"      rent_period="164" />
+		<ITEM id="7002"		rate="0.10"      rent_period="164" />
+		<ITEM id="7003"		rate="0.10"      rent_period="164" />
+		<ITEM id="7004"		rate="0.10"      rent_period="164" />
+		<ITEM id="7005"		rate="0.10"      rent_period="164" />
+		<ITEM id="7006"		rate="0.10"      rent_period="164" />
+		<ITEM id="7007"		rate="0.10"      rent_period="164" />
+		<ITEM id="7008"		rate="0.10"      rent_period="164" />
+		<ITEM id="7009"		rate="0.10"      rent_period="164" />
+		<ITEM id="9001"		rate="0.10"      rent_period="164" />
+		<ITEM id="9002"		rate="0.10"      rent_period="164" />
+		<ITEM id="9003"		rate="0.10"      rent_period="164" />
+		<ITEM id="9004"		rate="0.10"      rent_period="164" />
+		<ITEM id="30333"		rate="0.10"      rent_period="164" />
+		<ITEM id="30302"		rate="0.10"      rent_period="164" />
+		<ITEM id="30303"		rate="0.10"      rent_period="164" />
+		<ITEM id="30304"		rate="0.10"      rent_period="164" />
+		<ITEM id="30305"		rate="0.10"      rent_period="164" />
+		<ITEM id="30201"		rate="0.10"      rent_period="164" />
+		<ITEM id="30202"		rate="0.10"      rent_period="164" />
+		<ITEM id="30203"		rate="0.10"      rent_period="164" />
+		<ITEM id="30204"		rate="0.10"      rent_period="164" />
+		<ITEM id="30205"		rate="0.10"      rent_period="164" />
+		<ITEM id="30401"		rate="0.10"      rent_period="164" />
+		<ITEM id="30402"		rate="0.10"      rent_period="164" />
+		<ITEM id="30403"		rate="0.10"      rent_period="164" />
+		<ITEM id="30404"		rate="0.10"      rent_period="164" />
+		<ITEM id="30405"		rate="0.10"      rent_period="164" />
+
+		<!-- RARES START -->
+		<ITEM id="41338"		rate="0.03"      rent_period="164" />
+		<ITEM id="41339"		rate="0.03"      rent_period="164" />
+		<ITEM id="41340"		rate="0.03"      rent_period="164" />
+		<ITEM id="41341"		rate="0.03"      rent_period="164" />
+		<ITEM id="250032"		rate="0.03"      rent_period="164" />
+		<ITEM id="9219"		rate="0.03"      rent_period="164" />
+		<ITEM id="9220"		rate="0.03"      rent_period="164" />
+		<ITEM id="9221"		rate="0.03"      rent_period="164" />
+		<ITEM id="9222"		rate="0.03"      rent_period="164" />
+		<ITEM id="9223"		rate="0.03"      rent_period="164" />
+		<ITEM id="400557"		rate="0.03"      rent_period="164" />
+		<ITEM id="42325"		rate="0.03"      rent_period="164" />
+		<ITEM id="9306"		rate="0.03"      rent_period="164" />
+		<ITEM id="9307"		rate="0.03"      rent_period="164" />
+		<ITEM id="1871"		rate="0.03"      rent_period="164" />
+		<ITEM id="1872"		rate="0.03"      rent_period="164" />
+		<ITEM id="4433"		rate="0.03"      rent_period="164" />
+		<ITEM id="9309"		rate="0.03"      rent_period="164" />
+		<ITEM id="9310"		rate="0.03"      rent_period="164" />
+		<ITEM id="9308"		rate="0.03"      rent_period="164" />
+		<ITEM id="1944"		rate="0.03"      rent_period="164" />
+		<ITEM id="41342"		rate="0.03"      rent_period="164" />
+		<ITEM id="3433"		rate="0.03"      rent_period="164" />
+		<ITEM id="3434"		rate="0.03"      rent_period="164" />
+		<ITEM id="3435"		rate="0.03"      rent_period="164" />
+		<ITEM id="3436"		rate="0.03"      rent_period="164" />
+		<ITEM id="250028"		rate="0.03"      rent_period="164" />
+		<ITEM id="250030"		rate="0.03"      rent_period="164" />
+		<ITEM id="88181"		rate="0.03"      rent_period="164" />
+		<ITEM id="88769"		rate="0.03"      rent_period="164" />
+		<ITEM id="88770"		rate="0.03"      rent_period="164" />
+		<ITEM id="88771"		rate="0.03"      rent_period="164" />
+		<ITEM id="88772"		rate="0.03"      rent_period="164" />
+		<ITEM id="88773"		rate="0.03"      rent_period="164" />
+		<ITEM id="88774"		rate="0.03"      rent_period="164" />
+		<ITEM id="88775"		rate="0.03"      rent_period="164" />
+		<ITEM id="88776"		rate="0.03"      rent_period="164" />
+		<ITEM id="88777"		rate="0.03"      rent_period="164" />
+		<ITEM id="88778"		rate="0.03"      rent_period="164" />
+		<ITEM id="88779"		rate="0.03"      rent_period="164" />
+		<ITEM id="88780"		rate="0.03"      rent_period="164" />
+		<ITEM id="88781"		rate="0.03"      rent_period="164" />
+		<ITEM id="9241"		rate="0.03"      rent_period="164" />
+		<ITEM id="9242"		rate="0.03"      rent_period="164" />
+		<ITEM id="9243"		rate="0.03"      rent_period="164" />
+		<ITEM id="9245"		rate="0.03"      rent_period="164" />
+		<ITEM id="9246"		rate="0.03"      rent_period="164" />
+		<ITEM id="9249"		rate="0.03"      rent_period="164" />
+		<ITEM id="9247"		rate="0.03"      rent_period="164" />
+		<ITEM id="9248"		rate="0.03"      rent_period="164" />
+		<ITEM id="9250"		rate="0.03"      rent_period="164" />
+		<ITEM id="9251"		rate="0.03"      rent_period="164" />
+		<ITEM id="9252"		rate="0.03"      rent_period="164" />
+		<ITEM id="401120"		rate="0.03"      rent_period="164" />
+		<ITEM id="401121"		rate="0.03"      rent_period="164" />
+		<ITEM id="401122"		rate="0.03"      rent_period="164" />
+		<ITEM id="401123"		rate="0.03"      rent_period="164" />
+		<ITEM id="401124"		rate="0.03"      rent_period="164" />
+		<ITEM id="401125"		rate="0.03"      rent_period="164" />
+		<ITEM id="401126"		rate="0.03"      rent_period="164" />
+		<ITEM id="401127"		rate="0.03"      rent_period="164" />
+		<ITEM id="401128"		rate="0.03"      rent_period="164" />
+		<ITEM id="88816"		rate="0.03"      rent_period="164" />
+		<ITEM id="88817"		rate="0.03"      rent_period="164" />
+		<ITEM id="88818"		rate="0.03"      rent_period="164" />
+		<ITEM id="88819"		rate="0.03"      rent_period="164" />
+		<ITEM id="88820"		rate="0.03"      rent_period="164" />
+		<ITEM id="88821"		rate="0.03"      rent_period="164" />
+		<ITEM id="88822"		rate="0.03"      rent_period="164" />
+		<ITEM id="88823"		rate="0.03"      rent_period="164" />
+		<ITEM id="88824"		rate="0.03"      rent_period="164" />
+		<ITEM id="3437"		rate="0.03"      rent_period="164" />
+		<ITEM id="3438"		rate="0.03"      rent_period="164" />
+		<ITEM id="3439"		rate="0.03"      rent_period="164" />
+		<ITEM id="3441"		rate="0.03"      rent_period="164" />
+		<ITEM id="3442"		rate="0.03"      rent_period="164" />
+		<ITEM id="90071"		rate="0.03"      rent_period="164" />
+		<ITEM id="90073"		rate="0.03"      rent_period="164" />
+		<ITEM id="90074"		rate="0.03"      rent_period="164" />
+		<ITEM id="90075"		rate="0.03"      rent_period="164" />
+		<ITEM id="90076"		rate="0.03"      rent_period="164" />
+		<ITEM id="34487"		rate="0.03"      rent_period="164" />
+		<ITEM id="34488"		rate="0.03"      rent_period="164" />
+		<ITEM id="34489"		rate="0.03"      rent_period="164" />
+		<ITEM id="34490"		rate="0.03"      rent_period="164" />
+		<ITEM id="34491"		rate="0.03"      rent_period="164" />
+		<ITEM id="34492"		rate="0.03"      rent_period="164" />
+		<ITEM id="34493"		rate="0.03"      rent_period="164" />
+		<ITEM id="34494"		rate="0.03"      rent_period="164" />
+		<!-- RARES END -->
+	</ITEMSET>
+</DROPSET>
+
+<DROPSET id="3" name="EXOTICS">
+	<ITEMSET QL="0">
+		<ITEM id="500001"		rate="0.10"      rent_period="164" />
+		<ITEM id="500002"		rate="0.10"      rent_period="164" />
+		<ITEM id="500003"		rate="0.10"      rent_period="164" />
+		<ITEM id="500004"		rate="0.10"      rent_period="164" />
+		<ITEM id="500005"		rate="0.10"      rent_period="164" />
+		<ITEM id="500006"		rate="0.10"      rent_period="164" />
+		<ITEM id="500007"		rate="0.10"      rent_period="164" />
+		<ITEM id="504001"		rate="0.10"      rent_period="164" />
+		<ITEM id="504002"		rate="0.10"      rent_period="164" />
+		<ITEM id="504003"		rate="0.10"      rent_period="164" />
+		<ITEM id="504004"		rate="0.10"      rent_period="164" />
+		<ITEM id="504005"		rate="0.10"      rent_period="164" />
+		<ITEM id="504006"		rate="0.10"      rent_period="164" />
+		<ITEM id="504007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506001"		rate="0.10"      rent_period="164" />
+		<ITEM id="506002"		rate="0.10"      rent_period="164" />
+		<ITEM id="506003"		rate="0.10"      rent_period="164" />
+		<ITEM id="506004"		rate="0.10"      rent_period="164" />
+		<ITEM id="506005"		rate="0.10"      rent_period="164" />
+		<ITEM id="506006"		rate="0.10"      rent_period="164" />
+		<ITEM id="506007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520001"		rate="0.10"      rent_period="164" />
+		<ITEM id="520002"		rate="0.10"      rent_period="164" />
+		<ITEM id="520003"		rate="0.10"      rent_period="164" />
+		<ITEM id="520004"		rate="0.10"      rent_period="164" />
+		<ITEM id="520005"		rate="0.10"      rent_period="164" />
+		<ITEM id="520006"		rate="0.10"      rent_period="164" />
+		<ITEM id="520007"		rate="0.10"      rent_period="164" />
+		<ITEM id="520008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520009"		rate="0.10"      rent_period="164" />
+		<ITEM id="520010"		rate="0.10"      rent_period="164" />
+		<ITEM id="520011"		rate="0.10"      rent_period="164" />
+		<ITEM id="520012"		rate="0.10"      rent_period="164" />
+		<ITEM id="520013"		rate="0.10"      rent_period="164" />
+		<ITEM id="520014"		rate="0.10"      rent_period="164" />
+		<ITEM id="520015"		rate="0.10"      rent_period="164" />
+		<ITEM id="520016"		rate="0.10"      rent_period="164" />
+		<ITEM id="520017"		rate="0.10"      rent_period="164" />
+		<ITEM id="520018"		rate="0.10"      rent_period="164" />
+		<ITEM id="520019"		rate="0.10"      rent_period="164" />
+		<ITEM id="520020"		rate="0.10"      rent_period="164" />
+		<ITEM id="520021"		rate="0.10"      rent_period="164" />
+		<ITEM id="520022"		rate="0.10"      rent_period="164" />
+		<ITEM id="520023"		rate="0.10"      rent_period="164" />
+		<ITEM id="5001"		rate="0.10"      rent_period="164" />
+		<ITEM id="5002"		rate="0.10"      rent_period="164" />
+		<ITEM id="5003"		rate="0.10"      rent_period="164" />
+		<ITEM id="5004"		rate="0.10"      rent_period="164" />
+		<ITEM id="5005"		rate="0.10"      rent_period="164" />
+		<ITEM id="5006"		rate="0.10"      rent_period="164" />
+		<ITEM id="5007"		rate="0.10"      rent_period="164" />
+		<ITEM id="5008"		rate="0.10"      rent_period="164" />
+		<ITEM id="5009"		rate="0.10"      rent_period="164" />
+		<ITEM id="5010"		rate="0.10"      rent_period="164" />
+		<ITEM id="5011"		rate="0.10"      rent_period="164" />
+		<ITEM id="5012"		rate="0.10"      rent_period="164" />
+		<ITEM id="5013"		rate="0.10"      rent_period="164" />
+		<ITEM id="5014"		rate="0.10"      rent_period="164" />
+		<ITEM id="5015"		rate="0.10"      rent_period="164" />
+		<ITEM id="5016"		rate="0.10"      rent_period="164" />
+		<ITEM id="5017"		rate="0.10"      rent_period="164" />
+		<ITEM id="5018"		rate="0.10"      rent_period="164" />
+		<ITEM id="5019"		rate="0.10"      rent_period="164" />
+		<ITEM id="5020"		rate="0.10"      rent_period="164" />
+		<ITEM id="6001"		rate="0.10"      rent_period="164" />
+		<ITEM id="6002"		rate="0.10"      rent_period="164" />
+		<ITEM id="6003"		rate="0.10"      rent_period="164" />
+		<ITEM id="6004"		rate="0.10"      rent_period="164" />
+		<ITEM id="6005"		rate="0.10"      rent_period="164" />
+		<ITEM id="6006"		rate="0.10"      rent_period="164" />
+		<ITEM id="6007"		rate="0.10"      rent_period="164" />
+		<ITEM id="6008"		rate="0.10"      rent_period="164" />
+		<ITEM id="6009"		rate="0.10"      rent_period="164" />
+		<ITEM id="6010"		rate="0.10"      rent_period="164" />
+		<ITEM id="40030"		rate="0.10"      rent_period="164" />
+		<ITEM id="40031"		rate="0.10"      rent_period="164" />
+		<ITEM id="40032"		rate="0.10"      rent_period="164" />
+		<ITEM id="40033"		rate="0.10"      rent_period="164" />
+		<ITEM id="7001"		rate="0.10"      rent_period="164" />
+		<ITEM id="7002"		rate="0.10"      rent_period="164" />
+		<ITEM id="7003"		rate="0.10"      rent_period="164" />
+		<ITEM id="7004"		rate="0.10"      rent_period="164" />
+		<ITEM id="7005"		rate="0.10"      rent_period="164" />
+		<ITEM id="7006"		rate="0.10"      rent_period="164" />
+		<ITEM id="7007"		rate="0.10"      rent_period="164" />
+		<ITEM id="7008"		rate="0.10"      rent_period="164" />
+		<ITEM id="7009"		rate="0.10"      rent_period="164" />
+		<ITEM id="9001"		rate="0.10"      rent_period="164" />
+		<ITEM id="9002"		rate="0.10"      rent_period="164" />
+		<ITEM id="9003"		rate="0.10"      rent_period="164" />
+		<ITEM id="9004"		rate="0.10"      rent_period="164" />
+		<ITEM id="30333"		rate="0.10"      rent_period="164" />
+		<ITEM id="30302"		rate="0.10"      rent_period="164" />
+		<ITEM id="30303"		rate="0.10"      rent_period="164" />
+		<ITEM id="30304"		rate="0.10"      rent_period="164" />
+		<ITEM id="30305"		rate="0.10"      rent_period="164" />
+		<ITEM id="30201"		rate="0.10"      rent_period="164" />
+		<ITEM id="30202"		rate="0.10"      rent_period="164" />
+		<ITEM id="30203"		rate="0.10"      rent_period="164" />
+		<ITEM id="30204"		rate="0.10"      rent_period="164" />
+		<ITEM id="30205"		rate="0.10"      rent_period="164" />
+		<ITEM id="30401"		rate="0.10"      rent_period="164" />
+		<ITEM id="30402"		rate="0.10"      rent_period="164" />
+		<ITEM id="30403"		rate="0.10"      rent_period="164" />
+		<ITEM id="30404"		rate="0.10"      rent_period="164" />
+		<ITEM id="30405"		rate="0.10"      rent_period="164" />
+
+		<!-- EXOTICS START -->
+		<ITEM id="250035"		rate="0.02"      rent_period="164" />
+		<ITEM id="88841"		rate="0.02"      rent_period="164" />
+		<ITEM id="88842"		rate="0.02"      rent_period="164" />
+		<ITEM id="88843"		rate="0.02"      rent_period="164" />
+		<ITEM id="88844"		rate="0.02"      rent_period="164" />
+		<ITEM id="88845"		rate="0.02"      rent_period="164" />
+		<ITEM id="88846"		rate="0.02"      rent_period="164" />
+		<ITEM id="88847"		rate="0.02"      rent_period="164" />
+		<ITEM id="88840"		rate="0.02"      rent_period="164" />
+		<ITEM id="88825"		rate="0.02"      rent_period="164" />
+		<ITEM id="88826"		rate="0.02"      rent_period="164" />
+		<ITEM id="88827"		rate="0.02"      rent_period="164" />
+		<ITEM id="88828"		rate="0.02"      rent_period="164" />
+		<ITEM id="88829"		rate="0.02"      rent_period="164" />
+		<ITEM id="88830"		rate="0.02"      rent_period="164" />
+		<ITEM id="88831"		rate="0.02"      rent_period="164" />
+		<ITEM id="88832"		rate="0.02"      rent_period="164" />
+		<ITEM id="88833"		rate="0.02"      rent_period="164" />
+		<ITEM id="88834"		rate="0.02"      rent_period="164" />
+		<ITEM id="88838"		rate="0.02"      rent_period="164" />
+		<ITEM id="88835"		rate="0.02"      rent_period="164" />
+		<ITEM id="88836"		rate="0.02"      rent_period="164" />
+		<ITEM id="90072"		rate="0.02"      rent_period="164" />
+		<ITEM id="9228"		rate="0.02"      rent_period="164" />
+		<ITEM id="9229"		rate="0.02"      rent_period="164" />
+		<ITEM id="9230"		rate="0.02"      rent_period="164" />
+		<ITEM id="9231"		rate="0.02"      rent_period="164" />
+		<ITEM id="9232"		rate="0.02"      rent_period="164" />
+		<ITEM id="9233"		rate="0.02"      rent_period="164" />
+		<ITEM id="9234"		rate="0.02"      rent_period="164" />
+		<ITEM id="9240"		rate="0.02"      rent_period="164" />
+		<ITEM id="9236"		rate="0.02"      rent_period="164" />
+		<ITEM id="9244"		rate="0.02"      rent_period="164" />
+		<ITEM id="401191"		rate="0.02"      rent_period="164" />
+		<ITEM id="401012"		rate="0.02"      rent_period="164" />
+		<ITEM id="401190"		rate="0.02"      rent_period="164" />
+		<ITEM id="401142"		rate="0.02"      rent_period="164" />
+		<ITEM id="401156"		rate="0.02"      rent_period="164" />
+		<ITEM id="34024"		rate="0.02"      rent_period="164" />
+		<ITEM id="34021"		rate="0.02"      rent_period="164" />
+		<ITEM id="34022"		rate="0.02"      rent_period="164" />
+		<ITEM id="34023"		rate="0.02"      rent_period="164" />
+		<ITEM id="9553"		rate="0.02"      rent_period="164" />
+		<ITEM id="9558"		rate="0.02"      rent_period="164" />
+		<ITEM id="9554"		rate="0.02"      rent_period="164" />
+		<ITEM id="9556"		rate="0.02"      rent_period="164" />
+		<ITEM id="9557"		rate="0.02"      rent_period="164" />
+		<ITEM id="9559"		rate="0.02"      rent_period="164" />
+		<ITEM id="3443"		rate="0.02"      rent_period="164" />
+		<ITEM id="3444"		rate="0.02"      rent_period="164" />
+		<ITEM id="34468"		rate="0.02"      rent_period="164" />
+		<ITEM id="9551"		rate="0.02"      rent_period="164" />
+		<ITEM id="9552"		rate="0.02"      rent_period="164" />
+		<ITEM id="88837"		rate="0.02"      rent_period="164" />
+		<ITEM id="34025"		rate="0.02"      rent_period="164" />
+		<ITEM id="34026"		rate="0.02"      rent_period="164" />
+		<ITEM id="2345"		rate="0.02"      rent_period="164" />
+		<ITEM id="2348"		rate="0.02"      rent_period="164" />
+		<ITEM id="2349"		rate="0.02"      rent_period="164" />
+		<ITEM id="2350"		rate="0.02"      rent_period="164" />
+		<ITEM id="1194"		rate="0.02"      rent_period="164" />
+		<ITEM id="1217"		rate="0.02"      rent_period="164" />
+		<ITEM id="1219"		rate="0.02"      rent_period="164" />
+		<ITEM id="51122"		rate="0.02"      rent_period="164" />
+		<ITEM id="1202"		rate="0.02"      rent_period="164" />
+		<ITEM id="1218"		rate="0.02"      rent_period="164" />
+		<ITEM id="6765"		rate="0.02"      rent_period="164" />
+		<ITEM id="4355"		rate="0.02"      rent_period="164" />
+		<ITEM id="4356"		rate="0.02"      rent_period="164" />
+		<ITEM id="3000"		rate="0.02"      rent_period="164" />
+		<ITEM id="2354"		rate="0.02"      rent_period="164" />
+		<ITEM id="34000"		rate="0.02"      rent_period="164" />
+		<ITEM id="34001"		rate="0.02"      rent_period="164" />
+		<ITEM id="34002"		rate="0.02"      rent_period="164" />
+		<ITEM id="34003"		rate="0.02"      rent_period="164" />
+		<ITEM id="34004"		rate="0.02"      rent_period="164" />
+		<ITEM id="34005"		rate="0.02"      rent_period="164" />
+		<ITEM id="34006"		rate="0.02"      rent_period="164" />
+		<ITEM id="34007"		rate="0.02"      rent_period="164" />
+		<ITEM id="34008"		rate="0.02"      rent_period="164" />
+		<ITEM id="34009"		rate="0.02"      rent_period="164" />
+		<ITEM id="34010"		rate="0.02"      rent_period="164" />
+		<ITEM id="34011"		rate="0.02"      rent_period="164" />
+		<ITEM id="34012"		rate="0.02"      rent_period="164" />
+		<ITEM id="34013"		rate="0.02"      rent_period="164" />
+		<ITEM id="34014"		rate="0.02"      rent_period="164" />
+		<ITEM id="34015"		rate="0.02"      rent_period="164" />
+		<ITEM id="34016"		rate="0.02"      rent_period="164" />
+		<ITEM id="34017"		rate="0.02"      rent_period="164" />
+		<ITEM id="34018"		rate="0.02"      rent_period="164" />
+		<ITEM id="34019"		rate="0.02"      rent_period="164" />
+		<ITEM id="34020"		rate="0.02"      rent_period="164" />
+		<ITEM id="30334"		rate="0.02"      rent_period="164" />
+		<!-- EXOTICS END -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="500001"		rate="0.10"      rent_period="164" />
+		<ITEM id="500002"		rate="0.10"      rent_period="164" />
+		<ITEM id="500003"		rate="0.10"      rent_period="164" />
+		<ITEM id="500004"		rate="0.10"      rent_period="164" />
+		<ITEM id="500005"		rate="0.10"      rent_period="164" />
+		<ITEM id="500006"		rate="0.10"      rent_period="164" />
+		<ITEM id="500007"		rate="0.10"      rent_period="164" />
+		<ITEM id="504001"		rate="0.10"      rent_period="164" />
+		<ITEM id="504002"		rate="0.10"      rent_period="164" />
+		<ITEM id="504003"		rate="0.10"      rent_period="164" />
+		<ITEM id="504004"		rate="0.10"      rent_period="164" />
+		<ITEM id="504005"		rate="0.10"      rent_period="164" />
+		<ITEM id="504006"		rate="0.10"      rent_period="164" />
+		<ITEM id="504007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506001"		rate="0.10"      rent_period="164" />
+		<ITEM id="506002"		rate="0.10"      rent_period="164" />
+		<ITEM id="506003"		rate="0.10"      rent_period="164" />
+		<ITEM id="506004"		rate="0.10"      rent_period="164" />
+		<ITEM id="506005"		rate="0.10"      rent_period="164" />
+		<ITEM id="506006"		rate="0.10"      rent_period="164" />
+		<ITEM id="506007"		rate="0.10"      rent_period="164" />
+		<ITEM id="506008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520001"		rate="0.10"      rent_period="164" />
+		<ITEM id="520002"		rate="0.10"      rent_period="164" />
+		<ITEM id="520003"		rate="0.10"      rent_period="164" />
+		<ITEM id="520004"		rate="0.10"      rent_period="164" />
+		<ITEM id="520005"		rate="0.10"      rent_period="164" />
+		<ITEM id="520006"		rate="0.10"      rent_period="164" />
+		<ITEM id="520007"		rate="0.10"      rent_period="164" />
+		<ITEM id="520008"		rate="0.10"      rent_period="164" />
+		<ITEM id="520009"		rate="0.10"      rent_period="164" />
+		<ITEM id="520010"		rate="0.10"      rent_period="164" />
+		<ITEM id="520011"		rate="0.10"      rent_period="164" />
+		<ITEM id="520012"		rate="0.10"      rent_period="164" />
+		<ITEM id="520013"		rate="0.10"      rent_period="164" />
+		<ITEM id="520014"		rate="0.10"      rent_period="164" />
+		<ITEM id="520015"		rate="0.10"      rent_period="164" />
+		<ITEM id="520016"		rate="0.10"      rent_period="164" />
+		<ITEM id="520017"		rate="0.10"      rent_period="164" />
+		<ITEM id="520018"		rate="0.10"      rent_period="164" />
+		<ITEM id="520019"		rate="0.10"      rent_period="164" />
+		<ITEM id="520020"		rate="0.10"      rent_period="164" />
+		<ITEM id="520021"		rate="0.10"      rent_period="164" />
+		<ITEM id="520022"		rate="0.10"      rent_period="164" />
+		<ITEM id="520023"		rate="0.10"      rent_period="164" />
+		<ITEM id="5001"		rate="0.10"      rent_period="164" />
+		<ITEM id="5002"		rate="0.10"      rent_period="164" />
+		<ITEM id="5003"		rate="0.10"      rent_period="164" />
+		<ITEM id="5004"		rate="0.10"      rent_period="164" />
+		<ITEM id="5005"		rate="0.10"      rent_period="164" />
+		<ITEM id="5006"		rate="0.10"      rent_period="164" />
+		<ITEM id="5007"		rate="0.10"      rent_period="164" />
+		<ITEM id="5008"		rate="0.10"      rent_period="164" />
+		<ITEM id="5009"		rate="0.10"      rent_period="164" />
+		<ITEM id="5010"		rate="0.10"      rent_period="164" />
+		<ITEM id="5011"		rate="0.10"      rent_period="164" />
+		<ITEM id="5012"		rate="0.10"      rent_period="164" />
+		<ITEM id="5013"		rate="0.10"      rent_period="164" />
+		<ITEM id="5014"		rate="0.10"      rent_period="164" />
+		<ITEM id="5015"		rate="0.10"      rent_period="164" />
+		<ITEM id="5016"		rate="0.10"      rent_period="164" />
+		<ITEM id="5017"		rate="0.10"      rent_period="164" />
+		<ITEM id="5018"		rate="0.10"      rent_period="164" />
+		<ITEM id="5019"		rate="0.10"      rent_period="164" />
+		<ITEM id="5020"		rate="0.10"      rent_period="164" />
+		<ITEM id="6001"		rate="0.10"      rent_period="164" />
+		<ITEM id="6002"		rate="0.10"      rent_period="164" />
+		<ITEM id="6003"		rate="0.10"      rent_period="164" />
+		<ITEM id="6004"		rate="0.10"      rent_period="164" />
+		<ITEM id="6005"		rate="0.10"      rent_period="164" />
+		<ITEM id="6006"		rate="0.10"      rent_period="164" />
+		<ITEM id="6007"		rate="0.10"      rent_period="164" />
+		<ITEM id="6008"		rate="0.10"      rent_period="164" />
+		<ITEM id="6009"		rate="0.10"      rent_period="164" />
+		<ITEM id="6010"		rate="0.10"      rent_period="164" />
+		<ITEM id="40030"		rate="0.10"      rent_period="164" />
+		<ITEM id="40031"		rate="0.10"      rent_period="164" />
+		<ITEM id="40032"		rate="0.10"      rent_period="164" />
+		<ITEM id="40033"		rate="0.10"      rent_period="164" />
+		<ITEM id="7001"		rate="0.10"      rent_period="164" />
+		<ITEM id="7002"		rate="0.10"      rent_period="164" />
+		<ITEM id="7003"		rate="0.10"      rent_period="164" />
+		<ITEM id="7004"		rate="0.10"      rent_period="164" />
+		<ITEM id="7005"		rate="0.10"      rent_period="164" />
+		<ITEM id="7006"		rate="0.10"      rent_period="164" />
+		<ITEM id="7007"		rate="0.10"      rent_period="164" />
+		<ITEM id="7008"		rate="0.10"      rent_period="164" />
+		<ITEM id="7009"		rate="0.10"      rent_period="164" />
+		<ITEM id="9001"		rate="0.10"      rent_period="164" />
+		<ITEM id="9002"		rate="0.10"      rent_period="164" />
+		<ITEM id="9003"		rate="0.10"      rent_period="164" />
+		<ITEM id="9004"		rate="0.10"      rent_period="164" />
+		<ITEM id="30333"		rate="0.10"      rent_period="164" />
+		<ITEM id="30302"		rate="0.10"      rent_period="164" />
+		<ITEM id="30303"		rate="0.10"      rent_period="164" />
+		<ITEM id="30304"		rate="0.10"      rent_period="164" />
+		<ITEM id="30305"		rate="0.10"      rent_period="164" />
+		<ITEM id="30201"		rate="0.10"      rent_period="164" />
+		<ITEM id="30202"		rate="0.10"      rent_period="164" />
+		<ITEM id="30203"		rate="0.10"      rent_period="164" />
+		<ITEM id="30204"		rate="0.10"      rent_period="164" />
+		<ITEM id="30205"		rate="0.10"      rent_period="164" />
+		<ITEM id="30401"		rate="0.10"      rent_period="164" />
+		<ITEM id="30402"		rate="0.10"      rent_period="164" />
+		<ITEM id="30403"		rate="0.10"      rent_period="164" />
+		<ITEM id="30404"		rate="0.10"      rent_period="164" />
+		<ITEM id="30405"		rate="0.10"      rent_period="164" />
+
+		<!-- EXOTICS START -->
+		<ITEM id="250035"		rate="0.02"      rent_period="164" />
+		<ITEM id="88841"		rate="0.02"      rent_period="164" />
+		<ITEM id="88842"		rate="0.02"      rent_period="164" />
+		<ITEM id="88843"		rate="0.02"      rent_period="164" />
+		<ITEM id="88844"		rate="0.02"      rent_period="164" />
+		<ITEM id="88845"		rate="0.02"      rent_period="164" />
+		<ITEM id="88846"		rate="0.02"      rent_period="164" />
+		<ITEM id="88847"		rate="0.02"      rent_period="164" />
+		<ITEM id="88840"		rate="0.02"      rent_period="164" />
+		<ITEM id="88825"		rate="0.02"      rent_period="164" />
+		<ITEM id="88826"		rate="0.02"      rent_period="164" />
+		<ITEM id="88827"		rate="0.02"      rent_period="164" />
+		<ITEM id="88828"		rate="0.02"      rent_period="164" />
+		<ITEM id="88829"		rate="0.02"      rent_period="164" />
+		<ITEM id="88830"		rate="0.02"      rent_period="164" />
+		<ITEM id="88831"		rate="0.02"      rent_period="164" />
+		<ITEM id="88832"		rate="0.02"      rent_period="164" />
+		<ITEM id="88833"		rate="0.02"      rent_period="164" />
+		<ITEM id="88834"		rate="0.02"      rent_period="164" />
+		<ITEM id="88838"		rate="0.02"      rent_period="164" />
+		<ITEM id="88835"		rate="0.02"      rent_period="164" />
+		<ITEM id="88836"		rate="0.02"      rent_period="164" />
+		<ITEM id="90072"		rate="0.02"      rent_period="164" />
+		<ITEM id="9228"		rate="0.02"      rent_period="164" />
+		<ITEM id="9229"		rate="0.02"      rent_period="164" />
+		<ITEM id="9230"		rate="0.02"      rent_period="164" />
+		<ITEM id="9231"		rate="0.02"      rent_period="164" />
+		<ITEM id="9232"		rate="0.02"      rent_period="164" />
+		<ITEM id="9233"		rate="0.02"      rent_period="164" />
+		<ITEM id="9234"		rate="0.02"      rent_period="164" />
+		<ITEM id="9240"		rate="0.02"      rent_period="164" />
+		<ITEM id="9236"		rate="0.02"      rent_period="164" />
+		<ITEM id="9244"		rate="0.02"      rent_period="164" />
+		<ITEM id="401191"		rate="0.02"      rent_period="164" />
+		<ITEM id="401012"		rate="0.02"      rent_period="164" />
+		<ITEM id="401190"		rate="0.02"      rent_period="164" />
+		<ITEM id="401142"		rate="0.02"      rent_period="164" />
+		<ITEM id="401156"		rate="0.02"      rent_period="164" />
+		<ITEM id="34024"		rate="0.02"      rent_period="164" />
+		<ITEM id="34021"		rate="0.02"      rent_period="164" />
+		<ITEM id="34022"		rate="0.02"      rent_period="164" />
+		<ITEM id="34023"		rate="0.02"      rent_period="164" />
+		<ITEM id="9553"		rate="0.02"      rent_period="164" />
+		<ITEM id="9558"		rate="0.02"      rent_period="164" />
+		<ITEM id="9554"		rate="0.02"      rent_period="164" />
+		<ITEM id="9556"		rate="0.02"      rent_period="164" />
+		<ITEM id="9557"		rate="0.02"      rent_period="164" />
+		<ITEM id="9559"		rate="0.02"      rent_period="164" />
+		<ITEM id="3443"		rate="0.02"      rent_period="164" />
+		<ITEM id="3444"		rate="0.02"      rent_period="164" />
+		<ITEM id="34468"		rate="0.02"      rent_period="164" />
+		<ITEM id="9551"		rate="0.02"      rent_period="164" />
+		<ITEM id="9552"		rate="0.02"      rent_period="164" />
+		<ITEM id="88837"		rate="0.02"      rent_period="164" />
+		<ITEM id="34025"		rate="0.02"      rent_period="164" />
+		<ITEM id="34026"		rate="0.02"      rent_period="164" />
+		<ITEM id="2345"		rate="0.02"      rent_period="164" />
+		<ITEM id="2348"		rate="0.02"      rent_period="164" />
+		<ITEM id="2349"		rate="0.02"      rent_period="164" />
+		<ITEM id="2350"		rate="0.02"      rent_period="164" />
+		<ITEM id="1194"		rate="0.02"      rent_period="164" />
+		<ITEM id="1217"		rate="0.02"      rent_period="164" />
+		<ITEM id="1219"		rate="0.02"      rent_period="164" />
+		<ITEM id="51122"		rate="0.02"      rent_period="164" />
+		<ITEM id="1202"		rate="0.02"      rent_period="164" />
+		<ITEM id="1218"		rate="0.02"      rent_period="164" />
+		<ITEM id="6765"		rate="0.02"      rent_period="164" />
+		<ITEM id="4355"		rate="0.02"      rent_period="164" />
+		<ITEM id="4356"		rate="0.02"      rent_period="164" />
+		<ITEM id="3000"		rate="0.02"      rent_period="164" />
+		<ITEM id="2354"		rate="0.02"      rent_period="164" />
+		<ITEM id="34000"		rate="0.02"      rent_period="164" />
+		<ITEM id="34001"		rate="0.02"      rent_period="164" />
+		<ITEM id="34002"		rate="0.02"      rent_period="164" />
+		<ITEM id="34003"		rate="0.02"      rent_period="164" />
+		<ITEM id="34004"		rate="0.02"      rent_period="164" />
+		<ITEM id="34005"		rate="0.02"      rent_period="164" />
+		<ITEM id="34006"		rate="0.02"      rent_period="164" />
+		<ITEM id="34007"		rate="0.02"      rent_period="164" />
+		<ITEM id="34008"		rate="0.02"      rent_period="164" />
+		<ITEM id="34009"		rate="0.02"      rent_period="164" />
+		<ITEM id="34010"		rate="0.02"      rent_period="164" />
+		<ITEM id="34011"		rate="0.02"      rent_period="164" />
+		<ITEM id="34012"		rate="0.02"      rent_period="164" />
+		<ITEM id="34013"		rate="0.02"      rent_period="164" />
+		<ITEM id="34014"		rate="0.02"      rent_period="164" />
+		<ITEM id="34015"		rate="0.02"      rent_period="164" />
+		<ITEM id="34016"		rate="0.02"      rent_period="164" />
+		<ITEM id="34017"		rate="0.02"      rent_period="164" />
+		<ITEM id="34018"		rate="0.02"      rent_period="164" />
+		<ITEM id="34019"		rate="0.02"      rent_period="164" />
+		<ITEM id="34020"		rate="0.02"      rent_period="164" />
+		<ITEM id="30334"		rate="0.02"      rent_period="164" />
+		<!-- EXOTICS END -->
+		</ITEMSET>
+</DROPSET>
+
+</XML>

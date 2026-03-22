@@ -1,0 +1,1 @@
+SQLCMD -S localhost\sqlexpress -E -i EvilTreasure.sql

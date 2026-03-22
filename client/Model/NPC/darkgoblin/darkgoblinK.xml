@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="darkgoblin_king" filename="darkgoblin_king.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="darkgoblinK_idle.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="neglect1"		filename="darkgoblinK_neglect.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attacked1"	filename="darkgoblinK_damage_melee.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="melee_attacked2"	filename="darkgoblinK_damage_melee2.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="range_attacked1"	filename="darkgoblinK_damage_range.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="lightning"		filename="darkgoblinK_damage_lightning.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="darkgoblinK_standshot.elu.ani"		gm="1"	motion_type="0" motion_loop_type="loop" 	> </AddAnimation>
+
+	<AddAnimation name="run"		filename="darkgoblinK_run.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="die"		filename="darkgoblinK_die.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="special_attack1" 	filename="darkgoblinK_special.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+	<AddAnimation name="special_attack2" 	filename="darkgoblinK_special2.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="stunned" 		filename="darkgoblinK_damage_down.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>

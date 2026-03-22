@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="droptable">
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ ORIGINAL QUEST DROPTABLE START!!!
+ 
+ Exotics - 0.10
+ Rares - 0.20
+ Common - 0.50
+ 
+ 
+ START GOBLINS DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- COMMON DROPS WITH NO RARES -->
+
+<DROPSET id="1" name="C01">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="504001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="504002"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9529"		rate="0.01"      rent_period="999999" />
+		<ITEM id="521018"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88812"	rate="0.01"      rent_period="999999" />
+		<ITEM id="600304"	rate="0.01"      rent_period="999999" />
+		<ITEM id="500005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223323"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223327"		rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="504001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="504002"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9529"		rate="0.01"      rent_period="999999" />
+		<ITEM id="521018"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88812"	rate="0.01"      rent_period="999999" />
+		<ITEM id="600304"	rate="0.01"      rent_period="999999" />
+		<ITEM id="500005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223323"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223327"		rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<!-- COMMON DROPS WITH SOME RARES (GOBLIN WIZARDS DROP THIS STUFF) -->
+
+<DROPSET id="2" name="C02">
+	<ITEMSET QL="0">
+		<ITEM id="30203"	rate="0.30" />
+		<ITEM id="4018"		rate="0.30" />
+		<ITEM id="6"		rate="0.30" />
+		<ITEM id="520048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="321077"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88814"		rate="0.01"      rent_period="999999" />
+		<ITEM id="321094"	rate="0.01"      rent_period="999999" />
+		<ITEM id="507003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9242"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="200053"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88780"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88774"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9242"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="30203"	rate="0.30" />
+		<ITEM id="4018"		rate="0.30" />
+		<ITEM id="6"		rate="0.30" />
+		<ITEM id="520048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="321077"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88814"		rate="0.01"      rent_period="999999" />
+		<ITEM id="321094"	rate="0.01"      rent_period="999999" />
+		<ITEM id="507003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9242"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="200053"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88780"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88774"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9242"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- RARE DROPS(GOBLIN CAPTAINS DROP THIS STUFF) -->
+
+<DROPSET id="3" name="C03">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="400557"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="9306"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9307"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9241"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9252"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9243"		rate="0.01"      rent_period="999999" />
+		<ITEM id="88775"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88776"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88778"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9248"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="400557"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="9306"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9307"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9241"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9252"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9243"		rate="0.01"      rent_period="999999" />
+		<ITEM id="88775"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88776"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88778"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9248"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- EXOTIC DROPS WITH SOME RARES (GOBLIN KING DROP THIS STUFF) -->
+
+<DROPSET id="4" name="C04">
+	<ITEMSET QL="0">
+		<ITEM id="88778"	rate="0.30" />
+		<ITEM id="88780"	rate="0.30" />
+		<ITEM id="9246"		rate="0.30" />
+		<ITEM id="401120"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="250030"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9241"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9243"		rate="0.01"      rent_period="999999" />
+		<ITEM id="1871"		rate="0.01"      rent_period="999999" />
+		<ITEM id="34494"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88815"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="88832"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="88833"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="88778"	rate="0.30" />
+		<ITEM id="88780"	rate="0.30" />
+		<ITEM id="9246"		rate="0.30" />
+		<ITEM id="401120"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="250030"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9241"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9243"		rate="0.01"      rent_period="999999" />
+		<ITEM id="1871"		rate="0.01"      rent_period="999999" />
+		<ITEM id="34494"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88815"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="88832"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="88833"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- Goblin NPC DROPS Finished! -->
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START KOBOLT QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- COMMON DROPS WITH NO RARES -->
+
+<DROPSET id="5" name="K01">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="2000202"	rate="0.01"      rent_period="999999" />
+		<ITEM id="2000203"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223329"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200004"	rate="0.01"      rent_period="999999" />
+		<ITEM id="40030"	rate="0.01"      rent_period="999999" />
+		<ITEM id="40031"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88810"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23029"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23527"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="2000202"	rate="0.01"      rent_period="999999" />
+		<ITEM id="2000203"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223329"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200004"	rate="0.01"      rent_period="999999" />
+		<ITEM id="40030"	rate="0.01"      rent_period="999999" />
+		<ITEM id="40031"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88810"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23029"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23527"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<!-- COMMON DROPS WITH SOME RARES (GOBLIN WIZARDS DROP THIS STUFF) -->
+
+<DROPSET id="6" name="K02">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="23042"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23043"	rate="0.01"      rent_period="999999" />
+		<ITEM id="527002"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400010"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400014"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88773"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="88181"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9309"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9306"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400557"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="23042"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23043"	rate="0.01"      rent_period="999999" />
+		<ITEM id="527002"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400010"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400014"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88773"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="88181"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9309"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9306"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400557"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- RARE DROPS( CAPTAINS DROP THIS STUFF) -->
+
+<DROPSET id="7" name="K23">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="9307"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="1871"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9249"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9250"		rate="0.01"      rent_period="999999" />
+		<ITEM id="401121"		rate="0.01"      rent_period="999999" />
+		<ITEM id="401123"		rate="0.01"      rent_period="999999" />
+		<ITEM id="401122"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401124"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401125"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401126"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="9307"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="1871"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9249"		rate="0.01"      rent_period="999999" />
+		<ITEM id="9250"		rate="0.01"      rent_period="999999" />
+		<ITEM id="401121"		rate="0.01"      rent_period="999999" />
+		<ITEM id="401123"		rate="0.01"      rent_period="999999" />
+		<ITEM id="401122"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401124"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401125"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401126"		rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- EXOTIC DROPS WITH SOME RARES (GOBLIN KING DROP THIS STUFF) -->
+
+<DROPSET id="8" name="K24">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88771"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="250028"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250030"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9242"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88773"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88772"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88781"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="9229"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="9232"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9231"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88771"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="250028"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250030"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9242"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88773"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88772"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88781"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="9229"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="9232"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9231"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="9" name="K25">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="3439"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="88822"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200049"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3438"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90073"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90074"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34489"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="88836"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9228"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="3439"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="88822"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200049"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3438"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90073"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90074"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34489"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="88836"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9228"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="10" name="K26">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="9309"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="3433"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41342"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88780"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88781"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9241"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88831"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="34009"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="34000"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1194"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="9309"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="3433"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41342"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88780"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88781"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9241"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88831"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="34009"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="34000"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1194"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- Kobolt NPC DROPS Finished! -->
+
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START SKELETON/LICH QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- COMMON DROPS WITH NO RARES -->
+
+<DROPSET id="11" name="S31">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200008"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223330"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401110"	rate="0.01"      rent_period="999999" />
+		<ITEM id="509001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="504005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30401"	rate="0.01"      rent_period="999999" />
+		<ITEM id="507003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="5016"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9227"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200008"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223330"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401110"	rate="0.01"      rent_period="999999" />
+		<ITEM id="509001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="504005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30401"	rate="0.01"      rent_period="999999" />
+		<ITEM id="507003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="5016"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9227"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="12" name="S32">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="223323"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="2000202"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30202"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30302"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="528001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1209"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250015"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="223323"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="2000202"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30202"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30302"	rate="0.01"      rent_period="999999" />
+		<ITEM id="30003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="528001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1209"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250015"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="13" name="S33">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="250017"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250018"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23044"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23046"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23045"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23047"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23078"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23079"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23080"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23533"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="250017"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250018"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23044"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23046"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23045"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23047"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23078"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23079"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23080"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23533"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="14" name="S34">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="23531"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23532"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23534"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23535"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23536"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23543"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23544"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23545"	rate="0.01"      rent_period="999999" />
+		<ITEM id="21533"	rate="0.01"      rent_period="999999" />
+		<ITEM id="21534"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="23531"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23532"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23534"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23535"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23536"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23543"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23544"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23545"	rate="0.01"      rent_period="999999" />
+		<ITEM id="21533"	rate="0.01"      rent_period="999999" />
+		<ITEM id="21534"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="15" name="S35">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="21054"	rate="0.01"      rent_period="999999" />
+		<ITEM id="24514"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23029"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23527"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300016"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300017"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300018"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300034"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300035"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400003"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="21054"	rate="0.01"      rent_period="999999" />
+		<ITEM id="24514"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23029"	rate="0.01"      rent_period="999999" />
+		<ITEM id="23527"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300016"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300017"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300018"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300034"	rate="0.01"      rent_period="999999" />
+		<ITEM id="300035"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400003"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="16" name="S36">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223324"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223325"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223326"	rate="0.01"      rent_period="999999" />
+		<ITEM id="4023"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400507"	rate="0.01"      rent_period="999999" />
+		<ITEM id="507003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401144"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400514"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401154"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223324"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223325"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223326"	rate="0.01"      rent_period="999999" />
+		<ITEM id="4023"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400507"	rate="0.01"      rent_period="999999" />
+		<ITEM id="507003"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401144"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400514"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401154"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="17" name="S37">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="41340"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="250032"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9219"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223345"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200049"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9222"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9223"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="9234"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="9233"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9232"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="41340"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="250032"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9219"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223345"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200049"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9222"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9223"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="9234"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="9233"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9232"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="18" name="S38">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="9249"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="9247"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9248"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9250"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9251"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9252"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401121"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="88825"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="34468"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9551"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="9249"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="9247"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9248"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9250"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9251"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9252"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401121"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="88825"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="34468"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9551"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="19" name="S39">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="90071"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="90075"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90076"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34487"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34488"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34489"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34490"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="9552"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="30334"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88837"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="90071"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="90075"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90076"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34487"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34488"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34489"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34490"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="9552"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="30334"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88837"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+
+<!-- Skeleton NPC DROPS Finished! -->
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START PRISONERS QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- COMMON DROPS WITH NO RARES -->
+
+<DROPSET id="20" name="P11">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="502009"	rate="0.01"      rent_period="999999" />
+		<ITEM id="502013"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400531"	rate="0.01"      rent_period="999999" />
+		<ITEM id="509005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="509008"	rate="0.01"      rent_period="999999" />
+		<ITEM id="8002"	rate="0.01"      rent_period="999999" />
+		<ITEM id="6010"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400522"	rate="0.01"      rent_period="999999" />
+		<ITEM id="10001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="5019"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="502009"	rate="0.01"      rent_period="999999" />
+		<ITEM id="502013"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400531"	rate="0.01"      rent_period="999999" />
+		<ITEM id="509005"	rate="0.01"      rent_period="999999" />
+		<ITEM id="509008"	rate="0.01"      rent_period="999999" />
+		<ITEM id="8002"	rate="0.01"      rent_period="999999" />
+		<ITEM id="6010"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400522"	rate="0.01"      rent_period="999999" />
+		<ITEM id="10001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="5019"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="21" name="P12">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88781"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="3439"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3441"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3442"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90071"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90073"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90076"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="34000"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="34001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34011"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88781"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="3439"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3441"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3442"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90071"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90073"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90076"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="34000"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="223345"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34011"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- PRISONERS NPC Drops Finished -->
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START ZOMBIES QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- COMMON DROPS WITH NO RARES -->
+
+<DROPSET id="22" name="Z11">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="524058"	rate="0.01"      rent_period="999999" />
+		<ITEM id="524558"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200053"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200053"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="502012"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400508"	rate="0.01"      rent_period="999999" />
+		<ITEM id="504005"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="524058"	rate="0.01"      rent_period="999999" />
+		<ITEM id="524558"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200048"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200053"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200053"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" />
+		<ITEM id="502012"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400508"	rate="0.01"      rent_period="999999" />
+		<ITEM id="504005"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="23" name="Z12">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88815"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="702"	rate="0.01"      rent_period="999999" />
+		<ITEM id="71"	rate="0.01"      rent_period="999999" />
+		<ITEM id="72"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1945"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250027"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3441"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="250035"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="9552"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401012"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88815"	rate="0.01"      rent_period="999999" /><!-- START RARES -->
+		<ITEM id="702"	rate="0.01"      rent_period="999999" />
+		<ITEM id="71"	rate="0.01"      rent_period="999999" />
+		<ITEM id="72"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1945"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250027"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3441"	rate="0.01"      rent_period="999999" /><!-- END RARES -->
+		<ITEM id="250035"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="9552"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401012"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<!-- ZOMBIES NPC Drops Finished -->
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START VOLCANO QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<!-- COMMON DROPS WITH NO RARES -->
+
+<DROPSET id="24" name="d06">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="200045"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="200046"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="200047"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="34025"	rate="0.01"      rent_period="999999" /> <!-- EXOTICS -->
+		<ITEM id="41333"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41334"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41335"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41336"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41337"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200064"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="200045"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="200046"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="200047"	rate="0.01"      rent_period="999999" /> <!-- DROPS FOR HIGHER VOLCANO -->
+		<ITEM id="34025"	rate="0.01"      rent_period="999999" /> <!-- EXOTICS -->
+		<ITEM id="41333"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41334"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41335"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41336"	rate="0.01"      rent_period="999999" />
+		<ITEM id="41337"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<!-- VOLCANO NPCS DROPS FINISHED -->
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START ICE QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<DROPSET id="25" name="EA1">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200051"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="88847"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88840"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88831"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88832"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88833"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88838"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88835"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="200051"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="88847"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88840"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88831"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88832"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88833"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88838"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88835"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<DROPSET id="26" name="IA1">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88846"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="401191"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401012"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401190"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401142"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401156"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34024"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34021"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200051"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9553"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="88846"	rate="0.01"      rent_period="999999" /><!-- START EXOTICS -->
+		<ITEM id="401191"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401012"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401190"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401142"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401156"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34024"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34021"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200051"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9553"	rate="0.01"      rent_period="999999" /><!-- END EXOTICS -->
+		</ITEMSET>
+</DROPSET>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START ROBOTS QUEST DROPS
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<DROPSET id="27" name="C012">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="600001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223331"	rate="0.01"      rent_period="999999" />
+		<ITEM id="600201"	rate="0.01"      rent_period="999999" />
+		<ITEM id="223332"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400511"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9237"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9238"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9239"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9227"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9553"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="600001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="600101"	rate="0.01"      rent_period="999999" />
+		<ITEM id="600201"	rate="0.01"      rent_period="999999" />
+		<ITEM id="600301"	rate="0.01"      rent_period="999999" />
+		<ITEM id="400511"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9237"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9238"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9239"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9227"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9553"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+
+<DROPSET id="28" name="SC1">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9234"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9240"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3443"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401191"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401012"	rate="0.01"      rent_period="999999" />
+		<ITEM id="2345"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3000"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34026"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1218"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9234"	rate="0.01"      rent_period="999999" />
+		<ITEM id="9240"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3443"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401191"	rate="0.01"      rent_period="999999" />
+		<ITEM id="401012"	rate="0.01"      rent_period="999999" />
+		<ITEM id="2345"	rate="0.01"      rent_period="999999" />
+		<ITEM id="3000"	rate="0.01"      rent_period="999999" />
+		<ITEM id="34026"	rate="0.01"      rent_period="999999" />
+		<ITEM id="1218"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ START NIGHTFALL DROPS WEEk 1 AND 2
+        
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<DROPSET id="29" name="NI1">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="34023"	rate="0.01"      rent_period="999999" /> <!-- NIGHTFALL DROPS ALL EXOTICS -->
+		<ITEM id="9230"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250035"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88847"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200045"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200046"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20501"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="34023"	rate="0.01"      rent_period="999999" /> <!-- NIGHTFALL DROPS ALL EXOTICS -->
+		<ITEM id="9230"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250035"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88847"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200045"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200046"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20501"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+
+<DROPSET id="30" name="NI2">
+	<ITEMSET QL="0">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="34023"	rate="0.01"      rent_period="999999" /> <!-- NIGHTFALL DROPS ALL EXOTICS -->
+		<ITEM id="9230"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250035"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88847"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200045"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200046"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20501"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+	<ITEMSET QL="1">
+		<ITEM id="hp1"		rate="0.30" />
+		<ITEM id="ap1"		rate="0.30" />
+		<ITEM id="mag1"		rate="0.30" />
+		<ITEM id="34023"	rate="0.01"      rent_period="999999" /> <!-- NIGHTFALL DROPS ALL EXOTICS -->
+		<ITEM id="9230"	rate="0.01"      rent_period="999999" />
+		<ITEM id="90072"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88834"	rate="0.01"      rent_period="999999" />
+		<ITEM id="250035"	rate="0.01"      rent_period="999999" />
+		<ITEM id="88847"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200045"	rate="0.01"      rent_period="999999" />
+		<ITEM id="200046"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20001"	rate="0.01"      rent_period="999999" />
+		<ITEM id="20501"	rate="0.01"      rent_period="999999" />
+		</ITEMSET>
+</DROPSET>
+
+</XML>

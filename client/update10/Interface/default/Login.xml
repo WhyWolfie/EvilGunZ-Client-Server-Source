@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Login">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+<!-- Rewritten Login, Source Changes Necessary --> 
+<!-- Base: Login Frame -->
+<FRAME item="Login">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+
+	<PICTURE item="Login_BG" parent="Login">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>loginbg2.png</BITMAP>
+<VISIBLE>true</VISIBLE>
+</PICTURE>
+
+<!-- Frame: LoginFrame -->
+<FRAME item="LoginFrame" parent="Login">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>200</X>
+<Y>330</Y>
+<W>400</W>
+<H>250</H>
+</BOUNDS>
+<RESIZABLE>true</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+
+<!-- Login: background -->
+<PICTURE item="loginbg" parent="Login">
+<BOUNDS>
+<X>310</X>
+<Y>200</Y>
+<W>212</W>
+<H>230</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>loginbg.png</BITMAP>
+</PICTURE>
+
+<!-- Label: LoginID -->
+<PICTURE item ="BaseLogin" parent="Login">
+<BOUNDS>
+<X>348</X>
+<Y>263</Y>
+<W>120</W>
+<H>25</H>
+</BOUNDS>
+<STRETCH/>
+</PICTURE>
+<!-- Edit: LoginID -->
+<EDIT item="LoginID" parent="Login">
+<BOUNDS>
+<X>348</X>
+<Y>263</Y>
+<W>120</W>
+<H>25</H>
+</BOUNDS>
+<TEXT></TEXT>
+<VISIBLE>true</VISIBLE>
+</EDIT>
+<!-- Edit: Password -->
+<EDIT item="LoginPassword" parent="Login">
+<PASSWORD>true</PASSWORD>
+<BOUNDS>
+<X>348</X>
+<Y>320</Y>
+<W>120</W>
+<H>25</H>
+</BOUNDS>
+<TEXT></TEXT>
+<VISIBLE>true</VISIBLE>
+</EDIT>
+
+<!-- Login Button -->
+<BMBUTTON item="LoginOK" parent="Login">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>348</X>
+<Y>382</Y>
+<W>70</W>
+<H>45</H>
+</BOUNDS>
+<STRETCH/>
+<DEFAULTKEY>ENTER</DEFAULTKEY>
+<BITMAP type="up">loginbutton.png</BITMAP>
+<BITMAP type="over">loginbutton_hover.png</BITMAP>
+<BITMAP type="down">loginbutton_hover.png</BITMAP>
+</BMBUTTON>
+	<SERVERVIEW item="SelectedServer" parent="LoginFrame">
+		<BOUNDS>
+			<X>25</X>
+			<Y>58</Y>
+			<W>200</W>
+			<H>120</H>
+		</BOUNDS>
+	<VISIBLE>false</VISIBLE>
+	</SERVERVIEW>
+	
+<BMBUTTON item="LobbyOptionFrame" parent="Login">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>418</X>
+<Y>382</Y>
+<W>70</W>
+<H>45</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">optionsbutton.png</BITMAP>
+<BITMAP type="over">optionsbutton_hover.png</BITMAP>
+<BITMAP type="down">optionsbutton_hover.png</BITMAP>
+</BMBUTTON>
+
+
+
+<!-- Error: Login -->
+<LABEL item="LoginError" parent="LoginFrame">
+<TEXTCOLOR>
+<R>200</R>
+<G>0</G>
+<B>0</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>13</X>
+<Y>230</Y>
+<W>200</W>
+<H>32</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<!-- Error: Connection -->
+<LABEL item="Login_ConnectingMsg" parent="Login">
+<FONT>FONTb11b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>200</X>
+<Y>500</Y>
+<W>400</W>
+<H>25</H>
+</BOUNDS>
+<STRETCH/>
+<VISIBLE>false</VISIBLE>
+<TEXT></TEXT>
+</LABEL>	
+<!-- Login Hotkey -->
+<BUTTON item="LoginOK" parent="LoginFrame">
+<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>-1</X>
+<Y>-1</Y>
+<W>0</W>
+<H>0</H>
+</BOUNDS>
+<DEFAULTKEY>ENTER</DEFAULTKEY>
+</BUTTON>	
+</XML>

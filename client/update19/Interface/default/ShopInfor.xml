@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ShopInfor">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+	<FRAME item="ShopInfor">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+
+<PICTURE item="CharSel_BG" parent="ShopInfor">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>ShopInfor.png</BITMAP>
+<VISIBLE>true</VISIBLE>
+</PICTURE>
+
+
+<BMBUTTON item="ShopCaller" parent="ShopInfor">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>508</X>
+<Y>519</Y>
+<W>265</W>
+<H>44</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">proceed.png</BITMAP>
+<BITMAP type="over">proceed_hover.png</BITMAP>
+<BITMAP type="down">proceed_hover.png</BITMAP>
+</BMBUTTON>
+
+</XML>

@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Lobby">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+
+
+
+
+<FRAME item="Lobby">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+	
+	
+<PICTURE item="Lobby_BG" parent="Lobby"> 
+<BOUNDS> 
+<X>0</X> 
+<Y>0</Y> 
+<W>800</W> 
+<H>600</H> 
+</BOUNDS> 
+<STRETCH/> 
+<BITMAP>background.tga</BITMAP> 
+</PICTURE>
+
+<PICTURE item ="Roomlist_Frame" parent="Lobby">
+<BOUNDS>
+<X>50</X>
+<Y>45</Y>
+<W>700</W>
+<H>210</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>roomlist_frame.png</BITMAP>
+</PICTURE>
+
+<PICTURE item ="Roomlist_Frame" parent="Lobby">
+<BOUNDS>
+<X>408</X>
+<Y>258</Y>
+<W>342</W>
+<H>308</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>chatboxbg.png</BITMAP>
+</PICTURE>
+
+
+	<!-- TEXTAREA : 채팅창 -->
+	<TEXTAREA item = "ChannelChattingOutput" parent = "Lobby">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>415</X>
+			<Y>266</Y>
+			<W>340</W>
+			<H>300</H>
+		</BOUNDS>
+		<MOVABLE>false</MOVABLE>
+		<EDITABLE>false</EDITABLE>
+		<MAXLENGTH>4096</MAXLENGTH>
+		<INDENTATION>50</INDENTATION>
+	</TEXTAREA>
+
+	<!-- Edit : 채팅 메시지 입력창 -->
+	<EDIT item="ChannelChattingInput" parent="Lobby">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>408</X>
+			<Y>569</Y>
+			<W>342</W>
+			<H>24</H>
+		</BOUNDS>
+		<MAXLENGTH>128</MAXLENGTH>
+	</EDIT>
+
+<PICTURE item ="Side_Frame_L" parent="Lobby">
+<BOUNDS>
+<X>30</X>
+<Y>249</Y>
+<W>190</W>
+<H>330</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP> 
+</PICTURE>
+<PICTURE item ="Side_Frame_R" parent="Lobby">
+<BOUNDS>
+<X>607</X>
+<Y>249</Y>
+<W>187</W>
+<H>330</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<CLANLIST item="Lobby_ClanList" parent="Roomlist_Frame">
+<BOUNDS>
+<X>18</X>
+<Y>22</Y>
+<W>376</W>
+<H>160</H>
+</BOUNDS>
+</CLANLIST>
+<CLANLIST item="Lobby_ClanList" parent="Roomlist_Frame">
+<BOUNDS>
+<X>18</X>
+<Y>22</Y>
+<W>376</W>
+<H>160</H>
+</BOUNDS>
+</CLANLIST>
+<PICTURE item ="Lobby_ClanInfoBG" parent="Roomlist_Frame">
+<BOUNDS>
+<X>396</X>
+<Y>12</Y>
+<W>376</W>
+<H>170</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<PICTURE item ="Lobby_ClanInfoEmblem" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>12</X>
+<Y>15</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>no_emblem.png</BITMAP>
+</PICTURE>
+<LABEL item="Lobby_ClanInfoName" parent="Lobby_ClanInfoBG">
+<FONT>FONTa10b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>100</G>
+<B>20</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>85</X>
+<Y>8</Y>
+<W>150</W>
+<H>20</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<LABEL item="Lobby_ClanInfoDetail" parent="Lobby_ClanInfoBG">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>173</R>
+<G>173</G>
+<B>173</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>85</X>
+<Y>28</Y>
+<W>250</W>
+<H>20</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoWinLose" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>170</X>
+<Y>53</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+</ZBMNUMLABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoPoints" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>170</X>
+<Y>78</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+</ZBMNUMLABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoTotalPoints" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>170</X>
+<Y>103</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+</ZBMNUMLABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoRanking" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>192</X>
+<Y>128</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+	</ZBMNUMLABEL>
+<ROOMLIST item="Lobby_StageList" parent="Roomlist_Frame">
+<BOUNDS>
+<X>0</X>
+<Y>25</Y>
+<W>330</W>
+<H>160</H>
+</BOUNDS>
+<BITMAP type="frame">stripe.tga</BITMAP>
+<BITMAP type="back">banner_Area_D-911.tga</BITMAP>
+<BITMAP type="back">banner_Battle Arena.tga</BITMAP>
+<BITMAP type="back">banner_Castle.tga</BITMAP>
+<BITMAP type="back">banner_Catacomb.tga</BITMAP>
+<BITMAP type="back">banner_CastleCTF.tga</BITMAP>
+<BITMAP type="back">banner_Civilized.tga</BITMAP>
+<BITMAP type="back">banner_CTFCastle.tga</BITMAP>
+<BITMAP type="back">banner_Dungeon.tga</BITMAP>
+<BITMAP type="back">banner_Factory.tga</BITMAP>
+<BITMAP type="back">banner_Complex.tga</BITMAP>
+<BITMAP type="back">banner_Garden.tga</BITMAP>
+<BITMAP type="back">banner_High_Haven.tga</BITMAP>
+<BITMAP type="back">banner_IndustrialFactory.tga</BITMAP>
+<BITMAP type="back">banner_Island.tga</BITMAP>
+<BITMAP type="back">banner_Hall.tga</BITMAP>
+<BITMAP type="back">banner_Jail.tga</BITMAP>
+<BITMAP type="back">banner_mansion.tga</BITMAP>
+<BITMAP type="back">banner_Port.tga</BITMAP>
+<BITMAP type="back">banner_prison.tga</BITMAP>
+<BITMAP type="back">banner_Prison II.tga</BITMAP>
+<BITMAP type="back">banner_Ruin.tga</BITMAP>
+<BITMAP type="back">banner_SkillMap.tga</BITMAP>
+<BITMAP type="back">banner_SkillMapV2.tga</BITMAP>
+<BITMAP type="back">banner_SkillMapV3.tga</BITMAP>
+<BITMAP type="back">banner_Snow_Town.tga</BITMAP>
+<BITMAP type="back">banner_Solitude.tga</BITMAP>
+<BITMAP type="back">banner_Stairway.tga</BITMAP>
+<BITMAP type="back">banner_station.tga</BITMAP>
+<BITMAP type="back">banner_Superflip.tga</BITMAP>
+<BITMAP type="back">banner_SuperMario3.tga</BITMAP>
+<BITMAP type="back">banner_Town.tga</BITMAP>
+<BITMAP type="back">banner_Warehouse.tga</BITMAP>
+<BITMAP type="back">banner_WeaponShop.tga</BITMAP>
+<BITMAP type="icon" mode="0">icon_deathmatch.tga</BITMAP>
+<BITMAP type="icon" mode="2">icon_gladiator.tga</BITMAP>
+<BITMAP type="icon" mode="1">icon_teamdm.tga</BITMAP>
+<BITMAP type="icon" mode="3">icon_teamglad.tga</BITMAP>
+<BITMAP type="icon" mode="4">icon_assassin.tga</BITMAP>
+<BITMAP type="icon" mode="5">icon_train.tga</BITMAP>
+<BITMAP type="icon" mode="6">icon_survival.tga</BITMAP>
+<BITMAP type="icon" mode="7">icon_quest.tga</BITMAP>
+<BITMAP type="icon" mode="8">icon_berserk.tga</BITMAP>
+<BITMAP type="icon" mode="9">icon_unlimitdm.tga</BITMAP>
+<BITMAP type="icon" mode="10">icon_duel.tga</BITMAP>
+<BITMAP type="icon" mode="14">icon_ctf.tga</BITMAP>
+<BITMAP type="icon" mode="">icon_koth.tga</BITMAP>
+<BITMAP type="icon" mode="">icon_infection.tga</BITMAP>
+<BITMAP type="icon" mode="">icon_cquest.tga</BITMAP>
+<SIZE type="width">350</SIZE>
+<SIZE type="height">32</SIZE>
+<TEXT></TEXT>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<VISIBLE>true</VISIBLE>
+</ROOMLIST>
+
+
+<!-- NEW buttons in order +3-->
+<BMBUTTON item="ReplayCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>9</X>
+<Y>0</Y>
+<W>99</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">replays.png</BITMAP>
+<BITMAP type="over">replays.png</BITMAP>
+<BITMAP type="down">replays.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="CS_ShopInfor" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>107</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">evilshop.png</BITMAP>
+<BITMAP type="over">evilshop.png</BITMAP>
+<BITMAP type="down">evilshop.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="EquipmentCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>203</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">equipment.png</BITMAP>
+<BITMAP type="over">equipment.png</BITMAP>
+<BITMAP type="down">equipment.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="ChannelListFrameCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>299</X>
+<Y>0</Y>
+<W>98</W>
+<H>54</H>df
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">channel.png</BITMAP>
+<BITMAP type="over">channel.png</BITMAP>
+<BITMAP type="down">channel.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="CharSelectionCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>396</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">characters.png</BITMAP>
+<BITMAP type="over">characters.png</BITMAP>
+<BITMAP type="down">characters.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="LobbyOptionFrame" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>492</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">settings.png</BITMAP>
+<BITMAP type="over">settings.png</BITMAP>
+<BITMAP type="down">settings.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Logout" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>588</X>
+<Y>0</Y>
+<W>99</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<CONFIRMMESSAGE>STR:UI_LOBBY_A02</CONFIRMMESSAGE>
+<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+<BITMAP type="up">logout.png</BITMAP>
+<BITMAP type="over">logout.png</BITMAP>
+<BITMAP type="down">logout.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Exit" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>686</X>
+<Y>0</Y>
+<W>104</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">exit.png</BITMAP>
+<BITMAP type="over">exit.png</BITMAP>
+<BITMAP type="down">exit.png</BITMAP>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+</BMBUTTON>
+
+
+<!-- END top buttons -->
+
+
+
+
+
+
+
+
+
+
+<BMBUTTON item="StageCreateFrameCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>50</X>
+<Y>258</Y>
+<W>346</W>
+<H>112</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">CREATEGAME1.png</BITMAP>
+<BITMAP type="over">CREATEGAME2.png</BITMAP>
+<BITMAP type="down">CREATEGAME2.png</BITMAP>
+</BMBUTTON>
+
+<BMBUTTON item="CS_QuestInfor" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>50</X>
+<Y>371</Y>
+<W>346</W>
+<H>112</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">DROPGUIDE1.png</BITMAP>
+<BITMAP type="over">DROPGUIDE2.png</BITMAP>
+<BITMAP type="down">DROPGUIDE2.png</BITMAP>
+</BMBUTTON>
+
+<BMBUTTON item="CS_NightFall" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>50</X>
+<Y>484</Y>
+<W>346</W>
+<H>112</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">NIGHTFALL1.png</BITMAP>
+<BITMAP type="over">NIGHTFALL2.png</BITMAP>
+<BITMAP type="down">NIGHTFALL2.png</BITMAP>
+</BMBUTTON>
+
+
+
+
+
+<BMBUTTON item ="StageBeforeBtn" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>34</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page_cursor_l_off.png</BITMAP>
+<BITMAP type="over">page_cursor_l_on.png</BITMAP>
+<BITMAP type="down">page_cursor_l_on.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo1" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>52</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page1_off.png</BITMAP>
+<BITMAP type="over">page1_off.png</BITMAP>
+<BITMAP type="down">page1_on.png</BITMAP>
+<PUSHBUTTON/>
+<SETCHECK/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo2" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>70</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page2_off.png</BITMAP>
+<BITMAP type="over">page2_off.png</BITMAP>
+<BITMAP type="down">page2_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo3" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>88</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page3_off.png</BITMAP>
+<BITMAP type="over">page3_off.png</BITMAP>
+<BITMAP type="down">page3_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo4" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>106</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page4_off.png</BITMAP>
+<BITMAP type="over">page4_off.png</BITMAP>
+<BITMAP type="down">page4_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo5" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>124</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page5_off.png</BITMAP>
+<BITMAP type="over">page5_off.png</BITMAP>
+<BITMAP type="down">page5_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo6" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>142</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page6_off.png</BITMAP>
+<BITMAP type="over">page6_off.png</BITMAP>
+<BITMAP type="down">page6_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="StageAfterBtn" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>160</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page_cursor_r_off.png</BITMAP>
+<BITMAP type="over">page_cursor_r_on.png</BITMAP>
+<BITMAP type="down">page_cursor_r_on.png</BITMAP>
+</BMBUTTON>
+
+</XML>

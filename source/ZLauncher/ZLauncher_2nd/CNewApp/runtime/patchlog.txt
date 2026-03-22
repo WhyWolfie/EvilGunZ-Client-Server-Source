@@ -1,0 +1,47 @@
+Log start : Wed Jan 31 11:19:15 2018
+
+Current Directory : C:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\runtime
+11:19:15:484   [APP] OS version :  (Build 9200)
+11:19:15:501   [APP] Window created successfully.
+11:19:17:675   [ZUpdate] Create.
+11:19:17:675   [ZFileTransfer] Create.
+11:19:17:675   [ZFileTransfer] Create successfully complete.
+11:19:17:675   [ZFileTransfer] Open connection.
+11:19:17:675   [ZFileTransfer] Open connection successfully complete.
+11:19:17:676   [ZFileTransfer] Change directory.
+11:19:17:676   [ZFileTransfer] Change directory successfully complete.
+11:19:17:676   [ZUpdate] Create successfully compete.
+11:19:17:677   [APP] Download patch info file
+11:19:17:677   [ZUpdate] Start update.
+11:19:17:677   [ZFileTransfer] Download file : ./patch.xml  to  ./patch.xml
+11:19:17:710   [ZFileTransfer] Download successfully complete.
+11:19:17:711   [ZUpdate] Get update info.
+11:19:17:712   [ZUpdate] Get update info successfully complete.
+11:19:17:713   [ZUpdate] Check valid from patch list.
+11:19:19:230   [ZUpdate:GetCRC] ERROR : Cannot initialize this file : './update9.mrs'
+11:19:19:231   [ZUpdatePatchNode] Needs to update : ./ZPatchBuilder.exe (not exist)
+11:19:19:231   [ZUpdate] Check valid from patch list successfully complete.
+11:19:19:231   [ZUpdate] + Total patch file count : 1
+11:19:19:232   [ZUpdate] + Total patch file size : 2449408 bytes
+11:19:19:232   [APP] Exist patch file(s)
+11:19:19:232   [APP] Start file updating...
+11:19:19:233   [ZUpdate] Patch files.
+11:19:19:233   [ZFileTransfer] Download file : ./ZPatchBuilder.exe  to  C:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\runtime\PATCH\ZPatchBuilder.exe_
+11:19:19:265   [ZFileTransfer] ERROR : File not found.
+11:19:19:265   [ZFileTransfer] ERROR : Failed download : ./ZPatchBuilder.exe
+11:19:19:266   [ZUpdate] WARNNING : Retry patch file : .\PATCH\ZPatchBuilder.exe_ , 1 retry
+11:19:19:266   [ZFileTransfer] Download file : ./ZPatchBuilder.exe  to  C:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\runtime\PATCH\ZPatchBuilder.exe_
+11:19:19:325   [ZFileTransfer] ERROR : File not found.
+11:19:19:325   [ZFileTransfer] ERROR : Failed download : ./ZPatchBuilder.exe
+11:19:19:326   [ZUpdate] ERROR : Fail to download file '.\PATCH\ZPatchBuilder.exe_'
+11:19:19:326   [ZUpdate] Patch files successfully complete.
+11:19:19:327   [ZUpdate] Move patch files.
+11:19:19:327   [ZUpdate] Move patch files successfully complete.
+11:19:19:327   [ZUpdate] Start update successfully complete.
+11:19:19:327   [APP] Update complete.
+11:19:33:646   [ZUpdate] Destroy.
+11:19:33:646   [ZFileTransfer] Destroy.
+11:19:33:646   [ZFileTransfer] Close connection.
+11:19:33:647   [ZFileTransfer] Close connection successfully complete.
+11:19:33:647   [ZFileTransfer] Destroy successfly complete.
+11:19:33:647   [ZUpdate] Destroy successfully complete.

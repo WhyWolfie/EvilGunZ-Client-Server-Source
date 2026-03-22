@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Lobby">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+
+
+
+
+<FRAME item="Lobby">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+	
+	
+<PICTURE item="Lobby_BG" parent="Lobby"> 
+<BOUNDS> 
+<X>0</X> 
+<Y>0</Y> 
+<W>800</W> 
+<H>600</H> 
+</BOUNDS> 
+<STRETCH/> 
+<BITMAP>background.tga</BITMAP> 
+</PICTURE>
+
+<PICTURE item ="Roomlist_Frame" parent="Lobby">
+<BOUNDS>
+<X>50</X>
+<Y>45</Y>
+<W>700</W>
+<H>210</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>roomlist_frame.png</BITMAP>
+</PICTURE>
+
+
+		<!-- This is the part that animates EvilGunZ Ads, we can move this around using the x and y features and resize using the width and height 
+	<ANIMATION item="AnimationLogin" parent="Lobby">
+		<PLAYMODE>repetition</PLAYMODE>
+		<ANIMTEMPLATE>AnimationLogin</ANIMTEMPLATE>
+		<BOUNDS>
+<X>194</X>
+<Y>279</Y>
+<W>410</W>
+<H>274</H>
+		</BOUNDS>
+		<VISIBLE>true</VISIBLE>
+	</ANIMATION>
+END the animation image part for EvilGunZ Ads -->
+
+	<!-- TEXTAREA : 채팅창 -->
+	<TEXTAREA item = "ChannelChattingOutput" parent = "Lobby">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>250</X>
+			<Y>366</Y>
+			<W>337</W>
+			<H>135</H>
+		</BOUNDS>
+		<MOVABLE>false</MOVABLE>
+		<EDITABLE>false</EDITABLE>
+		<MAXLENGTH>4096</MAXLENGTH>
+		<INDENTATION>50</INDENTATION>
+	</TEXTAREA>
+
+	<!-- Edit : 채팅 메시지 입력창 -->
+	<EDIT item="ChannelChattingInput" parent="Lobby">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>250</X>
+			<Y>550</Y>
+			<W>330</W>
+			<H>24</H>
+		</BOUNDS>
+		<MAXLENGTH>128</MAXLENGTH>
+	</EDIT>
+
+<PICTURE item ="Side_Frame_L" parent="Lobby">
+<BOUNDS>
+<X>30</X>
+<Y>249</Y>
+<W>190</W>
+<H>330</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP> 
+</PICTURE>
+<PICTURE item ="Side_Frame_R" parent="Lobby">
+<BOUNDS>
+<X>607</X>
+<Y>249</Y>
+<W>187</W>
+<H>330</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<CHARACTERVIEW item="EquipmentInformation" parent="Lobby">
+<BOUNDS>
+<X>24</X>
+<Y>279</Y>
+<W>141</W>
+<H>270</H>
+</BOUNDS>
+<STRETCH/>
+<VISIBLEEQUIPMENT>true</VISIBLEEQUIPMENT>
+</CHARACTERVIEW>
+<CLANLIST item="Lobby_ClanList" parent="Roomlist_Frame">
+<BOUNDS>
+<X>18</X>
+<Y>22</Y>
+<W>376</W>
+<H>160</H>
+</BOUNDS>
+</CLANLIST>
+<CLANLIST item="Lobby_ClanList" parent="Roomlist_Frame">
+<BOUNDS>
+<X>18</X>
+<Y>22</Y>
+<W>376</W>
+<H>160</H>
+</BOUNDS>
+</CLANLIST>
+<PICTURE item ="Lobby_ClanInfoBG" parent="Roomlist_Frame">
+<BOUNDS>
+<X>396</X>
+<Y>12</Y>
+<W>376</W>
+<H>170</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<PICTURE item ="Lobby_ClanInfoEmblem" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>12</X>
+<Y>15</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>no_emblem.png</BITMAP>
+</PICTURE>
+<LABEL item="Lobby_ClanInfoName" parent="Lobby_ClanInfoBG">
+<FONT>FONTa10b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>100</G>
+<B>20</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>85</X>
+<Y>8</Y>
+<W>150</W>
+<H>20</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<LABEL item="Lobby_ClanInfoDetail" parent="Lobby_ClanInfoBG">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>173</R>
+<G>173</G>
+<B>173</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>85</X>
+<Y>28</Y>
+<W>250</W>
+<H>20</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoWinLose" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>170</X>
+<Y>53</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+</ZBMNUMLABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoPoints" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>170</X>
+<Y>78</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+</ZBMNUMLABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoTotalPoints" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>170</X>
+<Y>103</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+</ZBMNUMLABEL>
+<ZBMNUMLABEL item="Lobby_ClanInfoRanking" parent="Lobby_ClanInfoBG">
+<BOUNDS>
+<X>192</X>
+<Y>128</Y>
+<W>190</W>
+<H>32</H>
+</BOUNDS>
+<BITMAP>grp_num.tga</BITMAP>
+<FONTSIZE>
+<W>32</W>
+<H>32</H>
+</FONTSIZE>
+	</ZBMNUMLABEL>
+<ROOMLIST item="Lobby_StageList" parent="Roomlist_Frame">
+<BOUNDS>
+<X>0</X>
+<Y>25</Y>
+<W>330</W>
+<H>160</H>
+</BOUNDS>
+<BITMAP type="frame">stripe.tga</BITMAP>
+<BITMAP type="back">banner_Area_D-911.tga</BITMAP>
+<BITMAP type="back">banner_Battle Arena.tga</BITMAP>
+<BITMAP type="back">banner_Castle.tga</BITMAP>
+<BITMAP type="back">banner_Catacomb.tga</BITMAP>
+<BITMAP type="back">banner_CastleCTF.tga</BITMAP>
+<BITMAP type="back">banner_Civilized.tga</BITMAP>
+<BITMAP type="back">banner_CTFCastle.tga</BITMAP>
+<BITMAP type="back">banner_Dungeon.tga</BITMAP>
+<BITMAP type="back">banner_Factory.tga</BITMAP>
+<BITMAP type="back">banner_Complex.tga</BITMAP>
+<BITMAP type="back">banner_Garden.tga</BITMAP>
+<BITMAP type="back">banner_High_Haven.tga</BITMAP>
+<BITMAP type="back">banner_IndustrialFactory.tga</BITMAP>
+<BITMAP type="back">banner_Island.tga</BITMAP>
+<BITMAP type="back">banner_Hall.tga</BITMAP>
+<BITMAP type="back">banner_Jail.tga</BITMAP>
+<BITMAP type="back">banner_mansion.tga</BITMAP>
+<BITMAP type="back">banner_Port.tga</BITMAP>
+<BITMAP type="back">banner_prison.tga</BITMAP>
+<BITMAP type="back">banner_Prison II.tga</BITMAP>
+<BITMAP type="back">banner_Ruin.tga</BITMAP>
+<BITMAP type="back">banner_SkillMap.tga</BITMAP>
+<BITMAP type="back">banner_SkillMapV2.tga</BITMAP>
+<BITMAP type="back">banner_SkillMapV3.tga</BITMAP>
+<BITMAP type="back">banner_Snow_Town.tga</BITMAP>
+<BITMAP type="back">banner_Solitude.tga</BITMAP>
+<BITMAP type="back">banner_Stairway.tga</BITMAP>
+<BITMAP type="back">banner_station.tga</BITMAP>
+<BITMAP type="back">banner_Superflip.tga</BITMAP>
+<BITMAP type="back">banner_SuperMario3.tga</BITMAP>
+<BITMAP type="back">banner_Town.tga</BITMAP>
+<BITMAP type="back">banner_Warehouse.tga</BITMAP>
+<BITMAP type="back">banner_WeaponShop.tga</BITMAP>
+<BITMAP type="icon" mode="0">icon_deathmatch.tga</BITMAP>
+<BITMAP type="icon" mode="2">icon_gladiator.tga</BITMAP>
+<BITMAP type="icon" mode="1">icon_teamdm.tga</BITMAP>
+<BITMAP type="icon" mode="3">icon_teamglad.tga</BITMAP>
+<BITMAP type="icon" mode="4">icon_assassin.tga</BITMAP>
+<BITMAP type="icon" mode="5">icon_train.tga</BITMAP>
+<BITMAP type="icon" mode="6">icon_survival.tga</BITMAP>
+<BITMAP type="icon" mode="7">icon_quest.tga</BITMAP>
+<BITMAP type="icon" mode="8">icon_berserk.tga</BITMAP>
+<BITMAP type="icon" mode="9">icon_unlimitdm.tga</BITMAP>
+<BITMAP type="icon" mode="10">icon_duel.tga</BITMAP>
+<BITMAP type="icon" mode="14">icon_ctf.tga</BITMAP>
+<BITMAP type="icon" mode="">icon_koth.tga</BITMAP>
+<BITMAP type="icon" mode="">icon_infection.tga</BITMAP>
+<BITMAP type="icon" mode="">icon_cquest.tga</BITMAP>
+<SIZE type="width">350</SIZE>
+<SIZE type="height">32</SIZE>
+<TEXT></TEXT>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<VISIBLE>true</VISIBLE>
+</ROOMLIST>
+<FRAME item="LobbyFindClanTeam">
+<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>250</W>
+<H>130</H>
+</BOUNDS>
+<ALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</ALIGN>
+<TEXT>STR:UI_LOBBY_03</TEXT> 
+<VISIBLE>false</VISIBLE>
+<RESIZABLE>false</RESIZABLE>
+</FRAME>
+<LABEL item="LobbyWaitingArrangedGameLabel" parent="LobbyFindClanTeam">
+<FONT>FONT10</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>15</X>
+<Y>30</Y>
+<W>180</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_04</TEXT>
+</LABEL>
+<BUTTON item="ArrangedTeamGame_Cancel" parent="LobbyFindClanTeam">
+<BOUNDS>
+<X>133</X>
+<Y>83</Y>
+<W>100</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_05</TEXT>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+</BUTTON>
+<LABEL item="Lobby_PlayerName" parent="Lobby">
+<FONT>FONTa12_O1Org</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>100</G>
+<B>20</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>25</X>
+<Y>280</Y>
+<W>119</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_06</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecClan" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>425</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_07</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecLevel" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>440</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_08</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecXP" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>455</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_09</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecBP" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>470</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_10</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecHP" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>493</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_11</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecAP" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>508</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_12</TEXT>
+</LABEL>
+<LABEL item="Lobby_PlayerSpecWT" parent="Lobby">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>25</X>
+<Y>533</Y>
+<W>118</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_13</TEXT> <!-- ?? : 0 -->
+</LABEL>
+
+<PLAYERLISTBOX item="LobbyChannelPlayerList" parent = "Side_Frame_R" >
+<BOUNDS>
+<X>25</X>
+<Y>70</Y>
+<W>270</W>
+<H>400</H>
+</BOUNDS>
+<SELECTED>false</SELECTED>
+<MOVABLE>false</MOVABLE>
+<VISIBLE>true</VISIBLE>
+</PLAYERLISTBOX>
+<FRAME item="LobbyPlayerListClanCreateFrame" parent = "LobbyChannelPlayerList" >
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>240</W>
+<H>184</H>
+</BOUNDS>
+<VISIBLE>false</VISIBLE>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+</FRAME>
+<BMBUTTON item="LobbyPlayerListTabClanCreateButton" parent="LobbyPlayerListClanCreateFrame">
+<BOUNDS>
+<X>24</X>
+<Y>75</Y>
+<W>102</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">create.png</BITMAP>
+<BITMAP type="over">create_hover.png</BITMAP>
+<BITMAP type="down">create_hover.png</BITMAP>
+<TEXT></TEXT>
+</BMBUTTON>
+<FRAME item="ArrangedTeamGameDialog" >
+<BOUNDS>
+<X>200</X>
+<Y>150</Y>
+<W>400</W>
+<H>360</H>
+</BOUNDS>
+<ALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</ALIGN>
+<VISIBLE>false</VISIBLE>
+<MOVABLE>false</MOVABLE>
+<RESIZABLE>false</RESIZABLE>
+<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+<TEXT>STR:UI_LOBBY_14</TEXT> 
+</FRAME>
+<LABEL item="Label" parent="ArrangedTeamGameDialog">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>110</X>
+<Y>80</Y>
+<W>300</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>Gladiator</TEXT>
+</LABEL>
+<BUTTON item="GladiatorCheckbox" parent="ArrangedTeamGameDialog">
+<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+<PUSHBUTTON/>
+<BOUNDS>
+<X>80</X>
+<Y>80</Y>
+<W>24</W>
+<H>24</H>
+</BOUNDS>
+</BUTTON>
+<LABEL item="Label" parent="ArrangedTeamGameDialog">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>110</X>
+<Y>120</Y>
+<W>300</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>Equality</TEXT>
+</LABEL>
+<BUTTON item="LimitCheckbox" parent="ArrangedTeamGameDialog">
+<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+<PUSHBUTTON/>
+<BOUNDS>
+<X>80</X>
+<Y>120</Y>
+<W>24</W>
+<H>24</H>
+</BOUNDS>
+</BUTTON>
+<TEXTAREA item = "ArrangedTeam_Message" parent = "ArrangedTeamGameDialog">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>10</X>
+<Y>40</Y>
+<W>380</W>
+<H>40</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_16</TEXT>
+<EDITABLE>FALSE</EDITABLE>
+</TEXTAREA>
+<PLAYERSELECTLISTBOX item="ArrangedTeamSelect" parent="ArrangedTeamGameDialog">
+<BOUNDS>
+<X>90</X>
+<Y>110</Y>
+<W>290</W>
+<H>130</H>
+</BOUNDS>
+<MULTISELECT/>
+</PLAYERSELECTLISTBOX>
+<BUTTON item="ArrangedTeamDialogOk" parent="ArrangedTeamGameDialog">
+<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+<ANCHORS>
+<LEFT>false</LEFT>
+<TOP>false</TOP>
+<RIGHT>true</RIGHT>
+<BOTTOM>true</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>200</X>
+<Y>250</Y>
+<W>90</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_17</TEXT>
+</BUTTON>
+<BUTTON item="ArrangedTeamDialogClose" parent="ArrangedTeamGameDialog">
+<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+<ANCHORS>
+<LEFT>false</LEFT>
+<TOP>false</TOP>
+<RIGHT>true</RIGHT>
+<BOTTOM>true</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>300</X>
+<Y>250</Y>
+<W>90</W>
+<H>32</H>
+</BOUNDS>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+<TEXT>STR:UI_LOBBY_18</TEXT> <!-- ??(&amp;C) -->
+</BUTTON>
+<FRAME item="ConfirmLeaveClan">
+<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>350</W>
+<H>130</H>
+</BOUNDS>
+<ALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</ALIGN>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<TEXT>STR:UI_LOBBY_19</TEXT>
+<VISIBLE>FALSE</VISIBLE>
+</FRAME>
+<LABEL item="Label" parent="ConfirmLeaveClan">
+<FONT>FONTa10</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>15</X>
+<Y>30</Y>
+<W>300</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_20</TEXT>
+</LABEL>
+<BUTTON item="LeaveClanOK" parent="ConfirmLeaveClan">
+<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>70</X>
+<Y>80</Y>
+<W>100</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_LOBBY_21</TEXT>
+</BUTTON>
+<BUTTON item="LeaveClanCancel" parent="ConfirmLeaveClan">
+<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>180</X>
+<Y>80</Y>
+<W>100</W>
+<H>32</H>
+</BOUNDS>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+<TEXT>STR:UI_LOBBY_18</TEXT>
+</BUTTON>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- NEW buttons in order +3-->
+<BMBUTTON item="ReplayCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>9</X>
+<Y>0</Y>
+<W>99</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">replays.png</BITMAP>
+<BITMAP type="over">replays.png</BITMAP>
+<BITMAP type="down">replays.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="ShopCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>107</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">evilshop.png</BITMAP>
+<BITMAP type="over">evilshop.png</BITMAP>
+<BITMAP type="down">evilshop.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="EquipmentCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>203</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">equipment.png</BITMAP>
+<BITMAP type="over">equipment.png</BITMAP>
+<BITMAP type="down">equipment.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="ChannelListFrameCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>299</X>
+<Y>0</Y>
+<W>98</W>
+<H>54</H>df
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">channel.png</BITMAP>
+<BITMAP type="over">channel.png</BITMAP>
+<BITMAP type="down">channel.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="CharSelectionCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>396</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">characters.png</BITMAP>
+<BITMAP type="over">characters.png</BITMAP>
+<BITMAP type="down">characters.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="LobbyOptionFrame" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>492</X>
+<Y>0</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">settings.png</BITMAP>
+<BITMAP type="over">settings.png</BITMAP>
+<BITMAP type="down">settings.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Logout" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>588</X>
+<Y>0</Y>
+<W>99</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<CONFIRMMESSAGE>STR:UI_LOBBY_A02</CONFIRMMESSAGE>
+<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+<BITMAP type="up">logout.png</BITMAP>
+<BITMAP type="over">logout.png</BITMAP>
+<BITMAP type="down">logout.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Exit" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>686</X>
+<Y>0</Y>
+<W>104</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">exit.png</BITMAP>
+<BITMAP type="over">exit.png</BITMAP>
+<BITMAP type="down">exit.png</BITMAP>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+</BMBUTTON>
+
+
+
+<BMBUTTON item="QuickJoin" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>165</X>
+<Y>265</Y>
+<W>125</W>
+<H>65</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">quickjoin.png</BITMAP>
+<BITMAP type="over">quickjoin.png</BITMAP>
+<BITMAP type="down">quickjoin.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="StageCreateFrameCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>265</X>
+<Y>265</Y>
+<W>125</W>
+<H>65</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">create.png</BITMAP>
+<BITMAP type="over">create.png</BITMAP>
+<BITMAP type="down">create.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="StageJoin" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>375</X>
+<Y>265</Y>
+<W>125</W>
+<H>65</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">playnow.png</BITMAP>
+<BITMAP type="over">playnow.png</BITMAP>
+<BITMAP type="down">playnow.png</BITMAP>
+</BMBUTTON>
+
+
+	<!-- BUTTON : ??? ?? -->
+	<BUTTON item="MonsterBookCaller" parent="Lobby">
+		<BOUNDS>		
+<X>505</X>
+<Y>265</Y>
+<W>125</W>
+<H>65</H>
+		</BOUNDS>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<TEXT>STR:UI_LOBBY_A01</TEXT> <!-- ??? ?? -->
+	</BUTTON>
+
+<!-- BMBUTTON : Item Guide -->
+<BMBUTTON item="MonsterBookCaller" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>505</X>
+<Y>265</Y>
+<W>125</W>
+<H>65</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">dropsguide.png</BITMAP>
+<BITMAP type="over">dropsguide.png</BITMAP>
+<BITMAP type="down">dropsguide.png</BITMAP>
+<TEXT></TEXT>
+</BMBUTTON>
+
+
+<!--
+<BMBUTTON item="Exit" parent="Lobby">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>712</X>
+<Y>0</Y>
+<W>100</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+<CONFIRMMESSAGE>STR:UI_LOGIN_05</CONFIRMMESSAGE>
+<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+<BITMAP type="up">exit_off_kr2.tga</BITMAP>
+<BITMAP type="over">exit_on_kr2.tga</BITMAP>
+<BITMAP type="down">exit_on_kr2.tga</BITMAP>
+</BMBUTTON>
+-->
+
+<BMBUTTON item ="ArrangedTeamGame" parent="Lobby">
+<BOUNDS>
+<X>320</X>
+<Y>258</Y>
+<W>102</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<VISIBLE>false</VISIBLE>
+<BITMAP type="up">clanwar.png</BITMAP>
+<BITMAP type="over">clanwar.png</BITMAP>
+<BITMAP type="down">clanwar.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item ="StageBeforeBtn" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>34</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page_cursor_l_off.png</BITMAP>
+<BITMAP type="over">page_cursor_l_on.png</BITMAP>
+<BITMAP type="down">page_cursor_l_on.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo1" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>52</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page1_off.png</BITMAP>
+<BITMAP type="over">page1_off.png</BITMAP>
+<BITMAP type="down">page1_on.png</BITMAP>
+<PUSHBUTTON/>
+<SETCHECK/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo2" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>70</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page2_off.png</BITMAP>
+<BITMAP type="over">page2_off.png</BITMAP>
+<BITMAP type="down">page2_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo3" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>88</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page3_off.png</BITMAP>
+<BITMAP type="over">page3_off.png</BITMAP>
+<BITMAP type="down">page3_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo4" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>106</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page4_off.png</BITMAP>
+<BITMAP type="over">page4_off.png</BITMAP>
+<BITMAP type="down">page4_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo5" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>124</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page5_off.png</BITMAP>
+<BITMAP type="over">page5_off.png</BITMAP>
+<BITMAP type="down">page5_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_RoomNo6" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>142</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page6_off.png</BITMAP>
+<BITMAP type="over">page6_off.png</BITMAP>
+<BITMAP type="down">page6_on.png</BITMAP>
+<PUSHBUTTON/>
+<GROUP>Lobby_RoomNo</GROUP>
+</BMBUTTON>
+<BMBUTTON item ="StageAfterBtn" parent="Roomlist_Frame">
+<BOUNDS>
+<X>344</X>
+<Y>160</Y>
+<W>16</W>
+<H>16</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">page_cursor_r_off.png</BITMAP>
+<BITMAP type="over">page_cursor_r_on.png</BITMAP>
+<BITMAP type="down">page_cursor_r_on.png</BITMAP>
+</BMBUTTON>
+
+<PICTURE item="pltab" parent="Side_Frame_R">
+<BOUNDS>
+<X>99999999999999999</X>
+<Y>99999999999999999</Y>
+<W>0</W>
+<H>0</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+
+<BMBUTTON item="LobbyChannelPlayerListPrev" parent="Side_Frame_R">
+<BOUNDS>
+	<X>99999999999999999</X>
+	<Y>99999999999999999</Y>
+	<W>0</W>
+	<H>0</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up"></BITMAP>
+<BITMAP type="up"></BITMAP>
+<BITMAP type="over"></BITMAP>
+<BITMAP type="down"></BITMAP>
+</BMBUTTON>
+<BMBUTTON item="LobbyChannelPlayerListNext" parent="Side_Frame_R">
+<BOUNDS>
+	<X>99999999999999999</X>
+	<Y>99999999999999999</Y>
+	<W>0</W>
+	<H>0</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up"></BITMAP>
+<BITMAP type="over"></BITMAP>
+<BITMAP type="down"></BITMAP>
+</BMBUTTON>
+
+</XML>

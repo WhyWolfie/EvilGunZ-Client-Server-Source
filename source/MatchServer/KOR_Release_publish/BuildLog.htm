@@ -1,0 +1,242 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: MatchServer, Configuration: KOR_Release_publish|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\RSP000014.rsp" with contents
+[
+/O1 /GL /I "../CSCommon/" /I "../CSCommon/Include" /I "../CML/Include" /I "../MAI/Include" /I "../RealSpace2/Include" /I "../RealSpace/Include" /I "../SafeUDP/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /I "..\..\MaietTools\MMonitor\include" /I "..\sdk\dx9\Include" /D "LOCALE_KOREA" /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_WORLDITEM_SERVER" /D "_XTRAP" /D "_MBCS" /FD /EHsc /MT /GS /Zc:wchar_t /Yu"stdafx.h" /Fp"KOR_Release_publish/MatchServer.pch" /Fo"KOR_Release_publish/" /Fd"KOR_Release_publish/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+".\MBMatchGameOnAuth.cpp"
+".\MBMatchSystemInfo.cpp"
+".\MBMatchMonitorXml.cpp"
+".\MBMatchMonitorCommunicator.cpp"
+".\MBMatchMonitor.cpp"
+".\MBMatchKillTracker.cpp"
+".\MBMatchSecurity.cpp"
+".\MBMatchGameGuard.cpp"
+".\MBMatchNHNRTA.cpp"
+".\MBMatchNHNAuth.cpp"
+".\XTrap\XTrap4Server.cpp"
+".\MBMatchXTrapCC.cpp"
+".\MBMatchAuth.cpp"
+".\MBMatchNetmarbleBilling.cpp"
+".\TestResourceCRC32Cache_ServerClient.cpp"
+".\TestCRCStage.cpp"
+".\TestCRCPlayer.cpp"
+".\TestCRCNetModule.cpp"
+".\TestCRC32Server.cpp"
+".\MBMatchTest_Killtracker.cpp"
+".\MBMatchTest_Gameguard.cpp"
+".\MBMatchTest.cpp"
+".\MMatchServer_Schedule.cpp"
+".\MBMatchServer_Stage.cpp"
+".\MBMatchServer_ServerKeeper.cpp"
+".\MBMatchServer_OnCommand.cpp"
+".\MBMatchServer_Login.cpp"
+".\MBMatchServer_Item.cpp"
+".\MBMatchServer_CountryFilter.cpp"
+".\MBMatchServer_AntiHack.cpp"
+".\MBMatchAsyncDBJob_BringBackAccountItemStackable.cpp"
+".\MBMatchAsyncDBJob_BringBackAccountItem.cpp"
+".\MBMatchAsyncDBJob_BringAccountItemStackable.cpp"
+".\MBMatchAsyncDBJob_BringAccountItem.cpp"
+".\OnProcessAsyncJob.cpp"
+".\MBMatchAsyncJob_GetCpuInfo.cpp"
+".\MBMatchAsyncDBJob_UpdateEquipItem.cpp"
+".\MBMatchAsyncDBJob_UpdateCharPlayInfo.cpp"
+".\MBMatchAsyncDBJob_UpdateCharLevel.cpp"
+".\MBMatchAsyncDBJob_TakeoffItem.cpp"
+".\MBMatchAsyncDBJob_SellItem.cpp"
+".\MBMatchAsyncDBJob_NHNLogin.cpp"
+".\MBMatchAsyncDBJob_NetmarbleLogin.cpp"
+".\MBMatchAsyncDBJob_GameOnLogin.cpp"
+".\MBMatchAsyncDBJob_GambleQuestItem.cpp"
+".\MBMatchAsyncDBJob_GambleItem.cpp"
+".\MBMatchAsyncDBJob_Character.cpp"
+".\MBMatchAsyncDBJob_BuyBountyItem.cpp"
+".\MBMatchServerConfigReloader.cpp"
+".\MBMatchServer.cpp"
+".\TrayIcon.cpp"
+".\OutputView.cpp"
+".\MatchServerView.cpp"
+".\MatchServerDoc.cpp"
+".\MatchServer.cpp"
+".\MainFrm.cpp"
+".\ExceptionAttacher.cpp"
+".\CommandLogView.cpp"
+".\ChildFrm.cpp"
+]
+Creating command line "cl.exe @"c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\RSP000014.rsp" /nologo"
+Creating temporary file "c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\RSP000015.rsp" with contents
+[
+/O1 /GL /I "../CSCommon/" /I "../CSCommon/Include" /I "../CML/Include" /I "../MAI/Include" /I "../RealSpace2/Include" /I "../RealSpace/Include" /I "../SafeUDP/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /I "..\..\MaietTools\MMonitor\include" /I "..\sdk\dx9\Include" /D "LOCALE_KOREA" /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_WORLDITEM_SERVER" /D "_XTRAP" /D "_MBCS" /FD /EHsc /MT /GS /Zc:wchar_t /Yc"stdafx.h" /Fp"KOR_Release_publish/MatchServer.pch" /Fo"KOR_Release_publish/" /Fd"KOR_Release_publish/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+".\stdafx.cpp"
+]
+Creating command line "cl.exe @"c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\RSP000015.rsp" /nologo"
+Creating command line "rc.exe /d "NDEBUG" /l 0x409 /I "KOR_Release_publish" /fo"KOR_Release_publish/MatchServer.res" ".\MatchServer.rc""
+Creating temporary file "c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\RSP000016.rsp" with contents
+[
+/OUT:"Runtime/MatchServer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"Lib" /LIBPATH:"../../sdk/crypto/lib" /NODEFAULTLIB:"libci.lib" /NODEFAULTLIB:"libc.lib" /NODEFAULTLIB:"comsuppw.lib" /DELAYLOAD:"OleAcc.dll" /DEBUG /PDB:"Runtime/MatchServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /OPT:NOWIN98 /LTCG /MACHINE:X86 ../CML/Lib/zlib.lib DelayImp.lib "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\CSCommon\lib\CSCommon.lib" "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\SafeUDP\lib\SafeUDP.lib" "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MDatabase\lib\MDatabase.lib" "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\cml\lib\cml.lib" "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MCountryFilter\lib\MCountryFilter.lib" "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\StringLiteral\Release\StringLiteral.lib" "\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\cml\lib\zlib.lib" DelayImp.lib
+".\Netmarble\CPSSOLib.lib"
+".\HShield\AntiCpSvr.lib"
+".\nhn\HanAuthForSvr.lib"
+".\nhn\HanAuthForSvrD.lib"
+".\nhn\HanRTA.lib"
+".\nhn\HanRTAD.lib"
+".\GameGuard\ggsrvlib25_MT.lib"
+".\KOR_Release_publish\ChildFrm.obj"
+".\KOR_Release_publish\CommandLogView.obj"
+".\KOR_Release_publish\ExceptionAttacher.obj"
+".\KOR_Release_publish\MainFrm.obj"
+".\KOR_Release_publish\MatchServer.obj"
+".\KOR_Release_publish\MatchServer.res"
+".\KOR_Release_publish\MatchServerDoc.obj"
+".\KOR_Release_publish\MatchServerView.obj"
+".\KOR_Release_publish\OutputView.obj"
+".\KOR_Release_publish\stdafx.obj"
+".\KOR_Release_publish\TrayIcon.obj"
+".\KOR_Release_publish\MBMatchServer.obj"
+".\KOR_Release_publish\MBMatchServerConfigReloader.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_BuyBountyItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_Character.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_GambleItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_GambleQuestItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_GameOnLogin.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_NetmarbleLogin.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_NHNLogin.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_SellItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_TakeoffItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_UpdateCharLevel.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_UpdateCharPlayInfo.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_UpdateEquipItem.obj"
+".\KOR_Release_publish\MBMatchAsyncJob_GetCpuInfo.obj"
+".\KOR_Release_publish\OnProcessAsyncJob.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_BringAccountItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_BringAccountItemStackable.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_BringBackAccountItem.obj"
+".\KOR_Release_publish\MBMatchAsyncDBJob_BringBackAccountItemStackable.obj"
+".\KOR_Release_publish\MBMatchServer_AntiHack.obj"
+".\KOR_Release_publish\MBMatchServer_CountryFilter.obj"
+".\KOR_Release_publish\MBMatchServer_Item.obj"
+".\KOR_Release_publish\MBMatchServer_Login.obj"
+".\KOR_Release_publish\MBMatchServer_OnCommand.obj"
+".\KOR_Release_publish\MBMatchServer_ServerKeeper.obj"
+".\KOR_Release_publish\MBMatchServer_Stage.obj"
+".\KOR_Release_publish\MMatchServer_Schedule.obj"
+".\KOR_Release_publish\MBMatchTest.obj"
+".\KOR_Release_publish\MBMatchTest_Gameguard.obj"
+".\KOR_Release_publish\MBMatchTest_Killtracker.obj"
+".\KOR_Release_publish\TestCRC32Server.obj"
+".\KOR_Release_publish\TestCRCNetModule.obj"
+".\KOR_Release_publish\TestCRCPlayer.obj"
+".\KOR_Release_publish\TestCRCStage.obj"
+".\KOR_Release_publish\TestResourceCRC32Cache_ServerClient.obj"
+".\KOR_Release_publish\MBMatchNetmarbleBilling.obj"
+".\KOR_Release_publish\MBMatchAuth.obj"
+".\KOR_Release_publish\MBMatchXTrapCC.obj"
+".\KOR_Release_publish\XTrap4Server.obj"
+".\KOR_Release_publish\MBMatchNHNAuth.obj"
+".\KOR_Release_publish\MBMatchNHNRTA.obj"
+".\KOR_Release_publish\MBMatchGameGuard.obj"
+".\KOR_Release_publish\MBMatchSecurity.obj"
+".\KOR_Release_publish\MBMatchKillTracker.obj"
+".\KOR_Release_publish\MBMatchMonitor.obj"
+".\KOR_Release_publish\MBMatchMonitorCommunicator.obj"
+".\KOR_Release_publish\MBMatchMonitorXml.obj"
+".\KOR_Release_publish\MBMatchSystemInfo.obj"
+".\KOR_Release_publish\MBMatchGameOnAuth.obj"
+]
+Creating command line "link.exe @"c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\RSP000016.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+MBMatchGameOnAuth.cpp
+MBMatchSystemInfo.cpp
+MBMatchMonitorXml.cpp
+MBMatchMonitorCommunicator.cpp
+MBMatchMonitor.cpp
+MBMatchKillTracker.cpp
+MBMatchSecurity.cpp
+MBMatchGameGuard.cpp
+MBMatchNHNRTA.cpp
+MBMatchNHNAuth.cpp
+XTrap4Server.cpp
+MBMatchXTrapCC.cpp
+MBMatchAuth.cpp
+MBMatchNetmarbleBilling.cpp
+TestResourceCRC32Cache_ServerClient.cpp
+TestCRCStage.cpp
+TestCRCPlayer.cpp
+TestCRCNetModule.cpp
+TestCRC32Server.cpp
+MBMatchTest_Killtracker.cpp
+Compiling...
+MBMatchTest_Gameguard.cpp
+MBMatchTest.cpp
+MMatchServer_Schedule.cpp
+MBMatchServer_Stage.cpp
+c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MBMatchServer_ServerKeeper.cpp
+MBMatchServer_OnCommand.cpp
+c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MBMatchServer_Login.cpp
+MBMatchServer_Item.cpp
+MBMatchServer_Item.cpp(903) : warning C4018: '<' : signed/unsigned mismatch
+MBMatchServer_CountryFilter.cpp
+MBMatchServer_AntiHack.cpp
+MBMatchAsyncDBJob_BringBackAccountItemStackable.cpp
+MBMatchAsyncDBJob_BringBackAccountItem.cpp
+MBMatchAsyncDBJob_BringAccountItemStackable.cpp
+MBMatchAsyncDBJob_BringAccountItem.cpp
+OnProcessAsyncJob.cpp
+OnProcessAsyncJob.cpp(1016) : warning C4244: 'argument' : conversion from 'DWORD' to 'const WORD', possible loss of data
+OnProcessAsyncJob.cpp(1053) : warning C4244: 'argument' : conversion from 'DWORD' to 'const WORD', possible loss of data
+MBMatchAsyncJob_GetCpuInfo.cpp
+MBMatchAsyncDBJob_UpdateEquipItem.cpp
+MBMatchAsyncDBJob_UpdateCharPlayInfo.cpp
+MBMatchAsyncDBJob_UpdateCharLevel.cpp
+MBMatchAsyncDBJob_TakeoffItem.cpp
+Compiling...
+MBMatchAsyncDBJob_SellItem.cpp
+MBMatchAsyncDBJob_NHNLogin.cpp
+MBMatchAsyncDBJob_NetmarbleLogin.cpp
+MBMatchAsyncDBJob_GameOnLogin.cpp
+MBMatchAsyncDBJob_GambleQuestItem.cpp
+MBMatchAsyncDBJob_GambleItem.cpp
+MBMatchAsyncDBJob_Character.cpp
+MBMatchAsyncDBJob_BuyBountyItem.cpp
+MBMatchServerConfigReloader.cpp
+MBMatchServer.cpp
+TrayIcon.cpp
+OutputView.cpp
+MatchServerView.cpp
+MatchServerDoc.cpp
+MatchServer.cpp
+MatchServer.cpp(397) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MainFrm.cpp
+ExceptionAttacher.cpp
+CommandLogView.cpp
+ChildFrm.cpp
+Compiling resources...
+Linking...
+Generating code
+Finished generating code
+LINK : warning LNK4089: all references to 'HanAuthForSvr.dll' discarded by /OPT:REF
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Users\joe90\Desktop\EvilGamerZ\EvilGunZ 2018 Source\MatchServer\KOR_Release_publish\BuildLog.htm"
+MatchServer - 0 error(s), 9 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Stage">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+<!-- Rewritten Shop, Source Changes Necessary --> 
+<!-- Base: Shop Frame -->
+<FRAME item="Stage">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+<PICTURE item="Stage_BG" parent="Stage">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>background.tga</BITMAP>
+</PICTURE>
+
+<FRAME item="Stage_Main_Frame" parent="Stage">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>92</Y>
+<W>800</W>
+<H>467</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<FRAME item="Stage_CharacterInfo" parent="Stage">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<CHARACTERVIEW item="Stage_Charviewer" parent="Stage_CharacterInfo">
+<BOUNDS>
+<X>15</X>
+<Y>125</Y>
+<W>188</W>
+<H>410</H>
+</BOUNDS>
+<TEXT></TEXT>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<VISIBLE>true</VISIBLE>
+</CHARACTERVIEW>
+<LABEL item="Stage_PlayerName" parent="Stage_CharacterInfo">
+<FONT>FONTa10b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>120</G>
+<B>40</B>
+</TEXTCOLOR>
+<ANCHORS>
+<LEFT>true</LEFT>
+<TOP>true</TOP>
+<RIGHT>false</RIGHT>
+<BOTTOM>false</BOTTOM>
+</ANCHORS>
+<BOUNDS>
+<X>32</X>
+<Y>370</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_01</TEXT>
+</LABEL>
+<LABEL item="Stage_PlayerSpecClan" parent="Stage_CharacterInfo">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>32</X>
+<Y>395</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_02</TEXT>
+</LABEL>
+<LABEL item="Stage_PlayerSpecLevel" parent="Stage_CharacterInfo">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>32</X>
+<Y>410</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_03</TEXT>
+</LABEL>
+<LABEL item="Stage_PlayerSpecRanking" parent="Stage_CharacterInfo">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>32</X>
+<Y>425</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+</LABEL>
+<LABEL item="Stage_PlayerSpecKill" parent="Stage_CharacterInfo">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>32</X>
+<Y>440</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+</LABEL>
+<LABEL item="Stage_PlayerSpecDeath" parent="Stage_CharacterInfo">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>32</X>
+<Y>455</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+</LABEL>
+<LABEL item="Stage_PlayerSpecWinning" parent="Stage_CharacterInfo">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>32</X>
+<Y>470</Y>
+<W>123</W>
+<H>20</H>
+</BOUNDS>
+</LABEL>
+<PICTURE item ="Stage_FrameBG" parent="Stage">
+<BOUNDS>
+<X>8</X>
+<Y>118</Y>
+<W>784</W>
+<H>425</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<TEXTAREA item = "StageChattingOutput" parent = "Stage">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>221</X>
+<Y>294</Y>
+<W>286</W>
+<H>201</H>
+</BOUNDS>
+<MOVABLE>false</MOVABLE>
+<EDITABLE>false</EDITABLE>
+<MAXLENGTH>4096</MAXLENGTH>
+<TEXTAREALOOK>TextAreaLook</TEXTAREALOOK>
+<INDENTATION>50</INDENTATION>
+</TEXTAREA>
+<EDIT item="StageChattingInput" parent="Stage">
+<BOUNDS>
+<X>222</X>
+<Y>499</Y>
+<W>285</W>
+<H>24</H>
+</BOUNDS>
+</EDIT>
+<PLAYERLISTBOX item="StagePlayerList_" parent = "Stage" >
+<BOUNDS>
+<X>528</X>
+<Y>294</Y>
+<W>248</W>
+<H>228</H>
+</BOUNDS>
+<SELECTED>false</SELECTED>
+<MOVABLE>false</MOVABLE>
+<VISIBLE>true</VISIBLE>		
+<MODE1></MODE1>
+</PLAYERLISTBOX>
+<BMBUTTON item="StagePlayerListPrev" parent="Stage">
+<BOUNDS>
+<X>526</X>
+<Y>528</Y>
+<W>130</W>
+<H>12</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">pageup_off.tga</BITMAP>
+<BITMAP type="over">pageup_off.tga</BITMAP>
+<BITMAP type="down">pageup_on.tga</BITMAP>
+<TEXT></TEXT>
+</BMBUTTON>
+<BMBUTTON item="StagePlayerListNext" parent="Stage">
+<BOUNDS>
+<X>653</X>
+<Y>528</Y>
+<W>127</W>
+<H>12</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">pagedown_off.tga</BITMAP>
+<BITMAP type="over">pagedown_off.tga</BITMAP>
+<BITMAP type="down">pagedown_on.tga</BITMAP>
+<TEXT></TEXT>
+</BMBUTTON>
+<FRAME item="StageGameInfo" parent="Stage">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>219</X>
+<Y>128</Y>
+<W>562</W>
+<H>150</H>
+</BOUNDS>
+<TEXT></TEXT>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<PICTURE item="MapImage" parent="StageGameInfo">
+<BOUNDS>
+<X>16</X>
+<Y>16</Y>
+<W>204</W>
+<H>50</H>
+</BOUNDS>
+<STRETCH/>
+</PICTURE>
+<ANIMATION item="Stage_MapNameBG" parent="StageGameInfo">
+<PLAYMODE>stop</PLAYMODE>
+<ANIMTEMPLATE>MapAnimation</ANIMTEMPLATE>
+<BOUNDS>
+<X>14</X>
+<Y>12</Y>
+<W>236</W>
+<H>96</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<STRETCH/>
+</ANIMATION>
+<BUTTON item="StageTeamBlue" parent="StageGameInfo">
+<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+<PUSHBUTTON/>
+<BOUNDS>
+<X>18</X>
+<Y>91</Y>
+<W>110</W>
+<H>28</H>
+</BOUNDS>
+<CUSTOM/>
+<TEXT>STR:UI_STAGE_09</TEXT>
+</BUTTON>
+<BMBUTTON item="StageTeamBlue2" parent="StageGameInfo">
+<BOUNDS>
+<X>18</X>
+<Y>11</Y>
+<W>107</W>
+<H>105</H>
+</BOUNDS>
+<STRETCH/>
+</BMBUTTON>
+<BUTTON item="StageTeamRed" parent="StageGameInfo">
+<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+<PUSHBUTTON/>
+<BOUNDS>
+<X>141</X>
+<Y>91</Y>
+<W>110</W>
+<H>28</H>
+</BOUNDS>
+<CUSTOM/>
+<TEXT>STR:UI_STAGE_10</TEXT>
+</BUTTON>
+<BMBUTTON item="StageTeamRed2" parent="StageGameInfo">
+<BOUNDS>
+<X>141</X>
+<Y>11</Y>
+<W>107</W>
+<H>105</H>
+</BOUNDS>
+<STRETCH/>
+</BMBUTTON>
+<PICTURE item="Stage_SacrificeItemImage0" parent="StageGameInfo">
+<BOUNDS>
+<X>31</X>
+<Y>11</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<PICTURE item="Stage_SacrificeItemImage1" parent="StageGameInfo">
+<BOUNDS>
+<X>171</X>
+<Y>11</Y>
+<W>64</W>
+<H>64</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<PICTURE item="Stage_Lights0" parent="Stage">
+<BOUNDS>
+<X>230</X>
+<Y>130</Y>
+<W>104</W>
+<H>75</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>lights.tga</BITMAP>
+</PICTURE>
+<PICTURE item="Stage_Lights1" parent="Stage">
+<BOUNDS>
+<X>365</X>
+<Y>130</Y>
+<W>104</W>
+<H>75</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>lights.tga</BITMAP>
+</PICTURE>
+<ANIMATION item="Stage_Flame0" parent="Stage">
+<PLAYMODE>stop</PLAYMODE>
+<ANIMTEMPLATE>FlameEffect</ANIMTEMPLATE>
+<BOUNDS>
+<X>234</X>
+<Y>126</Y>
+<W>94</W>
+<H>85</H>
+</BOUNDS>
+</ANIMATION>
+<ANIMATION item="Stage_Flame1" parent="Stage">
+<PLAYMODE>stop</PLAYMODE>
+<ANIMTEMPLATE>FlameEffect</ANIMTEMPLATE>
+<BOUNDS>
+<X>369</X>
+<Y>126</Y>
+<W>94</W>
+<H>85</H>
+</BOUNDS>
+</ANIMATION>
+<PICTURE item="Stage_SenarioNameImg" parent="Stage">
+<BOUNDS>
+<X>254</X>
+<Y>217</Y>
+<W>195</W>
+<H>27</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>senariotitlebar.tga</BITMAP>
+</PICTURE>
+<LABEL item="Stage_SenarioName" parent="Stage">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>230</X>
+<Y>216</Y>
+<W>244</W>
+<H>27</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<ITEMSLOT item="Stage_SacrificeItemButton0" parent="Stage" parts="none">
+<BOUNDS>
+<X>237</X>
+<Y>140</Y>
+<W>97</W>
+<H>88</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_head.tga</BITMAP>			
+</ITEMSLOT>
+<ITEMSLOT item="Stage_SacrificeItemButton1" parent="Stage" parts="none">
+<BOUNDS>
+<X>377</X>
+<Y>140</Y>
+<W>97</W>
+<H>88</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_head.tga</BITMAP>			
+</ITEMSLOT>
+<BMBUTTON item="GameStart" parent="StageGameInfo">
+<BOUNDS>
+<X>350</X>
+<Y>108</Y>
+<W>210</W>
+<H>38</H>
+</BOUNDS>
+<BITMAP type="up">start_game_off.tga</BITMAP>
+<BITMAP type="over">start_game_on.tga</BITMAP>
+<BITMAP type="down">start_game_on.tga</BITMAP>
+<STRETCH/>
+<DEFAULTKEY>ENTER</DEFAULTKEY>
+</BMBUTTON>
+<BMBUTTON item="StageReady" parent="StageGameInfo">
+<BOUNDS>
+<X>350</X>
+<Y>108</Y>
+<W>210</W>
+<H>38</H>
+</BOUNDS>
+<BITMAP type="up">ready_game_off.tga</BITMAP>
+<BITMAP type="over">ready_game_on.tga</BITMAP>
+<BITMAP type="down">ready_game_down.tga</BITMAP>
+<STRETCH/>
+<PUSHBUTTON/>
+<DEFAULTKEY>ENTER</DEFAULTKEY>
+</BMBUTTON>
+<BMBUTTON item="ForcedEntryToGame" parent="StageGameInfo">
+<BOUNDS>
+<X>350</X>
+<Y>108</Y>
+<W>210</W>
+<H>38</H>
+</BOUNDS>
+<BITMAP type="up">forced_entry_off.tga</BITMAP>
+<BITMAP type="over">forced_entry_on.tga</BITMAP>
+<BITMAP type="down">forced_entry_on.tga</BITMAP>
+<STRETCH/>
+</BMBUTTON>
+<BUTTON item="ForcedEntryToGame2" parent="StageGameInfo">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>0</W>
+<H>0</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_11</TEXT>
+</BUTTON>
+<BUTTON item="StageSettingCaller" parent="StageGameInfo">
+<BOUNDS>
+<X>270</X>
+<Y>109</Y>
+<W>70</W>
+<H>33</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_12</TEXT> <!-- 옵션 -->
+</BUTTON>
+<LISTBOX item="MapList" parent ="StageGameInfo">
+<VISIBLE>false</VISIBLE>
+<BOUNDS>
+<X>29</X>
+<Y>45</Y>
+<W>165</W>
+<H>90</H>
+</BOUNDS>
+</LISTBOX>
+<PICTURE item="LabelBG" parent="StageGameInfo">
+<BOUNDS>
+<X>270</X>
+<Y>9</Y>
+<W>67</W>
+<H>25</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>stage_labelbg.tga</BITMAP>
+</PICTURE>
+<LABEL item="GameTypeLabel" parent="StageGameInfo">
+<TEXTCOLOR>
+<R>200</R>
+<G>200</G>
+<B>200</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>271</X>
+<Y>9</Y>
+<W>72</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_13</TEXT>
+</LABEL>
+<COMBOBOX item="StageType" parent="StageGameInfo">
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<BOUNDS>
+<X>336</X>
+<Y>9</Y>
+<W>218</W>
+<H>24</H>
+</BOUNDS>
+<DROPSIZE>210</DROPSIZE>
+</COMBOBOX>
+<PICTURE item="LabelBG" parent="StageGameInfo">
+<BOUNDS>
+<X>270</X>
+<Y>40</Y>
+<W>67</W>
+<H>25</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>stage_labelbg.tga</BITMAP>
+</PICTURE>
+<LABEL item="GameMapLabel" parent="StageGameInfo">
+<TEXTCOLOR>
+<R>200</R>
+<G>200</G>
+<B>200</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>271</X>
+<Y>40</Y>
+<W>72</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_14</TEXT>
+</LABEL>
+<COMBOBOX item="MapSelection" parent="StageGameInfo">
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<BOUNDS>
+<X>336</X>
+<Y>40</Y>
+<W>218</W>
+<H>24</H>
+</BOUNDS>
+<ALIGN>CENTER</ALIGN>
+<DROPSIZE>230</DROPSIZE>
+</COMBOBOX>
+<PICTURE item="LabelBG" parent="StageGameInfo">
+<BOUNDS>
+<X>270</X>
+<Y>71</Y>
+<W>67</W>
+<H>25</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>stage_labelbg.tga</BITMAP>
+</PICTURE>
+<LABEL item="MaxPlayerLabel" parent="StageGameInfo">
+<TEXTCOLOR>
+<R>200</R>
+<G>200</G>
+<B>200</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>271</X>
+<Y>71</Y>
+<W>72</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_15</TEXT>
+</LABEL>
+<COMBOBOX item="StageMaxPlayer" parent="StageGameInfo">
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<BOUNDS>
+<X>336</X>
+<Y>71</Y>
+<W>80</W>
+<H>24</H>
+</BOUNDS>
+<DROPSIZE>210</DROPSIZE>
+</COMBOBOX>
+<PICTURE item="StageRoundCountLabelBG" parent="StageGameInfo">
+<BOUNDS>
+<X>424</X>
+<Y>71</Y>
+<W>51</W>
+<H>25</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>stage_labelbg.tga</BITMAP>
+</PICTURE>
+<LABEL item="StageRoundCountLabel" parent="StageGameInfo">
+<TEXTCOLOR>
+<R>200</R>
+<G>200</G>
+<B>200</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>425</X>
+<Y>71</Y>
+<W>72</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_16</TEXT>
+</LABEL>
+<COMBOBOX item="StageRoundCount" parent="StageGameInfo">
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<BOUNDS>
+<X>474</X>
+<Y>71</Y>
+<W>80</W>
+<H>24</H>
+</BOUNDS>
+<DROPSIZE>210</DROPSIZE>
+</COMBOBOX>
+<BUTTON item="StageObserverBtn" parent="StageGameInfo">
+<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+<PUSHBUTTON/>
+<BOUNDS>
+<X>218</X>
+<Y>113</Y>
+<W>90</W>
+<H>24</H>
+</BOUNDS>
+<CUSTOM/>
+<TEXT></TEXT>
+<VISIBLE>FALSE</VISIBLE>
+</BUTTON>
+<PICTURE item="Stage_NumOfPersonBG" parent="StageGameInfo">
+<BOUNDS>
+<X>12</X>
+<Y>119</Y>
+<W>117</W>
+<H>22</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>stage_labelbg.tga</BITMAP>
+</PICTURE>
+<LABEL item="Stage_NumOfPerson" parent="StageGameInfo">
+<TEXTCOLOR>
+<R>200</R>
+<G>200</G>
+<B>200</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>17</X>
+<Y>118</Y>
+<W>200</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_17</TEXT>
+</LABEL>
+<PICTURE item="Stage_QuestLevelBG" parent="StageGameInfo">
+<BOUNDS>
+<X>138</X>
+<Y>119</Y>
+<W>117</W>
+<H>22</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>stage_labelbg.tga</BITMAP>
+</PICTURE>
+<LABEL item="Stage_QuestLevel" parent="StageGameInfo">
+<TEXTCOLOR>
+<R>200</R>
+<G>200</G>
+<B>200</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>143</X>
+<Y>118</Y>
+<W>200</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_STAGE_18</TEXT>
+</LABEL>
+<FRAME item="Stage_DescFrame" parent="Stage">
+<FRAMELOOK>Custom3FrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>250</W>
+<H>56</H>
+</BOUNDS>
+<RESIZABLE>false</RESIZABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+<LABEL item="Stage_NameLabel" parent="Stage_DescFrame">
+<FONT>FONTa9b</FONT>
+<TEXTCOLOR>
+<R>0</R>
+<G>0</G>
+<B>0</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>8</X>
+<Y>0</Y>
+<W>240</W>
+<H>20</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<FRAME item="Stage_ItemListView" parent="Stage">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>117</Y>
+<W>226</W>
+<H>425</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<PICTURE item ="Stage_ItemListBG" parent="Stage_ItemListView">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>226</W>
+<H>425</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<LISTBOX item="Stage_SacrificeItemListbox" parent="Stage_ItemListView">
+<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+<BOUNDS>
+<X>5</X>
+<Y>5</Y>
+<W>189</W>
+<H>294</H>
+</BOUNDS>
+<STRETCH/>
+</LISTBOX>
+<BUTTON item="Stage_PutSacrificeItem" parent="Stage_ItemListView">
+<BOUNDS>
+<X>24</X>
+<Y>389</Y>
+<W>147</W>
+<H>26</H>
+</BOUNDS>
+<ENABLE>false</ENABLE>
+<TEXT>STR:UI_STAGE_20</TEXT>
+</BUTTON>
+<BMBUTTON item="Stage_SacrificeItemBoxOpen" parent="Stage_ItemListView">
+<BOUNDS>
+<X>195</X>
+<Y>162</Y>
+<W>21</W>
+<H>100</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">listframeopenbtn_off.tga</BITMAP>
+<BITMAP type="over">listframeopenbtn_on.tga</BITMAP>
+<BITMAP type="down">listframeopenbtn_on.tga</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Stage_SacrificeItemBoxClose" parent="Stage_ItemListView">
+<BOUNDS>
+<X>195</X>
+<Y>162</Y>
+<W>21</W>
+<H>100</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">listframeclosebtn_off.tga</BITMAP>
+<BITMAP type="over">listframeclosebtn_on.tga</BITMAP>
+<BITMAP type="down">listframeclosebtn_on.tga</BITMAP>
+</BMBUTTON>
+<LABEL item="Stage_NoItemLabel" parent="Stage_ItemListView">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>180</R>
+<G>180</G>
+<B>180</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>20</X>
+<Y>140</Y>
+<W>187</W>
+<H>25</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<TEXT>STR:UI_STAGE_21</TEXT>
+</LABEL>
+<TEXTAREA item="Stage_ItemDesc" parent="Stage_ItemListView">
+<BOUNDS>
+<X>9</X>
+<Y>310</Y>
+<W>180</W>
+<H>76</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<EDITABLE>false</EDITABLE>
+</TEXTAREA>
+<FRAME item="Stage_RelayMapListView" parent="Stage">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>117</Y>
+<W>226</W>
+<H>425</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<PICTURE item ="Stage_RelayMapListBG" parent="Stage_RelayMapListView">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>226</W>
+<H>425</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<COMBOBOX item="Stage_RelayMapType" parent="Stage_RelayMapListView">
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<BOUNDS>
+<X>7</X>
+<Y>6</Y>
+<W>95</W>
+<H>24</H>
+</BOUNDS>
+<DROPSIZE>210</DROPSIZE>
+</COMBOBOX>
+<COMBOBOX item="Stage_RelayMapRepeatCount" parent="Stage_RelayMapListView">
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<BOUNDS>
+<X>106</X>
+<Y>6</Y>
+<W>85</W>
+<H>24</H>
+</BOUNDS>
+<DROPSIZE>210</DROPSIZE>
+</COMBOBOX>
+<LISTBOX item="Stage_MapListbox" parent="Stage_RelayMapListView">
+<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+<BOUNDS>
+<X>5</X>
+<Y>34</Y>
+<W>186</W>
+<H>177</H>
+</BOUNDS>
+<STRETCH/>
+</LISTBOX>
+<LISTBOX item="Stage_RelayMapListbox" parent="Stage_RelayMapListView">
+<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+<BOUNDS>
+<X>5</X>
+<Y>210</Y>
+<W>186</W>
+<H>177</H>
+</BOUNDS>
+<STRETCH/>
+</LISTBOX>
+<BUTTON item="Stage_RelayMap_OK_Button" parent="Stage_RelayMapListView">
+<BOUNDS>
+<X>41</X>
+<Y>389</Y>
+<W>120</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_COMMON_OK</TEXT>
+</BUTTON>
+<BMBUTTON item="Stage_RelayMapBoxOpen" parent="Stage_RelayMapListView">
+<BOUNDS>
+<X>195</X>
+<Y>162</Y>
+<W>21</W>
+<H>100</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">listframeopenbtn_off.tga</BITMAP>
+<BITMAP type="over">listframeopenbtn_on.tga</BITMAP>
+<BITMAP type="down">listframeopenbtn_on.tga</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Stage_RelayMapBoxClose" parent="Stage_RelayMapListView">
+<BOUNDS>
+<X>195</X>
+<Y>162</Y>
+<W>21</W>
+<H>100</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">listframeclosebtn_off.tga</BITMAP>
+<BITMAP type="over">listframeclosebtn_on.tga</BITMAP>
+<BITMAP type="down">listframeclosebtn_on.tga</BITMAP>
+</BMBUTTON>	
+<BMBUTTON item="ShopCaller" parent="Stage">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>206</X>
+<Y>15</Y>
+<W>102</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">shop.png</BITMAP>
+<BITMAP type="over">shop_hover.png</BITMAP>
+<BITMAP type="down">shop_hover.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="EquipmentCaller" parent="Stage">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>349</X>
+<Y>15</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">equipment.png</BITMAP>
+<BITMAP type="over">equipment.png</BITMAP>
+<BITMAP type="down">equipment.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="Stage_OptionFrame" parent="Stage">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>492</X>
+<Y>15</Y>
+<W>102</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">options.png</BITMAP>
+<BITMAP type="over">options_hover.png</BITMAP>
+<BITMAP type="down">options_hover.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item ="Lobby_StageExit" parent="Stage">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>635</X>
+<Y>15</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">lobby.png</BITMAP>
+<BITMAP type="over">lobby.png</BITMAP>
+<BITMAP type="down">lobby.png</BITMAP>
+</BMBUTTON>
+<BUTTON item ="Lobby_StageExit" parent="Stage">
+<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>-1</X>
+<Y>-1</Y>
+<W>0</W>
+<H>0</H>
+</BOUNDS>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+</BUTTON>
+</XML>

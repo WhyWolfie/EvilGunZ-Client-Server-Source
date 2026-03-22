@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="SelChar">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+<REBOUNDS item="CombatResult">
+<X>-15</X>
+<Y>20</Y>
+<W>800</W>
+<H>600</H>
+</REBOUNDS>
+<REBOUNDS item="ClanResult">
+<X>-5</X>
+<Y>20</Y>
+<W>800</W>
+<H>600</H>
+</REBOUNDS>
+<REBOUNDS item="ClanResult_PlayerNameListLabel1">
+<X>100</X>
+<Y>140</Y>
+<W>300</W>
+<H>20</H>
+</REBOUNDS>
+<REBOUNDS item="ClanResult_PlayerNameList1">
+<X>100</X>
+<Y>165</Y>
+<W>260</W>
+<H>400</H>
+</REBOUNDS>
+<REBOUNDS item="ClanResult_PlayerNameListLabel2">
+<X>100</X>
+<Y>375</Y>
+<W>300</W>
+<H>20</H>
+</REBOUNDS>
+<REBOUNDS item="ClanResult_PlayerNameList2">
+<X>100</X>
+<Y>400</Y>
+<W>260</W>
+<H>400</H>
+</REBOUNDS>
+<REBOUNDS item="QuestResult_GetPlusXP">
+<X>120</X>
+<Y>118</Y>
+<W>190</W>
+<H>32</H>
+</REBOUNDS>
+<REBOUNDS item="QuestResult_GetMinusXP">
+<X>120</X>
+<Y>146</Y>
+<W>190</W>
+<H>32</H>
+</REBOUNDS>
+<REBOUNDS item="QuestResult_GetTotalXP">
+<X>120</X>
+<Y>174</Y>
+<W>190</W>
+<H>32</H>
+</REBOUNDS>
+<REBOUNDS item="QuestResult_GetBounty">
+<X>120</X>
+<Y>216</Y>
+<W>190</W>
+<H>32</H>
+</REBOUNDS>
+<REBOUNDS item="GameResult_RemaindTime">
+<X>200</X>
+<Y>548</Y>
+<W>400</W>
+<H>25</H>
+</REBOUNDS>
+</XML>

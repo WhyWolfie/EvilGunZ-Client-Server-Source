@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="SelChar">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+<!-- Rewritten CharSelection --> 
+
+<!-- 프레임 생성 : CharSelection -->
+	<FRAME item="CharSelection">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	
+<PICTURE item="CharSel_BG" parent="CharSelection">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>charbg.png</BITMAP>
+<VISIBLE>true</VISIBLE>
+</PICTURE>
+	
+<BMBUTTON item="CS_CreateChar" parent="CharSelection">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>306</X>
+<Y>400</Y>
+<W>182</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">createclass.png</BITMAP>
+<BITMAP type="over">createclass_hover.png</BITMAP>
+<BITMAP type="down">createclass_hover.png</BITMAP>
+</BMBUTTON>	
+<BMBUTTON item="CS_DeleteChar" parent="CharSelection">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>306</X>
+<Y>430</Y>
+<W>182</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">deleteclass.png</BITMAP>
+<BITMAP type="over">deleteclass_hover.png</BITMAP>
+<BITMAP type="down">deleteclass_hover.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="CS_SelectChar" parent="CharSelection">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>306</X>
+<Y>460</Y>
+<W>182</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">selectclass.png</BITMAP>
+<BITMAP type="over">selectclass_hover.png</BITMAP>
+<BITMAP type="down">selectclass_hover.png</BITMAP>
+</BMBUTTON>	
+
+
+<BUTTON item="CS_SelectCharDefKey" parent="CharSelection">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>0</W>
+<H>0</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_04</TEXT>
+<DEFAULTKEY>ENTER</DEFAULTKEY>
+</BUTTON>
+
+<PICTURE item="CharSel_Selectbar0" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>150</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">emblem1.png</BITMAP>
+</PICTURE>
+<PICTURE item="CharSel_Selectbar1" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>205</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">emblem2.png</BITMAP>
+</PICTURE>
+<PICTURE item="CharSel_Selectbar2" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>260</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">emblem3.png</BITMAP>
+</PICTURE>
+<PICTURE item="CharSel_Selectbar3" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>315</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">emblem4.png</BITMAP>
+</PICTURE>
+
+
+<BMBUTTON item="CharSel_SelectBtn0" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>150</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+</BMBUTTON>
+<BMBUTTON item="CharSel_SelectBtn1" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>205</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+</BMBUTTON>
+<BMBUTTON item="CharSel_SelectBtn2" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>260</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+</BMBUTTON>
+<BMBUTTON item="CharSel_SelectBtn3" parent="CharSelection">
+<BOUNDS>
+<X>306</X>
+<Y>315</Y>
+<W>182</W>
+<H>48</H>
+</BOUNDS>
+<STRETCH/>
+</BMBUTTON>
+
+<LABEL item="CharSel_Name0" parent="CharSelection">
+<FONT>FONTb11b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>345</X>
+<Y>157</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_01</TEXT>
+</LABEL>
+<LABEL item="CharSel_Name1" parent="CharSelection">
+<FONT>FONTb11b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>345</X>
+<Y>212</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_01</TEXT>
+</LABEL>
+<LABEL item="CharSel_Name2" parent="CharSelection">
+<FONT>FONTb11b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>345</X>
+<Y>267</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_01</TEXT>
+</LABEL>
+<LABEL item="CharSel_Name3" parent="CharSelection">
+<FONT>FONTb11b</FONT>
+<TEXTCOLOR>
+<R>255</R>
+<G>255</G>
+<B>255</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>345</X>
+<Y>322</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_01</TEXT>
+</LABEL>
+
+
+<LABEL item="CharSel_Level_Joe0" parent="CharSelection">
+<FONT>FONTa15b</FONT>
+<TEXTCOLOR>
+<R>180</R>
+<G>180</G>
+<B>180</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>469</X>
+<Y>157</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_02</TEXT>
+</LABEL>
+<LABEL item="CharSel_Level_Joe1" parent="CharSelection">
+<FONT>FONTa15b</FONT>
+<TEXTCOLOR>
+<R>180</R>
+<G>180</G>
+<B>180</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>469</X>
+<Y>212</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_02</TEXT>
+</LABEL>
+<LABEL item="CharSel_Level_Joe2" parent="CharSelection">
+<FONT>FONTa15b</FONT>
+<TEXTCOLOR>
+<R>180</R>
+<G>180</G>
+<B>180</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>469</X>
+<Y>267</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_02</TEXT>
+</LABEL>
+<LABEL item="CharSel_Level_Joe3" parent="CharSelection">
+<FONT>FONTa15b</FONT>
+<TEXTCOLOR>
+<R>180</R>
+<G>180</G>
+<B>180</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>469</X>
+<Y>322</Y>
+<W>150</W>
+<H>24</H>
+</BOUNDS>
+<TEXT>STR:UI_CS_02</TEXT>
+</LABEL>
+
+
+<!-- 프레임 생성 : 캐릭터 삭제 확인 -->
+	<FRAME item="CS_ConfirmDeleteChar">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>340</W>
+			<H>181</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<MOVABLE>false</MOVABLE>
+		<TEXT>STR:UI_CS_06</TEXT> <!-- 캐릭터 삭제 -->
+		<VISIBLE>FALSE</VISIBLE>
+	</FRAME>
+	
+	<!-- Label : 캐릭터 삭제... -->
+	<LABEL item="CS_Label" parent="CS_ConfirmDeleteChar">
+		<BOUNDS>
+			<X>19</X>
+			<Y>46</Y>
+			<W>300</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>STR:UI_CS_07</TEXT> <!-- 캐릭터를 삭제하려면 YES 를 입력하고, -->
+	</LABEL>
+
+	<!-- Label : 캐릭터 삭제... -->
+	<LABEL item="CS_Label" parent="CS_ConfirmDeleteChar">
+		<BOUNDS>
+			<X>19</X>
+			<Y>66</Y>
+			<W>300</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>STR:UI_CS_08</TEXT> <!-- 확인버튼을 눌러주십시오. -->
+	</LABEL>
+
+	<!-- Edit : 'YES' 입력창 -->
+	<EDIT item="CS_DeleteCharNameEdit" parent="CS_ConfirmDeleteChar">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>19</X>
+			<Y>92</Y>
+			<W>140</W>
+			<H>24</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+		</ALIGN>
+	</EDIT>
+	
+	<!-- Button : 확인 버튼 -->
+	<BUTTON item="CS_DeleteCharButton" parent="CS_ConfirmDeleteChar">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>116</X>
+			<Y>130</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>STR:UI_COMMON_OK</TEXT> <!-- 확인(&amp;O) -->
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+
+	<!-- Button : 취소 버튼 -->
+	<BUTTON item="CS_CloseConfirmDeleteCharButton" parent="CS_ConfirmDeleteChar">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>221</X>
+			<Y>130</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>STR:UI_COMMON_CANCEL</TEXT> <!-- 취소(&amp;C) -->
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+
+
+</XML>

@@ -1,0 +1,8 @@
+WFog Enabled Device.
+device created.
+Video memory 2047.000000 
+Reset Device 
+Video memory 2047.000000 
+itemThumbnailGenerator/thumbnail_handsfeet.elu.ani file not found!! 
+ itemThumbnailGenerator/thumbnail_std.elu.ani file not found!! 
+ 

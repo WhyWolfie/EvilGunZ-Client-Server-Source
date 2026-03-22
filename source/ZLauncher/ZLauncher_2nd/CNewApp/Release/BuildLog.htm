@@ -1,0 +1,152 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: NewApp, Configuration: Release_India|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BAT000005.bat" with contents
+[
+@echo off
+.\res\copy_res.bat common
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Performing Pre-Build Event..."
+exit 1
+:VCEnd
+]
+Creating command line ""c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BAT000005.bat""
+Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000006.rsp" with contents
+[
+/O2 /I "../../../cml/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "LOCALE_INDIA" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\ZUpdate.cpp"
+".\ZFileTransfer.cpp"
+".\ZNHNRegistInfo.cpp"
+".\ZNHNModule.cpp"
+".\ZNHNAuth.cpp"
+".\CSound.cpp"
+".\CDDBDialog.cpp"
+".\CDDBButton.cpp"
+".\CDDBAniBmp.cpp"
+".\CDDB.cpp"
+".\NewAppWarnVista.cpp"
+".\NewAppUpdateConfirm.cpp"
+".\NewAppUpdateCompleteDlg.cpp"
+".\NewAppLicenseConfirmDlg.cpp"
+".\NewAppErrorDlg.cpp"
+".\NewAppDlg.cpp"
+".\NewAppAboutBox.cpp"
+".\NewApp.cpp"
+".\Log.cpp"
+".\explorer.cpp"
+".\CStringTable.cpp"
+".\CGLEncription.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000006.rsp" /nologo"
+Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000007.rsp" with contents
+[
+/O2 /I "../../../cml/include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "LOCALE_INDIA" /D "_MBCS" /FD /EHsc /MT /Yc"stdafx.h" /Fp".\Release/GunzLauncher.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\StdAfx.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000007.rsp" /nologo"
+Creating command line "rc.exe /d "NDEBUG" /l 0x412 /fo"Release/NewApp.res" ".\NewApp.rc""
+Creating temporary file "c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000008.rsp" with contents
+[
+/OUT:".\Runtime/GunzLauncher.exe" /INCREMENTAL:NO /NOLOGO /DELAYLOAD:"OleAcc.dll" /PDB:".\Release/GunzLauncher.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86 msimg32.lib winmm.lib Version.lib DelayImp.lib "\Users\Joe\Desktop\EvilGunZ Source\cml\lib\cml.lib" DelayImp.lib
+"\Users\Joe\Desktop\EvilGunZ Source\Gunz\nhn\HanAuthForClient.lib"
+"\Users\Joe\Desktop\EvilGunZ Source\Gunz\nhn\HanAuthForClientD.lib"
+"\Users\Joe\Desktop\EvilGunZ Source\Gunz\nhn\HanReportForClient.lib"
+"\Users\Joe\Desktop\EvilGunZ Source\Gunz\nhn\HanReportForClientD.lib"
+".\Release\CGLEncription.obj"
+".\Release\CStringTable.obj"
+".\Release\explorer.obj"
+".\Release\Log.obj"
+".\Release\NewApp.obj"
+".\Release\NewAppAboutBox.obj"
+".\Release\NewAppDlg.obj"
+".\Release\NewAppErrorDlg.obj"
+".\Release\NewAppLicenseConfirmDlg.obj"
+".\Release\NewAppUpdateCompleteDlg.obj"
+".\Release\NewAppUpdateConfirm.obj"
+".\Release\NewAppWarnVista.obj"
+".\Release\StdAfx.obj"
+".\Release\NewApp.res"
+".\Release\CDDB.obj"
+".\Release\CDDBAniBmp.obj"
+".\Release\CDDBButton.obj"
+".\Release\CDDBDialog.obj"
+".\Release\CSound.obj"
+".\Release\ZNHNAuth.obj"
+".\Release\ZNHNModule.obj"
+".\Release\ZNHNRegistInfo.obj"
+".\Release\ZFileTransfer.obj"
+".\Release\ZUpdate.obj"
+]
+Creating command line "link.exe @"c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\RSP000008.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Performing Pre-Build Event...
+.\res\skin_common\animation.bmp
+.\res\skin_common\button.bmp
+.\res\skin_common\button_start.bmp
+.\res\skin_common\gunz_img.bmp
+.\res\skin_common\skin_maindlg.bmp
+.\res\skin_common\skin_popupdlg.bmp
+6 File(s) copied
+File not found - *.exe
+0 File(s) copied
+.\res\skin_common\icon_mainframe.ico
+1 File(s) copied
+.\res\skin_common\string.txt
+1 File(s) copied
+Compiling...
+StdAfx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+ZUpdate.cpp
+ZUpdate.cpp(521) : warning C4101: 'tmWrite' : unreferenced local variable
+ZFileTransfer.cpp
+ZNHNRegistInfo.cpp
+ZNHNModule.cpp
+ZNHNAuth.cpp
+ZNHNAuth.cpp(93) : warning C4018: '<' : signed/unsigned mismatch
+CSound.cpp
+CDDBDialog.cpp
+CDDBDialog.cpp(405) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBDialog.cpp(405) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBDialog.cpp(406) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBDialog.cpp(407) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+CDDBButton.cpp
+CDDBAniBmp.cpp
+CDDB.cpp
+NewAppWarnVista.cpp
+NewAppUpdateConfirm.cpp
+NewAppUpdateCompleteDlg.cpp
+NewAppLicenseConfirmDlg.cpp
+NewAppErrorDlg.cpp
+NewAppDlg.cpp
+NewAppAboutBox.cpp
+NewApp.cpp
+Log.cpp
+explorer.cpp
+Generating Code...
+Compiling...
+CStringTable.cpp
+CGLEncription.cpp
+Generating Code...
+Compiling resources...
+Linking...
+LINK : warning LNK4089: all references to 'HanAuthForClient.dll' discarded by /OPT:REF
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Users\Joe\Desktop\EvilGunZ Source\ZLauncher\ZLauncher_2nd\CNewApp\Release\BuildLog.htm"
+NewApp - 0 error(s), 7 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

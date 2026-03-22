@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="general" filename="g_general.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="guerilla_general_idle.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="neglect1"		filename="goblin_neglect.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > 
+	</AddAnimation>
+	<AddAnimation name="neglect2"		filename="goblin_neglect2.elu.ani" 	gm="0"	motion_type="0" motion_loop_type="loop" > 
+	</AddAnimation>
+
+	<AddAnimation name="melee_attacked1"	filename="guerilla_general_rightslash.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="melee_attacked2"	filename="guerilla_general_leftslash.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="guerilla_general_spinslash.elu.ani" gm="1" motion_type="0" motion_loop_type="loop" > 
+	</AddAnimation>
+
+	<AddAnimation name="high_timed"		filename="goblin_blast.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="safe_fall"		filename="goblin_blast_airmove.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="safe_fall_fail"	filename="goblin_blast_fall.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="drop"		filename="goblin_blast_drop.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="standup"		filename="goblin_blast_stand.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="blast_d"		filename="goblin_blast_dagger.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+	<AddAnimation name="drop_d"		filename="goblin_blast_drop_dagger.elu.ani" 	 gm="1"	motion_type="0" motion_loop_type="lastframe" > </AddAnimation>
+
+	<AddAnimation name="run"		filename="guerilla_general_run.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="die"		filename="guerilla_general_die.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> 
+	</AddAnimation>
+
+	<AddAnimation name="jump_up"		filename="guerilla_general_jumpattack.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+	<AddAnimation name="stunned" 		filename="goblin_damage_down.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+
+</xml>

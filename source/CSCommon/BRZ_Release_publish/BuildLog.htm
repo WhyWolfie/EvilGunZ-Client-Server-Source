@@ -1,0 +1,396 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: CSCommon, Configuration: BRZ_Release_publish|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\BRZ_Release_publish\RSP000049.rsp" with contents
+[
+/O2 /I ".\\" /I "Include" /I "../SafeUDP/Include" /I "../CML/Include" /I "../RealSpace2/Include" /I "../MAI/Include" /I "../sdk/dx9/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /D "LOCALE_BRAZIL" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "_XTRAP" /D "_MBCS" /FD /EHsc /MT /GS /Yu"stdafx.h" /Fp"BRZ_Release_publish/CSCommon.pch" /Fo"BRZ_Release_publish/" /Fd"BRZ_Release_publish/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+".\Source\MMatchDebug.cpp"
+".\Source\TestCRC32XORCache.cpp"
+".\Source\MHackingTypes.cpp"
+".\MConnectHistory.cpp"
+".\Source\MMatchStringResManager.cpp"
+".\Source\MBaseStringResManager.cpp"
+".\Source\MNJ_DBAgentClient.cpp"
+".\Source\MMatchLocale.cpp"
+".\Source\MBaseLocale.cpp"
+".\Source\MXmlParser.cpp"
+".\Source\MCommandCommunicator.cpp"
+".\Source\MAsyncProxy.cpp"
+".\Source\MAsyncDBJob_WinTheClanGame.cpp"
+".\Source\MAsyncDBJob_UpdateCharItemInfoData.cpp"
+".\Source\MAsyncDBJob_UpdateCharInfoData.cpp"
+".\Source\MAsyncDBJob_UpdateCharBRInfo.cpp"
+".\Source\MAsyncDBJob_SurvivalMode.cpp"
+".\Source\MAsyncDBJob_RewardCharBR.cpp"
+".\Source\MAsyncDBJob_InsertGamePlayerLog.cpp"
+".\Source\MAsyncDBJob_InsertConnLog.cpp"
+".\Source\MAsyncDBJob_InsertCharBRInfo.cpp"
+".\Source\MAsyncDBJob_GetLoginInfo.cpp"
+".\Source\MAsyncDBJob_GetBRDescription.cpp"
+".\MAsyncDBJob_GetAccountItemList.cpp"
+".\Source\MAsyncDBJob_FriendList.cpp"
+".\Source\MAsyncDBJob_Event.cpp"
+".\Source\MAsyncDBJob_DuelTournament.cpp"
+".\Source\MAsyncDBJob_CountryFilter.cpp"
+".\Source\MAsyncDBJob_CharFinalize.cpp"
+".\Source\MAsyncDBJob_BuyQuestItem.cpp"
+".\Source\MAsyncDBJob.cpp"
+".\Source\MMatchConfig.cpp"
+".\Source\MMatchEventManager.cpp"
+".\MMatchEventFactory.cpp"
+".\Source\MMatchEvent.cpp"
+".\MMatchServer_Survival.cpp"
+".\Source\MMatchServer_Stage.cpp"
+".\Source\MMatchServer_Quest.cpp"
+".\Source\MMatchServer_OnCommand.cpp"
+".\Source\MMatchServer_Login.cpp"
+".\Source\MMatchServer_Ladder.cpp"
+".\Source\MMatchServer_Item.cpp"
+".\Source\MMatchServer_DuelTournament.cpp"
+".\Source\MMatchServer_Clan.cpp"
+".\Source\MMatchServer_Char.cpp"
+".\Source\MMatchServer_Channel.cpp"
+".\Source\MMatchServer_Async.cpp"
+".\MMatchServer_AntiHack.cpp"
+".\Source\MMatchServer_Agent.cpp"
+".\Source\MMatchServer_Admin.cpp"
+".\Source\MMatchServer.cpp"
+".\Source\MVoteMgr.cpp"
+".\Source\MVoteDiscussImpl.cpp"
+".\Source\MSmartRefreshImpl.cpp"
+".\Source\MMatchUtil.cpp"
+".\Source\MMatchTransDataType.cpp"
+".\Source\MMatchStatus.cpp"
+".\Source\MMatchShutdown.cpp"
+".\Source\MMatchShop.cpp"
+".\Source\MMatchSchedule.cpp"
+".\Source\MMatchPremiumIPCache.cpp"
+".\Source\MMatchNotify.cpp"
+".\Source\MMatchGlobal.cpp"
+".\Source\MMatchFriendInfo.cpp"
+".\Source\MMatchClan.cpp"
+".\Source\MMatchCheckLoopTime.cpp"
+".\Source\MMatchChatRoom.cpp"
+".\Source\MMatchChannel.cpp"
+".\Source\MMatchAdmin.cpp"
+".\Source\MMatchDBFilter.cpp"
+".\Source\MMatchDBMgr_AccountItem.cpp"
+".\Source\MMatchDBMgr.cpp"
+".\Source\MMatchCharBRInfo.cpp"
+".\Source\MMatchBRMachine.cpp"
+".\Source\MMatchAccountPenaltyInfo.cpp"
+".\Source\MMatchBuffSummary.cpp"
+".\Source\MMatchBuff.cpp"
+".\Source\MMatchGambleMachine.cpp"
+".\Source\MMatchGambleItem.cpp"
+".\Source\MMatchDBGambleItem.cpp"
+".\Source\MMatchItemFunction.cpp"
+".\Source\MMatchItem.cpp"
+".\MMatchObjectCommandHistory.cpp"
+".\Source\MMatchObjectCharBuffInfo.cpp"
+".\Source\MMatchObject.cpp"
+".\Source\MMatchObjCache.cpp"
+".\Source\MMatchHShield.cpp"
+".\Source\MMatchAntiHack.cpp"
+".\Source\MAgentObject.cpp"
+".\Source\MDuelTournamentFormula.cpp"
+".\Source\MMatchRuleDuelTournament.cpp"
+".\Source\MDuelTournamentTimeChecker.cpp"
+".\Source\MDuelTournamentTicketPicker.cpp"
+".\Source\MDuelTournamentMatchMaker.cpp"
+".\Source\MMatchDuelTournamentMgr.cpp"
+".\Source\MMatchRuleSurvival.cpp"
+".\Source\MMatchRuleQuest.cpp"
+".\Source\MMatchRuleBaseQuest.cpp"
+".\Source\MMatchRuleTraining.cpp"
+".\Source\MMatchRuleGladiator.cpp"
+".\Source\MMatchRuleDuel.cpp"
+".\Source\MMatchRuleDeathMatch.cpp"
+".\Source\MMatchRuleBerserker.cpp"
+".\Source\MMatchRuleAssassinate.cpp"
+".\Source\MMatchRule.cpp"
+".\Source\MMatchGameType.cpp"
+".\Source\MBaseGameType.cpp"
+".\Source\MSurvivalMap.cpp"
+".\Source\MQuestScenario.cpp"
+".\Source\MQuestNPC.cpp"
+".\Source\MQuestMap.cpp"
+".\Source\MBaseQuest.cpp"
+".\Source\MSurvivalRankInfo.cpp"
+".\Source\MSacrificeQItemTable.cpp"
+".\Source\MQuestPlayer.cpp"
+".\Source\MQuestNPCSpawnTrigger.cpp"
+".\Source\MQuestLevelGenerator.cpp"
+".\Source\MQuestLevel.cpp"
+".\Source\MQuestItem.cpp"
+".\Source\MQuestFormula.cpp"
+".\Source\MQuestDropTable.cpp"
+".\Source\MMatchSurvivalGameLog.cpp"
+".\Source\MMatchQuestRound.cpp"
+".\Source\MMatchQuestMonsterGroup.cpp"
+".\Source\MMatchQuestGameLog.cpp"
+".\Source\MMatchQuest.cpp"
+".\Source\MMatchNPCObject.cpp"
+".\Source\MMatchWorldItemDesc.cpp"
+".\Source\MMatchWorldItem.cpp"
+".\Source\MMatchStageSetting.cpp"
+".\Source\MMatchStage.cpp"
+".\Source\MMatchMap.cpp"
+".\Source\MMatchFormula.cpp"
+".\Source\MMatchChannelRule.cpp"
+".\Source\MMatchActiveTrapMgr.cpp"
+".\Source\MBaseChannelRule.cpp"
+".\Source\MTeamGameStrategy.cpp"
+".\Source\MLadderStatistics.cpp"
+".\Source\MLadderPicker.cpp"
+".\Source\MLadderMgr.cpp"
+".\Source\MPacketHShieldCrypter.cpp"
+".\Source\MPacketCrypter.cpp"
+".\Source\MPacket.cpp"
+".\Source\RealCPNet.cpp"
+".\Source\MServer.cpp"
+".\Source\MTCPSocket.cpp"
+".\Source\MMatchClient.cpp"
+".\Source\MCustomClient.cpp"
+".\Source\MClient.cpp"
+".\Source\MChattingFilter.cpp"
+".\Source\MMaster.cpp"
+".\Source\MSharedCommandTable.cpp"
+".\Source\MObject.cpp"
+".\Source\MUID.cpp"
+".\Source\MGridMap.cpp"
+".\Source\MCommandProfiler.cpp"
+".\Source\MCommandParameter.cpp"
+".\Source\MCommandManager.cpp"
+".\Source\MCommandBuilder.cpp"
+".\Source\MCommand.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\BRZ_Release_publish\RSP000049.rsp" /nologo"
+Creating temporary file "c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\BRZ_Release_publish\RSP00004A.rsp" with contents
+[
+/O2 /I ".\\" /I "Include" /I "../SafeUDP/Include" /I "../CML/Include" /I "../RealSpace2/Include" /I "../MAI/Include" /I "../sdk/dx9/Include" /I "../MDatabase/Include" /I "../MCountryFilter/Include" /D "LOCALE_BRAZIL" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "_XTRAP" /D "_MBCS" /FD /EHsc /MT /GS /Yc"stdafx.h" /Fp"BRZ_Release_publish/CSCommon.pch" /Fo"BRZ_Release_publish/" /Fd"BRZ_Release_publish/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+".\Source\stdafx.cpp"
+]
+Creating command line "cl.exe @"c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\BRZ_Release_publish\RSP00004A.rsp" /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+MMatchDebug.cpp
+TestCRC32XORCache.cpp
+MHackingTypes.cpp
+MConnectHistory.cpp
+MMatchStringResManager.cpp
+MBaseStringResManager.cpp
+MNJ_DBAgentClient.cpp
+MMatchLocale.cpp
+MBaseLocale.cpp
+MXmlParser.cpp
+MCommandCommunicator.cpp
+MAsyncProxy.cpp
+MAsyncDBJob_WinTheClanGame.cpp
+MAsyncDBJob_UpdateCharItemInfoData.cpp
+MAsyncDBJob_UpdateCharInfoData.cpp
+MAsyncDBJob_UpdateCharBRInfo.cpp
+MAsyncDBJob_SurvivalMode.cpp
+MAsyncDBJob_RewardCharBR.cpp
+MAsyncDBJob_InsertGamePlayerLog.cpp
+MAsyncDBJob_InsertConnLog.cpp
+Generating Code...
+Compiling...
+MAsyncDBJob_InsertCharBRInfo.cpp
+MAsyncDBJob_GetLoginInfo.cpp
+MAsyncDBJob_GetBRDescription.cpp
+MAsyncDBJob_GetAccountItemList.cpp
+MAsyncDBJob_FriendList.cpp
+MAsyncDBJob_Event.cpp
+MAsyncDBJob_DuelTournament.cpp
+MAsyncDBJob_CountryFilter.cpp
+MAsyncDBJob_CharFinalize.cpp
+MAsyncDBJob_BuyQuestItem.cpp
+MAsyncDBJob.cpp
+MMatchConfig.cpp
+Source\MMatchConfig.cpp(258) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Source\MMatchConfig.cpp(311) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Source\MMatchConfig.cpp(315) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchEventManager.cpp
+MMatchEventFactory.cpp
+MMatchEvent.cpp
+MMatchServer_Survival.cpp
+MMatchServer_Stage.cpp
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchServer_Quest.cpp
+MMatchServer_OnCommand.cpp
+MMatchServer_Login.cpp
+Generating Code...
+Compiling...
+MMatchServer_Ladder.cpp
+MMatchServer_Item.cpp
+MMatchServer_DuelTournament.cpp
+MMatchServer_Clan.cpp
+MMatchServer_Char.cpp
+MMatchServer_Channel.cpp
+MMatchServer_Async.cpp
+MMatchServer_AntiHack.cpp
+MMatchServer_Agent.cpp
+MMatchServer_Admin.cpp
+MMatchServer.cpp
+Source\MMatchServer.cpp(2137) : warning C4172: returning address of local variable or temporary
+MVoteMgr.cpp
+MVoteDiscussImpl.cpp
+MSmartRefreshImpl.cpp
+MMatchUtil.cpp
+MMatchTransDataType.cpp
+MMatchStatus.cpp
+MMatchShutdown.cpp
+MMatchShop.cpp
+MMatchSchedule.cpp
+Generating Code...
+Compiling...
+MMatchPremiumIPCache.cpp
+MMatchNotify.cpp
+MMatchGlobal.cpp
+MMatchFriendInfo.cpp
+MMatchClan.cpp
+MMatchCheckLoopTime.cpp
+MMatchChatRoom.cpp
+MMatchChannel.cpp
+MMatchAdmin.cpp
+MMatchDBFilter.cpp
+MMatchDBMgr_AccountItem.cpp
+MMatchDBMgr.cpp
+MMatchCharBRInfo.cpp
+Source\MMatchCharBRInfo.cpp(65) : warning C4018: '>' : signed/unsigned mismatch
+MMatchBRMachine.cpp
+MMatchAccountPenaltyInfo.cpp
+MMatchBuffSummary.cpp
+MMatchBuff.cpp
+MMatchGambleMachine.cpp
+MMatchGambleItem.cpp
+MMatchDBGambleItem.cpp
+Generating Code...
+Compiling...
+MMatchItemFunction.cpp
+MMatchItem.cpp
+MMatchObjectCommandHistory.cpp
+MMatchObjectCharBuffInfo.cpp
+MMatchObject.cpp
+Source\MMatchObject.cpp(635) : warning C4018: '>' : signed/unsigned mismatch
+MMatchObjCache.cpp
+MMatchHShield.cpp
+MMatchAntiHack.cpp
+MAgentObject.cpp
+MDuelTournamentFormula.cpp
+MMatchRuleDuelTournament.cpp
+MDuelTournamentTimeChecker.cpp
+MDuelTournamentTicketPicker.cpp
+MDuelTournamentMatchMaker.cpp
+MMatchDuelTournamentMgr.cpp
+MMatchRuleSurvival.cpp
+MMatchRuleQuest.cpp
+MMatchRuleBaseQuest.cpp
+MMatchRuleTraining.cpp
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleGladiator.cpp
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Generating Code...
+Compiling...
+MMatchRuleDuel.cpp
+MMatchRuleDeathMatch.cpp
+Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleBerserker.cpp
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRuleAssassinate.cpp
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchRule.cpp
+MMatchGameType.cpp
+MBaseGameType.cpp
+MSurvivalMap.cpp
+MQuestScenario.cpp
+MQuestNPC.cpp
+MQuestMap.cpp
+MBaseQuest.cpp
+MSurvivalRankInfo.cpp
+MSacrificeQItemTable.cpp
+MQuestPlayer.cpp
+MQuestNPCSpawnTrigger.cpp
+MQuestLevelGenerator.cpp
+MQuestLevel.cpp
+MQuestItem.cpp
+MQuestFormula.cpp
+Generating Code...
+Compiling...
+MQuestDropTable.cpp
+MMatchSurvivalGameLog.cpp
+MMatchQuestRound.cpp
+MMatchQuestMonsterGroup.cpp
+MMatchQuestGameLog.cpp
+MMatchQuest.cpp
+MMatchNPCObject.cpp
+MMatchWorldItemDesc.cpp
+MMatchWorldItem.cpp
+Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+MMatchStageSetting.cpp
+MMatchStage.cpp
+Include\MMatchRuleDeathMatch.h(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Include\MMatchRuleDeathMatch.h(78) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Source\MMatchStage.cpp(20) : fatal error C1083: Cannot open include file: 'ZRule.h': No such file or directory
+MMatchMap.cpp
+MMatchFormula.cpp
+MMatchChannelRule.cpp
+MMatchActiveTrapMgr.cpp
+Source\MMatchActiveTrapMgr.cpp(114) : warning C4018: '>' : signed/unsigned mismatch
+MBaseChannelRule.cpp
+MTeamGameStrategy.cpp
+MLadderStatistics.cpp
+MLadderPicker.cpp
+MLadderMgr.cpp
+Generating Code...
+Compiling...
+MPacketHShieldCrypter.cpp
+MPacketCrypter.cpp
+MPacket.cpp
+RealCPNet.cpp
+MServer.cpp
+MTCPSocket.cpp
+MMatchClient.cpp
+MCustomClient.cpp
+MClient.cpp
+MChattingFilter.cpp
+MMaster.cpp
+MSharedCommandTable.cpp
+MObject.cpp
+MUID.cpp
+MGridMap.cpp
+MCommandProfiler.cpp
+MCommandParameter.cpp
+Source\MCommandParameter.cpp(401) : warning C4018: '>' : signed/unsigned mismatch
+MCommandManager.cpp
+MCommandBuilder.cpp
+MCommand.cpp
+Generating Code...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Users\Joe\Desktop\Other\EvilGunZ\EvilGunZ Source\CSCommon\BRZ_Release_publish\BuildLog.htm"
+CSCommon - 1 error(s), 24 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

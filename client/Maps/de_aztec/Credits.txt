@@ -1,0 +1,4 @@
+Mapa criado por Andrée aka Nick (aka fenixdoido)
+Programa usado: GTK Radiant
+Brushes:  803
+Entities: 140

@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Shop">
+<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+<!-- Rewritten Shop, Source Changes Necessary --> 
+<!-- Base: Shop Frame -->
+<FRAME item="Shop">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>false</VISIBLE>
+</FRAME>
+<PICTURE item="Shop_BG" parent="Shop">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>800</W>
+<H>600</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>background.tga</BITMAP>
+</PICTURE>
+<CHARACTERVIEW item="EquipmentInformationShop" parent="Shop">
+<BOUNDS>
+<X>15</X>
+<Y>50</Y>
+<W>650</W>
+<H>540</H>
+</BOUNDS>
+<STRETCH/>
+<VISIBLEEQUIPMENT>true</VISIBLEEQUIPMENT>
+</CHARACTERVIEW>
+<FRAME item="Shop_Main_Frame" parent="Shop">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>92</Y>
+<W>800</W>
+<H>467</H>
+</BOUNDS>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<PICTURE item ="Shop_Frame" parent="Shop">
+<BOUNDS>
+<X>458</X>
+<Y>136</Y>
+<W>340</W>
+<H>407</H>
+</BOUNDS>
+<STRETCH/>
+</PICTURE>
+<BMBUTTON item="AllEquipmentListCaller" parent="Shop">
+<BOUNDS>
+<X>470</X>
+<Y>112</Y>
+<W>100</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">shop_buy_off.tga</BITMAP>
+<BITMAP type="over">shop_buy_on.tga</BITMAP>
+<BITMAP type="down">shop_buy_on.tga</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="MyAllEquipmentListCaller" parent="Shop">
+<BOUNDS>
+<X>577</X>
+<Y>112</Y>
+<W>100</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">shop_sell_off.tga</BITMAP>
+<BITMAP type="over">shop_sell_on.tga</BITMAP>
+<BITMAP type="down">shop_sell_on.tga</BITMAP>
+</BMBUTTON>
+<EQUIPMENTLISTBOX item="AllEquipmentList" parent="Shop">
+<LISTBOXLOOK>EquipListBoxLook</LISTBOXLOOK>
+<ARROWLOOK>CustomtArrowLook</ARROWLOOK>
+<THUMBLOOK>CustomThumbLook</THUMBLOOK>
+<BOUNDS>
+<X>477</X>
+<Y>177</Y>
+<W>302</W>
+<H>262</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<NUMCOLUMN>1</NUMCOLUMN>
+</EQUIPMENTLISTBOX>
+<PICTURE item ="Shop_FrameTabLabel1" parent="Shop">
+<BOUNDS>
+<X>470</X>
+<Y>107</Y>
+<W>110</W>
+<H>35</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>shop_buy_on.tga</BITMAP>
+</PICTURE>
+<EQUIPMENTLISTBOX item="MyAllEquipmentList" parent="Shop">
+<LISTBOXLOOK>EquipListBoxLook</LISTBOXLOOK>
+<ARROWLOOK>CustomtArrowLook</ARROWLOOK>
+<THUMBLOOK>CustomThumbLook</THUMBLOOK>
+<BOUNDS>
+<X>477</X>
+<Y>177</Y>
+<W>302</W>
+<H>262</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<NUMCOLUMN>1</NUMCOLUMN>
+</EQUIPMENTLISTBOX>
+<PICTURE item ="Shop_FrameTabLabel2" parent="Shop">
+<BOUNDS>
+<X>577</X>
+<Y>107</Y>
+<W>110</W>
+<H>35</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>shop_sell_on.tga</BITMAP>
+</PICTURE>
+<LABEL item="lavel" parent="Shop">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>477</X>
+<Y>145</Y>
+<W>100</W>
+<H>25</H>
+</BOUNDS>
+<TEXT>STR:UI_SHOP_02</TEXT>
+</LABEL>
+<COMBOBOX item="Shop_AllEquipmentFilter" parent="Shop">
+<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>205</R>
+<G>205</G>
+<B>205</B>
+</TEXTCOLOR>
+<TEXTALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</TEXTALIGN>
+<BOUNDS>
+<X>549</X>
+<Y>145</Y>
+<W>230</W>
+<H>25</H>
+</BOUNDS>
+<LISTITEM selected="true">STR:UI_SHOP_LIST_01_01</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_02</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_03</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_04</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_05</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_06</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_07</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_09</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_10</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_11</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_12</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_15</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_16</LISTITEM>
+<LISTITEM>STR:UI_SHOP_LIST_01_17</LISTITEM>
+<ITEMHEIGHT>18</ITEMHEIGHT>
+<DROPSIZE>400</DROPSIZE>
+</COMBOBOX>
+<BUTTON item="BuyConfirmCaller" parent="Shop">
+<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>490</X>
+<Y>449</Y>
+<W>267</W>
+<H>33</H>
+</BOUNDS>
+<TEXT>STR:UI_SHOP_03</TEXT>
+<CONFIRMMESSAGE>STR:UI_SHOP_04</CONFIRMMESSAGE>
+<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+</BUTTON>
+<BUTTON item="SellConfirmCaller" parent="Shop">
+<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>490</X>
+<Y>449</Y>
+<W>267</W>
+<H>33</H>
+</BOUNDS>
+<TEXT>STR:UI_SHOP_07</TEXT>
+<CONFIRMMESSAGE>STR:UI_SHOP_08</CONFIRMMESSAGE>
+<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+</BUTTON>
+<TEXTAREA item="Shop_MyInfo1" parent="Shop">
+<BOUNDS>
+<X>470</X>
+<Y>503</Y>
+<W>140</W>
+<H>48</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<EDITABLE>false</EDITABLE>
+</TEXTAREA>
+<TEXTAREA item="Shop_MyInfo2" parent="Shop">
+<BOUNDS>
+<X>570</X>
+<Y>503</Y>
+<W>140</W>
+<H>48</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<EDITABLE>false</EDITABLE>
+</TEXTAREA>
+<TEXTAREA item="Shop_MyInfo3" parent="Shop">
+<BOUNDS>
+<X>670</X>
+<Y>503</Y>
+<W>140</W>
+<H>48</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<EDITABLE>false</EDITABLE>
+</TEXTAREA>
+<TEXTAREA item="Shop_ItemDescription" parent="Shop">
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>280</W>
+<H>260</H>
+</BOUNDS>
+<VISIBLE>false</VISIBLE>
+<EDITABLE>false</EDITABLE>
+</TEXTAREA>
+<FRAME item="Shop_MyEquipListFrame" parent="Shop">
+<FRAMELOOK>NullFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>90</Y>
+<W>300</W>
+<H>475</H>
+</BOUNDS>
+<TEXT></TEXT>
+<TITLEBAR>false</TITLEBAR>
+<RESIZABLE>false</RESIZABLE>
+<MOVABLE>false</MOVABLE>
+<FOCUSABLE>false</FOCUSABLE>
+<VISIBLE>true</VISIBLE>
+</FRAME>
+<ITEMSLOT item="Shop_EquipmentSlot_Head" parent="Shop_MyEquipListFrame" parts="head">
+<BOUNDS>
+<X>10</X>
+<Y>32</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>			
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Chest" parent="Shop_MyEquipListFrame" parts="chest">
+<BOUNDS>
+<X>10</X>
+<Y>66</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Hands" parent="Shop_MyEquipListFrame" parts="hands">
+<BOUNDS>
+<X>10</X>
+<Y>100</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Legs" parent="Shop_MyEquipListFrame" parts="legs">
+<BOUNDS>
+<X>10</X>
+<Y>134</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Feet" parent="Shop_MyEquipListFrame" parts="feet">
+<BOUNDS>
+<X>10</X>
+<Y>168</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Melee" parent="Shop_MyEquipListFrame" parts="melee">
+<BOUNDS>
+<X>10</X>
+<Y>202</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Primary" parent="Shop_MyEquipListFrame" parts="primary">
+<BOUNDS>
+<X>10</X>
+<Y>236</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Secondary" parent="Shop_MyEquipListFrame" parts="secondary">
+<BOUNDS>
+<X>10</X>
+<Y>270</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Custom1" parent="Shop_MyEquipListFrame" parts="custom1">
+<BOUNDS>
+<X>10</X>
+<Y>304</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Custom2" parent="Shop_MyEquipListFrame" parts="custom2">
+<BOUNDS>
+<X>10</X>
+<Y>338</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_FingerL" parent="Shop_MyEquipListFrame" parts="fingerl">
+<BOUNDS>
+<X>10</X>
+<Y>372</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_FingerR" parent="Shop_MyEquipListFrame" parts="fingerr">
+<BOUNDS>
+<X>10</X>
+<Y>406</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<ITEMSLOT item="Shop_EquipmentSlot_Avatar" parent="Shop_MyEquipListFrame" parts="avatar">
+<BOUNDS>
+<X>10</X>
+<Y>440</Y>
+<W>220</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>slot_empty.tga</BITMAP>	
+</ITEMSLOT>
+<FRAME item="TradeCountableItemFrame">
+<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+<BOUNDS>
+<X>0</X>
+<Y>0</Y>
+<W>325</W>
+<H>215</H>
+</BOUNDS>
+<ALIGN>
+<HALIGN>center</HALIGN>
+<VALIGN>center</VALIGN>
+</ALIGN>
+<TEXT>STR:UI_SHOP_14</TEXT>
+<VISIBLE>false</VISIBLE>
+<RESIZABLE>false</RESIZABLE>
+</FRAME>
+<TEXTAREA item="TradeCountableItem_Message" parent="TradeCountableItemFrame">
+<TEXTCOLOR>
+<R>210</R>
+<G>210</G>
+<B>210</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>12</X>
+<Y>28</Y>
+<W>300</W>
+<H>34</H>
+</BOUNDS>
+<VISIBLE>true</VISIBLE>
+<EDITABLE>false</EDITABLE>
+<TEXT>STR:UI_SHOP_15</TEXT>
+</TEXTAREA>
+<LABEL item="TradeCountableItem_NullLabel" parent="TradeCountableItemFrame">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>210</R>
+<G>210</G>
+<B>210</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>45</X>
+<Y>74</Y>
+<W>100</W>
+<H>25</H>
+</BOUNDS>
+<TEXT>STR:UI_SHOP_16</TEXT>
+</LABEL>
+<BMBUTTON item="TradeCountableItem_CountUp" parent="TradeCountableItemFrame">
+<BOUNDS>
+<X>250</X>
+<Y>74</Y>
+<W>22</W>
+<H>14</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">scrollbtn_up_off.png</BITMAP>
+<BITMAP type="over">scrollbtn_up_off.png</BITMAP>
+<BITMAP type="down">scrollbtn_up_on.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="TradeCountableItem_CountDn" parent="TradeCountableItemFrame">
+<BOUNDS>
+<X>250</X>
+<Y>88</Y>
+<W>22</W>
+<H>14</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">scrollbtn_dn_off.png</BITMAP>
+<BITMAP type="over">scrollbtn_dn_off.png</BITMAP>
+<BITMAP type="down">scrollbtn_dn_on.png</BITMAP>
+</BMBUTTON>
+<EDIT item="TradeCountableItem_CountNum" parent="TradeCountableItemFrame">
+<FONT>FONTb11b</FONT>
+<TEXTCOLOR>
+<R>210</R>
+<G>210</G>
+<B>210</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>120</X>
+<Y>73</Y>
+<W>128</W>
+<H>27</H>
+</BOUNDS>
+<NUMBERONLY>true</NUMBERONLY>
+<TEXT></TEXT>
+</EDIT>
+<PICTURE item ="TradeCountableItem_SeperateBar" parent="TradeCountableItemFrame">
+<BOUNDS>
+<X>12</X>
+<Y>119</Y>
+<W>300</W>
+<H>1</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>graynullframe.tga</BITMAP>
+</PICTURE>
+<PICTURE item ="TradeCountableItem_ItemIcon" parent="TradeCountableItemFrame">
+<BOUNDS>
+<X>12</X>
+<Y>125</Y>
+<W>32</W>
+<H>32</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP></BITMAP>
+</PICTURE>
+<LABEL item="TradeCountableItem_Calculate" parent="TradeCountableItemFrame">
+<FONT>FONTa9</FONT>
+<TEXTCOLOR>
+<R>210</R>
+<G>210</G>
+<B>210</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>43</X>
+<Y>121</Y>
+<W>260</W>
+<H>25</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<LABEL item="TradeCountableItem_Total" parent="TradeCountableItemFrame">
+<FONT>FONTa10b</FONT>
+<TEXTCOLOR>
+<R>210</R>
+<G>210</G>
+<B>210</B>
+</TEXTCOLOR>
+<BOUNDS>
+<X>70</X>
+<Y>136</Y>
+<W>260</W>
+<H>25</H>
+</BOUNDS>
+<TEXT></TEXT>
+</LABEL>
+<BUTTON item="TradeCountableItem_Ok" parent="TradeCountableItemFrame">
+<BOUNDS>
+<X>105</X>
+<Y>170</Y>
+<W>100</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_SHOP_17</TEXT>
+<DEFAULTKEY>ENTER</DEFAULTKEY>
+</BUTTON>
+<BUTTON item="TradeCountableItem_Cancel" parent="TradeCountableItemFrame">
+<BOUNDS>
+<X>210</X>
+<Y>170</Y>
+<W>100</W>
+<H>32</H>
+</BOUNDS>
+<TEXT>STR:UI_COMMON_CANCEL</TEXT>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+</BUTTON>
+<PICTURE item ="ShopOff" parent="Shop">
+<BOUNDS>
+<X>206</X>
+<Y>15</Y>
+<W>102</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP>shop.png</BITMAP>
+</PICTURE>
+<BMBUTTON item="Shop_to_Equipment" parent="Shop">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>349</X>
+<Y>15</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">equipment.png</BITMAP>
+<BITMAP type="over">equipment.png</BITMAP>
+<BITMAP type="down">equipment.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item="LobbyOptionFrame" parent="Shop">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>492</X>
+<Y>15</Y>
+<W>102</W>
+<H>30</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">options.png</BITMAP>
+<BITMAP type="over">options_hover.png</BITMAP>
+<BITMAP type="down">options_hover.png</BITMAP>
+</BMBUTTON>
+<BMBUTTON item ="ShopClose" parent="Shop">
+<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>635</X>
+<Y>15</Y>
+<W>98</W>
+<H>53</H>
+</BOUNDS>
+<STRETCH/>
+<BITMAP type="up">cancel.png</BITMAP>
+<BITMAP type="over">cancel.png</BITMAP>
+<BITMAP type="down">cancel.png</BITMAP>
+</BMBUTTON>
+<BUTTON item ="ShopClose" parent="Shop">
+<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+<BOUNDS>
+<X>-1</X>
+<Y>-1</Y>
+<W>0</W>
+<H>0</H>
+</BOUNDS>
+<DEFAULTKEY>ESC</DEFAULTKEY>
+</BUTTON>
+</XML>

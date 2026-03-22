@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT>Arial</DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_US</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>http://evilgunz.sytes.net/emblems</EMBLEM_URL>
+	<TEMBLEM_URL>http://evilgunz.sytes.net/emblems</TEMBLEM_URL>
+
+	<CASHSHOP_URL>http://evilgunz.sytes.net</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>http://evilgunz.sytes.net</URL>
+	    <TITLE>EvilGunZ</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="evilgunz.sytes.net" />
+		<LOCATOR id="2" IP="evilgunz.sytes.net" />
+	</LOCATORLIST>
+
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="evilgunz.sytes.net" />
+	</TLOCATORLIST>
+</XML>
